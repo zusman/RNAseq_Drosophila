@@ -1,0 +1,19 @@
+### STAR   --runMode genomeGenerate      --runThreadN 2   --genomeDir null   --genomeFastaFiles droso.fa      --genomeSAindexNbases 12   --sjdbGTFfile droso.gtf
+### GstrandBit 32
+versionGenome	2.7.4a
+genomeType	Full
+genomeFastaFiles	droso.fa 
+genomeSAindexNbases	12
+genomeChrBinNbits	18
+genomeSAsparseD	1
+genomeTransformType	None
+genomeTransformVCF	-
+sjdbOverhang	100
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	droso.gtf
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
+genomeFileSizes	638933136 1275940251

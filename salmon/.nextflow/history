@@ -1,0 +1,54 @@
+2024-06-27 10:15:30	-	berserk_ampere	-	8cb0f81962810bc03ccb033155a694f2	566f63ce-b185-4abf-9de7-0d79a60688fc	nextflow run GenomeIndex.nf
+2024-06-27 10:17:27	2.6s	cranky_pauling	ERR	368f0f50ba1171a0ead32da2cd9252fa	50764419-0a5c-47a9-96f9-453a41953482	nextflow run GenomeIndex.nf
+2024-06-27 10:19:59	2.2s	adoring_kay	ERR	0110a188091b4317a8d1fbd3c2c380fa	4fa4c654-8909-4b31-a905-1817a8e5afc7	nextflow run GenomeIndex.nf
+2024-06-27 10:22:00	3.3s	furious_allen	ERR	5812721e1a7fa093470758fd780f32a3	f19076b3-953a-4cd0-9de6-11e47baf954c	nextflow run GenomeIndex.nf
+2024-06-27 10:24:01	2.9s	shrivelled_wozniak	ERR	f762f999739b3dfb41bb6d369fb6a50d	ab0590e4-2d77-4fe6-a172-099036919022	nextflow run GenomeIndex.nf
+2024-06-27 10:27:18	3.2s	astonishing_plateau	ERR	ef84830fd5c413748ed02d60c27cc25f	b13f1329-fbad-4fd1-9a7a-0e8647295b37	nextflow run GenomeIndex.nf
+2024-06-27 10:33:01	3m 10s	prickly_rosalind	ERR	ef84830fd5c413748ed02d60c27cc25f	5f9fa825-226d-411b-82f6-a916825b17c1	nextflow run GenomeIndex.nf
+2024-06-27 10:38:42	3m 16s	shrivelled_wilson	ERR	92388a2b8eb36abe46736db7941bb600	e78579b3-8bb2-433e-bce5-2bb9b7c817f7	nextflow run GenomeIndex.nf
+2024-06-27 10:43:24	2m 58s	mad_leavitt	ERR	5710962791fdc1ac94c154d7c05a5d3b	3a71fad2-3276-4f4f-badf-ff06157898fe	nextflow run GenomeIndex.nf
+2024-06-27 10:49:52	1m 19s	dreamy_goldwasser	ERR	67058ca1117d4d16c33d54c3f9fcc518	7c8d3449-aec3-47e6-8c33-fc1dbc42209a	nextflow run GenomeIndex.nf
+2024-06-27 11:03:38	-	berserk_torvalds	-	03370deac8f896b45af479d3796fddae	5c091f45-7e52-4fce-8d4a-0b2cb816a7dd	nextflow run GenomeIndex.nf
+2024-06-27 11:04:38	-	disturbed_roentgen	-	5f974d1dc35819bea297488db76de31a	fc8cb8e8-e253-4788-8f42-47c17d65c4af	nextflow run GenomeIndex.nf
+2024-06-27 11:06:27	-	clever_jang	-	f28fe00874f0fd93f85a3061cc8d8307	3919db66-d401-43e4-bc30-e175ed37bf7b	nextflow run GenomeIndex.nf
+2024-06-27 11:08:24	2.3s	stoic_pike	ERR	52d30b2f0fcab8c46959bbd0a3532aa9	1a19dc77-cb00-4c0a-9b8c-8d182b655915	nextflow run GenomeIndex.nf
+2024-06-27 11:10:40	-	prickly_mirzakhani	-	823962120750b9287960443a5f27d2eb	ca3c3c3b-2adb-4aab-a92a-f00c00bccaca	nextflow run GenomeIndex.nf
+2024-06-27 11:12:06	-	big_ampere	-	f3befc94f7dca3d8919255e9d532a646	959f2ccd-ee57-4eac-bc1e-49216f2e4070	nextflow run GenomeIndex.nf
+2024-06-27 11:13:22	-	stoic_bernard	-	239518f6c7300e8e55a448cad0bd4557	edec38a0-9d96-4234-8ef5-ea8a9253c946	nextflow run GenomeIndex.nf
+2024-06-27 11:14:06	2.5s	elegant_goldstine	ERR	d2f1ebb111ce1f20ce2228f69fe19c4f	60770583-119a-4265-8d55-4ce6f7a2b6d9	nextflow run GenomeIndex.nf
+2024-06-27 11:29:23	2.5s	elated_brenner	ERR	81ec0f59fc2e126243e657eff4368c32	c4e0e0f0-8cfb-44f9-9dfc-3d48f07f109a	nextflow run SalmonIndex.nf
+2024-06-27 11:31:23	2.8s	awesome_pare	ERR	fab2f45231ca24ca6b42d4a361018b3a	3027b353-9c53-46ab-ba7c-d2f80c3790b1	nextflow run SalmonIndex.nf
+2024-06-27 11:32:25	2m 57s	dreamy_williams	ERR	d47abea2b332414868c9c0a3d68de60d	433818a2-558d-4971-b560-12e4e92726b7	nextflow run SalmonIndex.nf
+2024-06-27 11:37:40	2m 56s	furious_goodall	ERR	2ce99bac06cadea08dd05444a7e7eb74	4a7e87a9-9fa0-49fb-af43-c0dfb34781b4	nextflow run SalmonIndex.nf
+2024-06-27 11:52:40	3m 8s	crazy_wiles	ERR	2ce99bac06cadea08dd05444a7e7eb74	3463637c-d3fe-47c9-8298-3a6a26abb6a8	nextflow run SalmonIndex.nf
+2024-06-27 12:02:51	-	gloomy_torricelli	-	bcdcd1d097e74338cd7116917c3df3c8	057054fc-abdd-4e86-94bf-8c21a95b2ca3	nextflow run SalmonIndex.nf
+2024-06-27 12:03:37	2.7s	loquacious_yalow	ERR	173df54c0aaf2960f8687dc2d93ffb4b	e5605246-b573-4ed8-a7dc-9b8c258ba24b	nextflow run SalmonIndex.nf
+2024-06-27 12:06:04	3s	clever_gates	ERR	cf94ae2bd830b80c441e68f7a684c5cf	35bfc5d0-e1d4-420b-91a0-6db836f25c26	nextflow run SalmonIndex.nf
+2024-06-27 12:09:20	3.2s	berserk_woese	ERR	b2004da6ef3a8ef3405f5efc899cfd59	980efbfe-44b5-4cfe-baef-f2ba460adef7	nextflow run SalmonIndex.nf
+2024-06-27 12:09:59	2.5s	prickly_pike	ERR	b2004da6ef3a8ef3405f5efc899cfd59	902d634f-d1be-4ebe-a2f7-a25073d8cde5	nextflow run SalmonIndex.nf
+2024-06-27 12:11:06	2m 58s	special_nobel	ERR	f37fd2a57deebc017190cbaac9ea4fb4	f25fe805-5045-4c27-8bff-f9f44efa18c5	nextflow run SalmonIndex.nf
+2024-06-27 12:42:41	-	stoic_brazil	-	6725520c08cb911d5c23a9cd60386b00	eb6f2ae4-9482-40b4-ab62-10b908a8e3d2	nextflow SalmonQuantify.nf
+2024-06-27 12:46:41	-	compassionate_bardeen	-	e6dbcbe60a92f5a7db9da35d17486038	d51c78d1-61b1-4823-997f-9b06fc778ad2	nextflow SalmonQuantify.nf
+2024-06-27 12:47:16	-	elated_dijkstra	-	2e2c0acdd1a7829c862d1957f8c46c83	2bd882cc-59bd-4498-9dad-a4e694197b25	nextflow SalmonQuantify.nf
+2024-06-27 12:51:41	-	dreamy_goldstine	-	21a348d6d642b30d5ac8865fe4978a34	fc107f86-9949-4215-8b39-17570310780c	nextflow SalmonQuantify.nf
+2024-06-27 12:52:28	-	pensive_bohr	-	19c7a781a559618da4cf5c5d5d991ee2	179e2650-58d8-47f1-9769-23f62edf6afe	nextflow SalmonQuantify.nf
+2024-06-27 12:54:10	-	fabulous_khorana	-	19c7a781a559618da4cf5c5d5d991ee2	656ab0d9-1c7f-467c-b9a0-ba8d66d71bd1	nextflow SalmonQuantify.nf
+2024-06-27 12:59:25	-	sharp_boltzmann	-	4ae413b67c41768ff9b3948c65d5e02e	c7541e93-4c25-4de5-8526-13b847d53a07	nextflow SalmonQuantify.nf
+2024-06-28 18:01:03	-	adoring_poincare	-	db24845e6d494af31710f7bd9c351bae	934d2532-24d4-429d-938b-eb27c5772600	nextflow quantify.nf
+2024-06-28 18:01:59	-	thirsty_montalcini	-	04573367c4ba99d2b21f502d58f18781	628c00f9-9608-472a-913d-865fc40984df	nextflow quantify.nf
+2024-06-30 12:32:27	-	friendly_babbage	-	b13eb75e4b5aec8d0073e505f6171bd0	dc14ea7a-00d1-4bea-9c10-01db9f4df466	nextflow quant_salmon.nf
+2024-06-30 12:33:20	-	naughty_cray	-	bc25cc8738cbe0b838190d141ced2c79	dfb408d3-7238-4506-8c6b-f878431244ba	nextflow quant_salmon.nf
+2024-06-30 12:33:58	-	modest_bassi	-	f80da7c30f4963817c004f18843ee937	2489294e-6a05-408e-a122-d45e208fc273	nextflow quant_salmon.nf
+2024-06-30 12:36:37	-	agitated_joliot	-	d310071a234be7662dea3ef4f983dcda	431a1405-0493-4ca0-92a3-022298cb520d	nextflow quant_salmon.nf
+2024-06-30 12:37:24	-	suspicious_banach	-	07ed93267235221733209aaba0eddc18	37f08acf-f3b4-4610-a470-beda49297c90	nextflow quant_salmon.nf
+2024-06-30 12:42:13	-	evil_caravaggio	-	cd799198c5c8c462af7750f5295bbecd	6d9b8578-a9cf-43df-8e84-4edd5afcb9e4	nextflow quant_salmon.nf
+2024-06-30 12:43:32	-	loving_faraday	-	ede81e51fec3255004514b154f5ab037	b6d12764-89a5-450c-bad0-4bd6f84cc171	nextflow quant_salmon.nf
+2024-06-30 12:47:35	-	furious_mccarthy	-	ede81e51fec3255004514b154f5ab037	5138db6e-0bdf-4c41-8e1a-4fd2c35aaa7b	nextflow quant_salmon.nf
+2024-06-30 12:48:00	2s	shrivelled_cantor	ERR	42b2d813b9fb112f95c8c137c7d93754	401c51a0-6fb5-424c-99d7-30feafa3283d	nextflow quant_salmon.nf
+2024-06-30 12:49:21	1.9s	evil_bohr	ERR	3cf215a23fc72a32d3d78d446f33aaf6	b8c256b6-c1df-475f-9429-39fd3c644fc9	nextflow quant_salmon.nf
+2024-06-30 12:51:28	1.8s	magical_cuvier	ERR	fc468e8c7e79d48e9088abc301e88bf8	6e2e8b36-cc7b-4a9d-b5e0-05c06f3af674	nextflow quant_salmon.nf
+2024-06-30 12:52:09	2s	ecstatic_brenner	ERR	55c3944543ea35ea0830618a19068d5e	90b82e2b-501f-4740-a78a-6bf8f903c9ff	nextflow quant_salmon.nf
+2024-06-30 12:52:32	2.5s	trusting_visvesvaraya	ERR	b2504eb417479c0ef2c68b5ff6e5c7ee	02a7cd70-3c8d-4b22-bf02-1201153e5238	nextflow quant_salmon.nf
+2024-06-30 12:53:11	1m 37s	astonishing_bohr	ERR	b9759ccc324a38632198c617dc32ae4b	bf001dbc-70d7-4e43-863e-9dda31a94be6	nextflow quant_salmon.nf
+2024-06-30 12:55:14	3m 46s	elegant_sanger	ERR	b9759ccc324a38632198c617dc32ae4b	9dbe5f7b-c3c1-40d3-87b3-69b29f500cb3	nextflow quant_salmon.nf
+2024-06-30 15:30:38	4m 13s	scruffy_noyce	OK	58ec5df341b425592079730b1f613c71	4eee3904-96c7-473d-8767-e7510d4ac2fd	nextflow quant_salmon.nf

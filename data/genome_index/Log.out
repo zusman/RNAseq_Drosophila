@@ -1,0 +1,3815 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir= :/Users/distiller/project/STARcompile/source
+STAR git: On branch master ; commit 73eaeb256684a2fc31ce306a95bbd27120dd8de4 ; diff files: 
+##### Command Line:
+STAR --runThreadN 2 --runMode genomeGenerate --genomeDir null --genomeFastaFiles droso.fa --sjdbGTFfile droso.gtf --genomeSAindexNbases 12
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runThreadN                    2     ~RE-DEFINED
+runMode                       genomeGenerate        ~RE-DEFINED
+genomeDir                     null     ~RE-DEFINED
+genomeFastaFiles              droso.fa        ~RE-DEFINED
+sjdbGTFfile                   droso.gtf     ~RE-DEFINED
+genomeSAindexNbases           12     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        2
+genomeDir                         null
+genomeFastaFiles                  droso.fa   
+genomeSAindexNbases               12
+sjdbGTFfile                       droso.gtf
+
+-------------------------------
+##### Final effective command line:
+STAR   --runMode genomeGenerate      --runThreadN 2   --genomeDir null   --genomeFastaFiles droso.fa      --genomeSAindexNbases 12   --sjdbGTFfile droso.gtf
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory created: null/
+Jun 26 22:33:41 ... starting to generate Genome files
+droso.fa : chr # 0  "chr2L" chrStart: 0
+droso.fa : chr # 1  "chr2R" chrStart: 23592960
+droso.fa : chr # 2  "chr3L" chrStart: 49020928
+droso.fa : chr # 3  "chr3R" chrStart: 77332480
+droso.fa : chr # 4  "chr4" chrStart: 109576192
+droso.fa : chr # 5  "chrM" chrStart: 111149056
+droso.fa : chr # 6  "chrUn_DS485919v1" chrStart: 111411200
+droso.fa : chr # 7  "chrUn_DS483755v1" chrStart: 111673344
+droso.fa : chr # 8  "chrUn_DS485425v1" chrStart: 111935488
+droso.fa : chr # 9  "chrUn_DS484861v1" chrStart: 112197632
+droso.fa : chr # 10  "chrUn_DS484484v1" chrStart: 112459776
+droso.fa : chr # 11  "chrUn_DS483705v1" chrStart: 112721920
+droso.fa : chr # 12  "chrUn_DS485490v1" chrStart: 112984064
+droso.fa : chr # 13  "chrUn_DS485998v1" chrStart: 113246208
+droso.fa : chr # 14  "chrUn_DS483873v1" chrStart: 113508352
+droso.fa : chr # 15  "chrUn_DS485608v1" chrStart: 113770496
+droso.fa : chr # 16  "chrUn_DS485270v1" chrStart: 114032640
+droso.fa : chr # 17  "chrUn_DS485979v1" chrStart: 114294784
+droso.fa : chr # 18  "chrUn_DS485398v1" chrStart: 114556928
+droso.fa : chr # 19  "chrUn_DS484139v1" chrStart: 114819072
+droso.fa : chr # 20  "chrUn_DS483906v1" chrStart: 115081216
+droso.fa : chr # 21  "chrUn_DS485760v1" chrStart: 115343360
+droso.fa : chr # 22  "chrUn_DS484191v1" chrStart: 115605504
+droso.fa : chr # 23  "chrUn_DS485340v1" chrStart: 115867648
+droso.fa : chr # 24  "chrUn_DS484489v1" chrStart: 116129792
+droso.fa : chr # 25  "chrUn_DS485495v1" chrStart: 116391936
+droso.fa : chr # 26  "chrUn_DS484923v1" chrStart: 116654080
+droso.fa : chr # 27  "chrUn_DS484663v1" chrStart: 116916224
+droso.fa : chr # 28  "chrUn_DS485390v1" chrStart: 117178368
+droso.fa : chr # 29  "chrUn_DS485130v1" chrStart: 117440512
+droso.fa : chr # 30  "chrUn_DS485995v1" chrStart: 117702656
+droso.fa : chr # 31  "chrUn_DS484448v1" chrStart: 117964800
+droso.fa : chr # 32  "chrUn_DS484827v1" chrStart: 118226944
+droso.fa : chr # 33  "chrUn_DS485467v1" chrStart: 118489088
+droso.fa : chr # 34  "chrUn_DS485433v1" chrStart: 118751232
+droso.fa : chr # 35  "chrUn_DS484944v1" chrStart: 119013376
+droso.fa : chr # 36  "chrUn_DS485504v1" chrStart: 119275520
+droso.fa : chr # 37  "chrUn_DS484938v1" chrStart: 119537664
+droso.fa : chr # 38  "chrUn_DS485984v1" chrStart: 119799808
+droso.fa : chr # 39  "chrUn_DS484921v1" chrStart: 120061952
+droso.fa : chr # 40  "chrUn_DS485859v1" chrStart: 120324096
+droso.fa : chr # 41  "chrUn_DS485086v1" chrStart: 120586240
+droso.fa : chr # 42  "chrUn_DS484058v1" chrStart: 120848384
+droso.fa : chr # 43  "chrUn_DS485294v1" chrStart: 121110528
+droso.fa : chr # 44  "chrUn_DS484855v1" chrStart: 121372672
+droso.fa : chr # 45  "chrUn_DS485356v1" chrStart: 121634816
+droso.fa : chr # 46  "chrUn_DS485246v1" chrStart: 121896960
+droso.fa : chr # 47  "chrUn_DS485386v1" chrStart: 122159104
+droso.fa : chr # 48  "chrUn_DS484726v1" chrStart: 122421248
+droso.fa : chr # 49  "chrUn_DS484366v1" chrStart: 122683392
+droso.fa : chr # 50  "chrUn_DS486002v1" chrStart: 122945536
+droso.fa : chr # 51  "chrUn_DS484770v1" chrStart: 123207680
+droso.fa : chr # 52  "chrUn_DS485354v1" chrStart: 123469824
+droso.fa : chr # 53  "chrUn_DS483728v1" chrStart: 123731968
+droso.fa : chr # 54  "chrUn_DS485403v1" chrStart: 123994112
+droso.fa : chr # 55  "chrUn_DS484964v1" chrStart: 124256256
+droso.fa : chr # 56  "chrUn_DS483921v1" chrStart: 124518400
+droso.fa : chr # 57  "chrUn_DS485181v1" chrStart: 124780544
+droso.fa : chr # 58  "chrUn_DS485602v1" chrStart: 125042688
+droso.fa : chr # 59  "chrUn_DS485783v1" chrStart: 125304832
+droso.fa : chr # 60  "chrUn_DS485547v1" chrStart: 125566976
+droso.fa : chr # 61  "chrUn_DS485280v1" chrStart: 125829120
+droso.fa : chr # 62  "chrUn_DS483976v1" chrStart: 126091264
+droso.fa : chr # 63  "chrUn_DS484972v1" chrStart: 126353408
+droso.fa : chr # 64  "chrUn_DS484407v1" chrStart: 126615552
+droso.fa : chr # 65  "chrUn_DS484446v1" chrStart: 126877696
+droso.fa : chr # 66  "chrUn_DS485906v1" chrStart: 127139840
+droso.fa : chr # 67  "chrUn_DS484769v1" chrStart: 127401984
+droso.fa : chr # 68  "chrUn_DS484527v1" chrStart: 127664128
+droso.fa : chr # 69  "chrUn_DS484933v1" chrStart: 127926272
+droso.fa : chr # 70  "chrUn_DS483748v1" chrStart: 128188416
+droso.fa : chr # 71  "chrUn_DS484460v1" chrStart: 128450560
+droso.fa : chr # 72  "chrUn_DS483711v1" chrStart: 128712704
+droso.fa : chr # 73  "chrUn_DS484039v1" chrStart: 128974848
+droso.fa : chr # 74  "chrUn_DS484339v1" chrStart: 129236992
+droso.fa : chr # 75  "chrUn_DS485457v1" chrStart: 129499136
+droso.fa : chr # 76  "chrUn_DS485643v1" chrStart: 129761280
+droso.fa : chr # 77  "chrUn_DS484689v1" chrStart: 130023424
+droso.fa : chr # 78  "chrUn_DS485822v1" chrStart: 130285568
+droso.fa : chr # 79  "chrUn_DS485678v1" chrStart: 130547712
+droso.fa : chr # 80  "chrUn_DS485150v1" chrStart: 130809856
+droso.fa : chr # 81  "chrUn_DS484746v1" chrStart: 131072000
+droso.fa : chr # 82  "chrUn_DS485957v1" chrStart: 131334144
+droso.fa : chr # 83  "chrUn_DS485541v1" chrStart: 131596288
+droso.fa : chr # 84  "chrUn_DS485741v1" chrStart: 131858432
+droso.fa : chr # 85  "chrUn_DS484490v1" chrStart: 132120576
+droso.fa : chr # 86  "chrUn_DS484881v1" chrStart: 132382720
+droso.fa : chr # 87  "chrUn_DS485539v1" chrStart: 132644864
+droso.fa : chr # 88  "chrUn_DS485958v1" chrStart: 132907008
+droso.fa : chr # 89  "chrUn_DS485748v1" chrStart: 133169152
+droso.fa : chr # 90  "chrUn_DS484822v1" chrStart: 133431296
+droso.fa : chr # 91  "chrUn_DS485421v1" chrStart: 133693440
+droso.fa : chr # 92  "chrUn_DS485296v1" chrStart: 133955584
+droso.fa : chr # 93  "chrUn_DS485337v1" chrStart: 134217728
+droso.fa : chr # 94  "chrUn_DS483700v1" chrStart: 134479872
+droso.fa : chr # 95  "chrUn_DS484511v1" chrStart: 134742016
+droso.fa : chr # 96  "chrUn_DS485973v1" chrStart: 135004160
+droso.fa : chr # 97  "chrUn_DS483719v1" chrStart: 135266304
+droso.fa : chr # 98  "chrUn_DS484571v1" chrStart: 135528448
+droso.fa : chr # 99  "chrUn_DS485733v1" chrStart: 135790592
+droso.fa : chr # 100  "chrUn_CP007102v1" chrStart: 136052736
+droso.fa : chr # 101  "chrUn_DS484052v1" chrStart: 136314880
+droso.fa : chr # 102  "chrUn_DS485073v1" chrStart: 136577024
+droso.fa : chr # 103  "chrUn_DS484257v1" chrStart: 136839168
+droso.fa : chr # 104  "chrUn_DS485376v1" chrStart: 137101312
+droso.fa : chr # 105  "chrUn_DS484485v1" chrStart: 137363456
+droso.fa : chr # 106  "chrUn_DS485572v1" chrStart: 137625600
+droso.fa : chr # 107  "chrUn_DS484816v1" chrStart: 137887744
+droso.fa : chr # 108  "chrUn_DS485925v1" chrStart: 138149888
+droso.fa : chr # 109  "chrUn_DS485239v1" chrStart: 138412032
+droso.fa : chr # 110  "chrUn_DS485853v1" chrStart: 138674176
+droso.fa : chr # 111  "chrUn_DS485443v1" chrStart: 138936320
+droso.fa : chr # 112  "chrUn_DS485381v1" chrStart: 139198464
+droso.fa : chr # 113  "chrUn_DS485339v1" chrStart: 139460608
+droso.fa : chr # 114  "chrUn_DS484707v1" chrStart: 139722752
+droso.fa : chr # 115  "chrUn_DS485675v1" chrStart: 139984896
+droso.fa : chr # 116  "chrUn_DS485065v1" chrStart: 140247040
+droso.fa : chr # 117  "chrUn_DS484546v1" chrStart: 140509184
+droso.fa : chr # 118  "chrUn_DS485846v1" chrStart: 140771328
+droso.fa : chr # 119  "chrUn_DS484667v1" chrStart: 141033472
+droso.fa : chr # 120  "chrUn_DS484756v1" chrStart: 141295616
+droso.fa : chr # 121  "chrUn_DS485558v1" chrStart: 141557760
+droso.fa : chr # 122  "chrUn_DS485703v1" chrStart: 141819904
+droso.fa : chr # 123  "chrUn_DS483977v1" chrStart: 142082048
+droso.fa : chr # 124  "chrUn_DS485341v1" chrStart: 142344192
+droso.fa : chr # 125  "chrUn_DS484226v1" chrStart: 142606336
+droso.fa : chr # 126  "chrUn_DS485505v1" chrStart: 142868480
+droso.fa : chr # 127  "chrUn_DS485451v1" chrStart: 143130624
+droso.fa : chr # 128  "chrUn_DS484736v1" chrStart: 143392768
+droso.fa : chr # 129  "chrUn_DS484304v1" chrStart: 143654912
+droso.fa : chr # 130  "chrUn_DS485024v1" chrStart: 143917056
+droso.fa : chr # 131  "chrUn_DS485808v1" chrStart: 144179200
+droso.fa : chr # 132  "chrUn_DS485578v1" chrStart: 144441344
+droso.fa : chr # 133  "chrUn_DS485029v1" chrStart: 144703488
+droso.fa : chr # 134  "chrUn_DS485634v1" chrStart: 144965632
+droso.fa : chr # 135  "chrUn_DS483877v1" chrStart: 145227776
+droso.fa : chr # 136  "chrUn_DS483723v1" chrStart: 145489920
+droso.fa : chr # 137  "chrUn_DS485038v1" chrStart: 145752064
+droso.fa : chr # 138  "chrUn_DS485788v1" chrStart: 146014208
+droso.fa : chr # 139  "chrUn_DS484496v1" chrStart: 146276352
+droso.fa : chr # 140  "chrUn_DS484841v1" chrStart: 146538496
+droso.fa : chr # 141  "chrUn_DS485123v1" chrStart: 146800640
+droso.fa : chr # 142  "chrUn_DS485261v1" chrStart: 147062784
+droso.fa : chr # 143  "chrUn_DS485673v1" chrStart: 147324928
+droso.fa : chr # 144  "chrUn_DS483879v1" chrStart: 147587072
+droso.fa : chr # 145  "chrUn_DS484716v1" chrStart: 147849216
+droso.fa : chr # 146  "chrUn_DS485907v1" chrStart: 148111360
+droso.fa : chr # 147  "chrUn_DS484100v1" chrStart: 148373504
+droso.fa : chr # 148  "chrUn_DS486008v1" chrStart: 148635648
+droso.fa : chr # 149  "chrUn_DS485747v1" chrStart: 148897792
+droso.fa : chr # 150  "chrUn_DS485891v1" chrStart: 149159936
+droso.fa : chr # 151  "chrUn_DS484329v1" chrStart: 149422080
+droso.fa : chr # 152  "chrUn_DS484653v1" chrStart: 149684224
+droso.fa : chr # 153  "chrUn_DS483692v1" chrStart: 149946368
+droso.fa : chr # 154  "chrUn_DS485387v1" chrStart: 150208512
+droso.fa : chr # 155  "chrUn_DS483938v1" chrStart: 150470656
+droso.fa : chr # 156  "chrUn_DS484073v1" chrStart: 150732800
+droso.fa : chr # 157  "chrUn_DS483957v1" chrStart: 150994944
+droso.fa : chr # 158  "chrUn_DS484050v1" chrStart: 151257088
+droso.fa : chr # 159  "chrUn_DS483694v1" chrStart: 151519232
+droso.fa : chr # 160  "chrUn_DS485407v1" chrStart: 151781376
+droso.fa : chr # 161  "chrUn_DS485357v1" chrStart: 152043520
+droso.fa : chr # 162  "chrUn_DS484122v1" chrStart: 152305664
+droso.fa : chr # 163  "chrUn_DS484548v1" chrStart: 152567808
+droso.fa : chr # 164  "chrUn_DS485254v1" chrStart: 152829952
+droso.fa : chr # 165  "chrUn_DS484988v1" chrStart: 153092096
+droso.fa : chr # 166  "chrUn_DS485205v1" chrStart: 153354240
+droso.fa : chr # 167  "chrUn_DS485793v1" chrStart: 153616384
+droso.fa : chr # 168  "chrUn_DS485496v1" chrStart: 153878528
+droso.fa : chr # 169  "chrUn_DS484904v1" chrStart: 154140672
+droso.fa : chr # 170  "chrUn_DS483707v1" chrStart: 154402816
+droso.fa : chr # 171  "chrUn_DS485365v1" chrStart: 154664960
+droso.fa : chr # 172  "chrUn_DS485789v1" chrStart: 154927104
+droso.fa : chr # 173  "chrUn_DS484842v1" chrStart: 155189248
+droso.fa : chr # 174  "chrUn_DS484180v1" chrStart: 155451392
+droso.fa : chr # 175  "chrUn_DS485333v1" chrStart: 155713536
+droso.fa : chr # 176  "chrUn_DS485954v1" chrStart: 155975680
+droso.fa : chr # 177  "chrUn_DS484202v1" chrStart: 156237824
+droso.fa : chr # 178  "chrUn_DS485825v1" chrStart: 156499968
+droso.fa : chr # 179  "chrUn_DS485285v1" chrStart: 156762112
+droso.fa : chr # 180  "chrUn_DS485223v1" chrStart: 157024256
+droso.fa : chr # 181  "chrUn_DS485313v1" chrStart: 157286400
+droso.fa : chr # 182  "chrUn_DS484567v1" chrStart: 157548544
+droso.fa : chr # 183  "chrUn_DS484040v1" chrStart: 157810688
+droso.fa : chr # 184  "chrUn_DS484475v1" chrStart: 158072832
+droso.fa : chr # 185  "chrUn_DS484168v1" chrStart: 158334976
+droso.fa : chr # 186  "chrUn_DS485711v1" chrStart: 158597120
+droso.fa : chr # 187  "chrUn_DS485475v1" chrStart: 158859264
+droso.fa : chr # 188  "chrUn_DS484532v1" chrStart: 159121408
+droso.fa : chr # 189  "chrUn_DS484751v1" chrStart: 159383552
+droso.fa : chr # 190  "chrUn_DS484229v1" chrStart: 159645696
+droso.fa : chr # 191  "chrUn_DS485870v1" chrStart: 159907840
+droso.fa : chr # 192  "chrUn_DS484787v1" chrStart: 160169984
+droso.fa : chr # 193  "chrUn_DS484277v1" chrStart: 160432128
+droso.fa : chr # 194  "chrUn_DS485304v1" chrStart: 160694272
+droso.fa : chr # 195  "chrUn_DS485794v1" chrStart: 160956416
+droso.fa : chr # 196  "chrUn_DS485226v1" chrStart: 161218560
+droso.fa : chr # 197  "chrUn_DS484470v1" chrStart: 161480704
+droso.fa : chr # 198  "chrUn_DS484303v1" chrStart: 161742848
+droso.fa : chr # 199  "chrUn_DS485506v1" chrStart: 162004992
+droso.fa : chr # 200  "chrUn_DS485522v1" chrStart: 162267136
+droso.fa : chr # 201  "chrUn_DS484505v1" chrStart: 162529280
+droso.fa : chr # 202  "chrUn_DS485854v1" chrStart: 162791424
+droso.fa : chr # 203  "chrUn_DS485342v1" chrStart: 163053568
+droso.fa : chr # 204  "chrUn_DS484739v1" chrStart: 163315712
+droso.fa : chr # 205  "chrUn_DS484452v1" chrStart: 163577856
+droso.fa : chr # 206  "chrUn_DS484720v1" chrStart: 163840000
+droso.fa : chr # 207  "chrUn_DS485722v1" chrStart: 164102144
+droso.fa : chr # 208  "chrUn_DS484522v1" chrStart: 164364288
+droso.fa : chr # 209  "chrUn_DS485781v1" chrStart: 164626432
+droso.fa : chr # 210  "chrUn_DS485542v1" chrStart: 164888576
+droso.fa : chr # 211  "chrUn_DS485821v1" chrStart: 165150720
+droso.fa : chr # 212  "chrUn_DS484350v1" chrStart: 165412864
+droso.fa : chr # 213  "chrUn_DS485623v1" chrStart: 165675008
+droso.fa : chr # 214  "chrUn_DS485989v1" chrStart: 165937152
+droso.fa : chr # 215  "chrUn_DS485743v1" chrStart: 166199296
+droso.fa : chr # 216  "chrUn_DS485872v1" chrStart: 166461440
+droso.fa : chr # 217  "chrUn_DS484190v1" chrStart: 166723584
+droso.fa : chr # 218  "chrUn_DS485240v1" chrStart: 166985728
+droso.fa : chr # 219  "chrUn_DS484844v1" chrStart: 167247872
+droso.fa : chr # 220  "chrUn_DS483695v1" chrStart: 167510016
+droso.fa : chr # 221  "chrUn_DS484798v1" chrStart: 167772160
+droso.fa : chr # 222  "chrUn_DS484096v1" chrStart: 168034304
+droso.fa : chr # 223  "chrUn_DS483799v1" chrStart: 168296448
+droso.fa : chr # 224  "chrUn_DS484843v1" chrStart: 168558592
+droso.fa : chr # 225  "chrUn_DS484659v1" chrStart: 168820736
+droso.fa : chr # 226  "chrUn_DS485864v1" chrStart: 169082880
+droso.fa : chr # 227  "chrUn_DS484825v1" chrStart: 169345024
+droso.fa : chr # 228  "chrUn_DS485229v1" chrStart: 169607168
+droso.fa : chr # 229  "chrUn_DS485773v1" chrStart: 169869312
+droso.fa : chr # 230  "chrUn_DS485659v1" chrStart: 170131456
+droso.fa : chr # 231  "chrUn_DS484993v1" chrStart: 170393600
+droso.fa : chr # 232  "chrUn_DS484896v1" chrStart: 170655744
+droso.fa : chr # 233  "chrUn_DS486005v1" chrStart: 170917888
+droso.fa : chr # 234  "chrUn_DS485047v1" chrStart: 171180032
+droso.fa : chr # 235  "chrUn_DS484069v1" chrStart: 171442176
+droso.fa : chr # 236  "chrUn_DS485138v1" chrStart: 171704320
+droso.fa : chr # 237  "chrUn_DS485929v1" chrStart: 171966464
+droso.fa : chr # 238  "chrUn_DS485886v1" chrStart: 172228608
+droso.fa : chr # 239  "chrUn_DS484493v1" chrStart: 172490752
+droso.fa : chr # 240  "chrUn_DS485661v1" chrStart: 172752896
+droso.fa : chr # 241  "chrUn_DS484866v1" chrStart: 173015040
+droso.fa : chr # 242  "chrUn_DS484772v1" chrStart: 173277184
+droso.fa : chr # 243  "chrUn_DS484727v1" chrStart: 173539328
+droso.fa : chr # 244  "chrUn_DS485838v1" chrStart: 173801472
+droso.fa : chr # 245  "chrUn_DS485701v1" chrStart: 174063616
+droso.fa : chr # 246  "chrUn_DS483936v1" chrStart: 174325760
+droso.fa : chr # 247  "chrUn_DS485581v1" chrStart: 174587904
+droso.fa : chr # 248  "chrUn_DS485019v1" chrStart: 174850048
+droso.fa : chr # 249  "chrUn_DS483940v1" chrStart: 175112192
+droso.fa : chr # 250  "chrUn_DS485810v1" chrStart: 175374336
+droso.fa : chr # 251  "chrUn_DS485982v1" chrStart: 175636480
+droso.fa : chr # 252  "chrUn_DS485165v1" chrStart: 175898624
+droso.fa : chr # 253  "chrUn_DS484404v1" chrStart: 176160768
+droso.fa : chr # 254  "chrUn_DS483736v1" chrStart: 176422912
+droso.fa : chr # 255  "chrUn_DS485654v1" chrStart: 176685056
+droso.fa : chr # 256  "chrUn_DS485415v1" chrStart: 176947200
+droso.fa : chr # 257  "chrUn_DS484275v1" chrStart: 177209344
+droso.fa : chr # 258  "chrUn_DS485255v1" chrStart: 177471488
+droso.fa : chr # 259  "chrUn_DS484383v1" chrStart: 177733632
+droso.fa : chr # 260  "chrUn_DS485331v1" chrStart: 177995776
+droso.fa : chr # 261  "chrUn_DS483901v1" chrStart: 178257920
+droso.fa : chr # 262  "chrUn_DS484884v1" chrStart: 178520064
+droso.fa : chr # 263  "chrUn_DS484515v1" chrStart: 178782208
+droso.fa : chr # 264  "chrUn_DS485883v1" chrStart: 179044352
+droso.fa : chr # 265  "chrUn_DS483703v1" chrStart: 179306496
+droso.fa : chr # 266  "chrUn_DS485311v1" chrStart: 179568640
+droso.fa : chr # 267  "chrUn_DS484897v1" chrStart: 179830784
+droso.fa : chr # 268  "chrUn_DS483933v1" chrStart: 180092928
+droso.fa : chr # 269  "chrUn_DS485740v1" chrStart: 180355072
+droso.fa : chr # 270  "chrUn_DS485290v1" chrStart: 180617216
+droso.fa : chr # 271  "chrUn_DS484481v1" chrStart: 180879360
+droso.fa : chr # 272  "chrUn_DS485349v1" chrStart: 181141504
+droso.fa : chr # 273  "chrUn_DS484454v1" chrStart: 181403648
+droso.fa : chr # 274  "chrUn_DS483808v1" chrStart: 181665792
+droso.fa : chr # 275  "chrUn_DS484976v1" chrStart: 181927936
+droso.fa : chr # 276  "chrUn_DS484311v1" chrStart: 182190080
+droso.fa : chr # 277  "chrUn_DS485089v1" chrStart: 182452224
+droso.fa : chr # 278  "chrUn_DS485985v1" chrStart: 182714368
+droso.fa : chr # 279  "chrUn_DS485753v1" chrStart: 182976512
+droso.fa : chr # 280  "chrUn_DS484776v1" chrStart: 183238656
+droso.fa : chr # 281  "chrUn_DS483864v1" chrStart: 183500800
+droso.fa : chr # 282  "chrUn_DS485132v1" chrStart: 183762944
+droso.fa : chr # 283  "chrUn_DS485209v1" chrStart: 184025088
+droso.fa : chr # 284  "chrUn_DS485693v1" chrStart: 184287232
+droso.fa : chr # 285  "chrUn_DS484210v1" chrStart: 184549376
+droso.fa : chr # 286  "chrUn_DS484764v1" chrStart: 184811520
+droso.fa : chr # 287  "chrUn_DS484999v1" chrStart: 185073664
+droso.fa : chr # 288  "chrUn_DS484232v1" chrStart: 185335808
+droso.fa : chr # 289  "chrUn_DS484262v1" chrStart: 185597952
+droso.fa : chr # 290  "chrUn_DS484076v1" chrStart: 185860096
+droso.fa : chr # 291  "chrUn_DS485437v1" chrStart: 186122240
+droso.fa : chr # 292  "chrUn_DS485515v1" chrStart: 186384384
+droso.fa : chr # 293  "chrUn_DS485199v1" chrStart: 186646528
+droso.fa : chr # 294  "chrUn_DS485462v1" chrStart: 186908672
+droso.fa : chr # 295  "chrUn_DS485501v1" chrStart: 187170816
+droso.fa : chr # 296  "chrUn_DS484710v1" chrStart: 187432960
+droso.fa : chr # 297  "chrUn_DS485153v1" chrStart: 187695104
+droso.fa : chr # 298  "chrUn_DS484920v1" chrStart: 187957248
+droso.fa : chr # 299  "chrUn_DS485163v1" chrStart: 188219392
+droso.fa : chr # 300  "chrUn_DS485940v1" chrStart: 188481536
+droso.fa : chr # 301  "chrUn_DS485650v1" chrStart: 188743680
+droso.fa : chr # 302  "chrUn_DS483849v1" chrStart: 189005824
+droso.fa : chr # 303  "chrUn_DS483972v1" chrStart: 189267968
+droso.fa : chr # 304  "chrUn_DS485242v1" chrStart: 189530112
+droso.fa : chr # 305  "chrUn_DS485056v1" chrStart: 189792256
+droso.fa : chr # 306  "chrUn_DS485683v1" chrStart: 190054400
+droso.fa : chr # 307  "chrUn_DS483682v1" chrStart: 190316544
+droso.fa : chr # 308  "chrUn_DS484478v1" chrStart: 190578688
+droso.fa : chr # 309  "chrUn_DS485325v1" chrStart: 190840832
+droso.fa : chr # 310  "chrUn_DS484054v1" chrStart: 191102976
+droso.fa : chr # 311  "chrUn_DS484771v1" chrStart: 191365120
+droso.fa : chr # 312  "chrUn_DS485477v1" chrStart: 191627264
+droso.fa : chr # 313  "chrUn_DS484170v1" chrStart: 191889408
+droso.fa : chr # 314  "chrUn_DS484922v1" chrStart: 192151552
+droso.fa : chr # 315  "chrUn_DS484160v1" chrStart: 192413696
+droso.fa : chr # 316  "chrUn_DS485812v1" chrStart: 192675840
+droso.fa : chr # 317  "chrUn_DS485438v1" chrStart: 192937984
+droso.fa : chr # 318  "chrUn_DS485102v1" chrStart: 193200128
+droso.fa : chr # 319  "chrUn_DS485082v1" chrStart: 193462272
+droso.fa : chr # 320  "chrUn_DS483743v1" chrStart: 193724416
+droso.fa : chr # 321  "chrUn_DS484282v1" chrStart: 193986560
+droso.fa : chr # 322  "chrUn_DS485664v1" chrStart: 194248704
+droso.fa : chr # 323  "chrUn_DS484369v1" chrStart: 194510848
+droso.fa : chr # 324  "chrUn_DS485585v1" chrStart: 194772992
+droso.fa : chr # 325  "chrUn_DS484948v1" chrStart: 195035136
+droso.fa : chr # 326  "chrUn_DS484728v1" chrStart: 195297280
+droso.fa : chr # 327  "chrUn_DS484313v1" chrStart: 195559424
+droso.fa : chr # 328  "chrUn_DS485395v1" chrStart: 195821568
+droso.fa : chr # 329  "chrUn_DS484443v1" chrStart: 196083712
+droso.fa : chr # 330  "chrUn_DS483650v1" chrStart: 196345856
+droso.fa : chr # 331  "chrUn_DS485498v1" chrStart: 196608000
+droso.fa : chr # 332  "chrUn_DS485668v1" chrStart: 196870144
+droso.fa : chr # 333  "chrUn_DS485751v1" chrStart: 197132288
+droso.fa : chr # 334  "chrUn_DS484077v1" chrStart: 197394432
+droso.fa : chr # 335  "chrUn_DS485900v1" chrStart: 197656576
+droso.fa : chr # 336  "chrUn_DS485545v1" chrStart: 197918720
+droso.fa : chr # 337  "chrUn_DS485076v1" chrStart: 198180864
+droso.fa : chr # 338  "chrUn_DS484394v1" chrStart: 198443008
+droso.fa : chr # 339  "chrUn_DS485064v1" chrStart: 198705152
+droso.fa : chr # 340  "chrUn_DS484549v1" chrStart: 198967296
+droso.fa : chr # 341  "chrUn_DS484738v1" chrStart: 199229440
+droso.fa : chr # 342  "chrUn_DS484985v1" chrStart: 199491584
+droso.fa : chr # 343  "chrUn_DS485324v1" chrStart: 199753728
+droso.fa : chr # 344  "chrUn_DS485904v1" chrStart: 200015872
+droso.fa : chr # 345  "chrUn_DS484979v1" chrStart: 200278016
+droso.fa : chr # 346  "chrUn_DS485353v1" chrStart: 200540160
+droso.fa : chr # 347  "chrUn_DS485688v1" chrStart: 200802304
+droso.fa : chr # 348  "chrUn_DS484987v1" chrStart: 201064448
+droso.fa : chr # 349  "chrUn_DS483680v1" chrStart: 201326592
+droso.fa : chr # 350  "chrUn_DS485686v1" chrStart: 201588736
+droso.fa : chr # 351  "chrUn_DS484456v1" chrStart: 201850880
+droso.fa : chr # 352  "chrUn_DS485488v1" chrStart: 202113024
+droso.fa : chr # 353  "chrUn_DS484479v1" chrStart: 202375168
+droso.fa : chr # 354  "chrUn_DS484154v1" chrStart: 202637312
+droso.fa : chr # 355  "chrUn_DS483845v1" chrStart: 202899456
+droso.fa : chr # 356  "chrUn_DS484251v1" chrStart: 203161600
+droso.fa : chr # 357  "chrUn_DS485442v1" chrStart: 203423744
+droso.fa : chr # 358  "chrUn_DS484559v1" chrStart: 203685888
+droso.fa : chr # 359  "chrUn_DS485062v1" chrStart: 203948032
+droso.fa : chr # 360  "chrUn_DS484333v1" chrStart: 204210176
+droso.fa : chr # 361  "chrUn_DS484207v1" chrStart: 204472320
+droso.fa : chr # 362  "chrUn_DS485322v1" chrStart: 204734464
+droso.fa : chr # 363  "chrUn_DS484309v1" chrStart: 204996608
+droso.fa : chr # 364  "chrUn_DS485100v1" chrStart: 205258752
+droso.fa : chr # 365  "chrUn_DS485526v1" chrStart: 205520896
+droso.fa : chr # 366  "chrUn_DS483914v1" chrStart: 205783040
+droso.fa : chr # 367  "chrUn_DS485362v1" chrStart: 206045184
+droso.fa : chr # 368  "chrUn_DS484760v1" chrStart: 206307328
+droso.fa : chr # 369  "chrUn_DS485893v1" chrStart: 206569472
+droso.fa : chr # 370  "chrUn_DS484846v1" chrStart: 206831616
+droso.fa : chr # 371  "chrUn_DS485249v1" chrStart: 207093760
+droso.fa : chr # 372  "chrUn_DS484102v1" chrStart: 207355904
+droso.fa : chr # 373  "chrUn_DS484380v1" chrStart: 207618048
+droso.fa : chr # 374  "chrUn_DS485466v1" chrStart: 207880192
+droso.fa : chr # 375  "chrUn_DS483805v1" chrStart: 208142336
+droso.fa : chr # 376  "chrUn_DS485000v1" chrStart: 208404480
+droso.fa : chr # 377  "chrUn_DS484243v1" chrStart: 208666624
+droso.fa : chr # 378  "chrUn_DS483871v1" chrStart: 208928768
+droso.fa : chr # 379  "chrUn_DS484436v1" chrStart: 209190912
+droso.fa : chr # 380  "chrUn_DS484713v1" chrStart: 209453056
+droso.fa : chr # 381  "chrUn_DS485863v1" chrStart: 209715200
+droso.fa : chr # 382  "chrUn_DS485905v1" chrStart: 209977344
+droso.fa : chr # 383  "chrUn_DS485055v1" chrStart: 210239488
+droso.fa : chr # 384  "chrUn_DS483712v1" chrStart: 210501632
+droso.fa : chr # 385  "chrUn_DS484152v1" chrStart: 210763776
+droso.fa : chr # 386  "chrUn_DS485472v1" chrStart: 211025920
+droso.fa : chr # 387  "chrUn_DS483678v1" chrStart: 211288064
+droso.fa : chr # 388  "chrUn_DS484709v1" chrStart: 211550208
+droso.fa : chr # 389  "chrUn_DS485026v1" chrStart: 211812352
+droso.fa : chr # 390  "chrUn_DS484508v1" chrStart: 212074496
+droso.fa : chr # 391  "chrUn_DS485842v1" chrStart: 212336640
+droso.fa : chr # 392  "chrUn_DS485826v1" chrStart: 212598784
+droso.fa : chr # 393  "chrUn_DS484578v1" chrStart: 212860928
+droso.fa : chr # 394  "chrUn_DS485766v1" chrStart: 213123072
+droso.fa : chr # 395  "chrUn_DS484654v1" chrStart: 213385216
+droso.fa : chr # 396  "chrUn_DS485058v1" chrStart: 213647360
+droso.fa : chr # 397  "chrUn_DS485828v1" chrStart: 213909504
+droso.fa : chr # 398  "chrUn_DS484301v1" chrStart: 214171648
+droso.fa : chr # 399  "chrUn_DS483740v1" chrStart: 214433792
+droso.fa : chr # 400  "chrUn_DS484606v1" chrStart: 214695936
+droso.fa : chr # 401  "chrUn_DS484220v1" chrStart: 214958080
+droso.fa : chr # 402  "chrUn_DS484355v1" chrStart: 215220224
+droso.fa : chr # 403  "chrUn_DS485682v1" chrStart: 215482368
+droso.fa : chr # 404  "chrUn_DS485563v1" chrStart: 215744512
+droso.fa : chr # 405  "chrUn_DS485059v1" chrStart: 216006656
+droso.fa : chr # 406  "chrUn_DS486004v1" chrStart: 216268800
+droso.fa : chr # 407  "chrUn_DS485173v1" chrStart: 216530944
+droso.fa : chr # 408  "chrUn_DS483759v1" chrStart: 216793088
+droso.fa : chr # 409  "chrUn_DS484111v1" chrStart: 217055232
+droso.fa : chr # 410  "chrUn_DS483674v1" chrStart: 217317376
+droso.fa : chr # 411  "chrUn_DS484895v1" chrStart: 217579520
+droso.fa : chr # 412  "chrUn_DS484577v1" chrStart: 217841664
+droso.fa : chr # 413  "chrUn_DS484400v1" chrStart: 218103808
+droso.fa : chr # 414  "chrUn_DS484721v1" chrStart: 218365952
+droso.fa : chr # 415  "chrUn_DS485529v1" chrStart: 218628096
+droso.fa : chr # 416  "chrUn_DS484445v1" chrStart: 218890240
+droso.fa : chr # 417  "chrUn_DS484991v1" chrStart: 219152384
+droso.fa : chr # 418  "chrUn_DS484642v1" chrStart: 219414528
+droso.fa : chr # 419  "chrUn_DS485868v1" chrStart: 219676672
+droso.fa : chr # 420  "chrUn_DS485607v1" chrStart: 219938816
+droso.fa : chr # 421  "chrUn_DS483876v1" chrStart: 220200960
+droso.fa : chr # 422  "chrUn_DS485867v1" chrStart: 220463104
+droso.fa : chr # 423  "chrUn_DS485509v1" chrStart: 220725248
+droso.fa : chr # 424  "chrUn_DS484241v1" chrStart: 220987392
+droso.fa : chr # 425  "chrUn_DS485605v1" chrStart: 221249536
+droso.fa : chr # 426  "chrUn_DS484331v1" chrStart: 221511680
+droso.fa : chr # 427  "chrUn_DS484106v1" chrStart: 221773824
+droso.fa : chr # 428  "chrUn_DS485368v1" chrStart: 222035968
+droso.fa : chr # 429  "chrUn_DS484276v1" chrStart: 222298112
+droso.fa : chr # 430  "chrUn_DS485005v1" chrStart: 222560256
+droso.fa : chr # 431  "chrUn_DS485469v1" chrStart: 222822400
+droso.fa : chr # 432  "chrUn_DS485566v2" chrStart: 223084544
+droso.fa : chr # 433  "chrUn_DS483855v1" chrStart: 223346688
+droso.fa : chr # 434  "chrUn_DS483662v1" chrStart: 223608832
+droso.fa : chr # 435  "chrUn_DS485260v1" chrStart: 223870976
+droso.fa : chr # 436  "chrUn_DS484469v1" chrStart: 224133120
+droso.fa : chr # 437  "chrUn_DS484601v1" chrStart: 224395264
+droso.fa : chr # 438  "chrUn_DS483681v1" chrStart: 224657408
+droso.fa : chr # 439  "chrUn_DS484916v1" chrStart: 224919552
+droso.fa : chr # 440  "chrUn_DS484385v1" chrStart: 225181696
+droso.fa : chr # 441  "chrUn_DS485557v1" chrStart: 225443840
+droso.fa : chr # 442  "chrUn_DS485997v1" chrStart: 225705984
+droso.fa : chr # 443  "chrUn_DS484960v1" chrStart: 225968128
+droso.fa : chr # 444  "chrUn_DS483726v1" chrStart: 226230272
+droso.fa : chr # 445  "chrUn_DS485456v1" chrStart: 226492416
+droso.fa : chr # 446  "chrUn_DS484246v1" chrStart: 226754560
+droso.fa : chr # 447  "chrUn_DS485887v1" chrStart: 227016704
+droso.fa : chr # 448  "chrUn_DS484396v1" chrStart: 227278848
+droso.fa : chr # 449  "chrUn_DS485902v1" chrStart: 227540992
+droso.fa : chr # 450  "chrUn_DS484629v1" chrStart: 227803136
+droso.fa : chr # 451  "chrUn_DS484310v1" chrStart: 228065280
+droso.fa : chr # 452  "chrUn_DS485117v1" chrStart: 228327424
+droso.fa : chr # 453  "chrUn_DS485468v1" chrStart: 228589568
+droso.fa : chr # 454  "chrUn_DS484263v1" chrStart: 228851712
+droso.fa : chr # 455  "chrUn_DS485224v1" chrStart: 229113856
+droso.fa : chr # 456  "chrUn_DS485156v1" chrStart: 229376000
+droso.fa : chr # 457  "chrUn_DS484501v1" chrStart: 229638144
+droso.fa : chr # 458  "chrUn_DS485991v1" chrStart: 229900288
+droso.fa : chr # 459  "chrUn_DS485964v1" chrStart: 230162432
+droso.fa : chr # 460  "chrUn_DS485361v1" chrStart: 230424576
+droso.fa : chr # 461  "chrUn_DS484593v1" chrStart: 230686720
+droso.fa : chr # 462  "chrUn_DS485681v1" chrStart: 230948864
+droso.fa : chr # 463  "chrUn_DS484982v1" chrStart: 231211008
+droso.fa : chr # 464  "chrUn_DS485136v1" chrStart: 231473152
+droso.fa : chr # 465  "chrUn_DS483738v1" chrStart: 231735296
+droso.fa : chr # 466  "chrUn_DS483783v1" chrStart: 231997440
+droso.fa : chr # 467  "chrUn_DS485411v1" chrStart: 232259584
+droso.fa : chr # 468  "chrUn_DS485729v1" chrStart: 232521728
+droso.fa : chr # 469  "chrUn_DS485622v1" chrStart: 232783872
+droso.fa : chr # 470  "chrUn_DS484796v1" chrStart: 233046016
+droso.fa : chr # 471  "chrUn_DS485671v1" chrStart: 233308160
+droso.fa : chr # 472  "chrUn_DS485684v1" chrStart: 233570304
+droso.fa : chr # 473  "chrUn_DS485148v1" chrStart: 233832448
+droso.fa : chr # 474  "chrUn_DS484188v1" chrStart: 234094592
+droso.fa : chr # 475  "chrUn_DS484566v1" chrStart: 234356736
+droso.fa : chr # 476  "chrUn_DS484646v1" chrStart: 234618880
+droso.fa : chr # 477  "chrUn_DS485588v1" chrStart: 234881024
+droso.fa : chr # 478  "chrUn_DS484498v1" chrStart: 235143168
+droso.fa : chr # 479  "chrUn_DS485820v1" chrStart: 235405312
+droso.fa : chr # 480  "chrUn_DS484048v1" chrStart: 235667456
+droso.fa : chr # 481  "chrUn_DS485079v1" chrStart: 235929600
+droso.fa : chr # 482  "chrUn_DS485420v1" chrStart: 236191744
+droso.fa : chr # 483  "chrUn_DS483772v1" chrStart: 236453888
+droso.fa : chr # 484  "chrUn_DS484281v1" chrStart: 236716032
+droso.fa : chr # 485  "chrUn_DS484059v1" chrStart: 236978176
+droso.fa : chr # 486  "chrUn_DS485969v1" chrStart: 237240320
+droso.fa : chr # 487  "chrUn_DS485027v1" chrStart: 237502464
+droso.fa : chr # 488  "chrUn_DS485133v1" chrStart: 237764608
+droso.fa : chr # 489  "chrUn_DS485192v1" chrStart: 238026752
+droso.fa : chr # 490  "chrUn_DS483693v1" chrStart: 238288896
+droso.fa : chr # 491  "chrUn_DS484228v1" chrStart: 238551040
+droso.fa : chr # 492  "chrUn_DS484239v1" chrStart: 238813184
+droso.fa : chr # 493  "chrUn_DS484595v1" chrStart: 239075328
+droso.fa : chr # 494  "chrUn_DS484274v1" chrStart: 239337472
+droso.fa : chr # 495  "chrUn_DS485917v1" chrStart: 239599616
+droso.fa : chr # 496  "chrUn_DS484320v1" chrStart: 239861760
+droso.fa : chr # 497  "chrUn_DS484480v1" chrStart: 240123904
+droso.fa : chr # 498  "chrUn_DS484579v1" chrStart: 240386048
+droso.fa : chr # 499  "chrUn_DS485980v1" chrStart: 240648192
+droso.fa : chr # 500  "chrUn_DS485531v1" chrStart: 240910336
+droso.fa : chr # 501  "chrUn_DS484806v1" chrStart: 241172480
+droso.fa : chr # 502  "chrUn_DS484782v1" chrStart: 241434624
+droso.fa : chr # 503  "chrUn_DS484639v1" chrStart: 241696768
+droso.fa : chr # 504  "chrUn_DS485494v1" chrStart: 241958912
+droso.fa : chr # 505  "chrUn_DS484238v1" chrStart: 242221056
+droso.fa : chr # 506  "chrUn_DS485965v1" chrStart: 242483200
+droso.fa : chr # 507  "chrUn_DS484514v1" chrStart: 242745344
+droso.fa : chr # 508  "chrUn_DS485092v1" chrStart: 243007488
+droso.fa : chr # 509  "chrUn_DS485518v1" chrStart: 243269632
+droso.fa : chr # 510  "chrUn_DS485453v1" chrStart: 243531776
+droso.fa : chr # 511  "chrUn_DS484542v1" chrStart: 243793920
+droso.fa : chr # 512  "chrUn_DS483970v1" chrStart: 244056064
+droso.fa : chr # 513  "chrUn_DS484632v1" chrStart: 244318208
+droso.fa : chr # 514  "chrUn_DS485401v1" chrStart: 244580352
+droso.fa : chr # 515  "chrUn_DS484193v1" chrStart: 244842496
+droso.fa : chr # 516  "chrUn_DS484487v1" chrStart: 245104640
+droso.fa : chr # 517  "chrUn_DS484087v1" chrStart: 245366784
+droso.fa : chr # 518  "chrUn_DS485517v1" chrStart: 245628928
+droso.fa : chr # 519  "chrUn_DS485742v1" chrStart: 245891072
+droso.fa : chr # 520  "chrUn_DS483919v1" chrStart: 246153216
+droso.fa : chr # 521  "chrUn_DS484748v1" chrStart: 246415360
+droso.fa : chr # 522  "chrUn_DS484312v1" chrStart: 246677504
+droso.fa : chr # 523  "chrUn_DS485679v1" chrStart: 246939648
+droso.fa : chr # 524  "chrUn_DS483797v1" chrStart: 247201792
+droso.fa : chr # 525  "chrUn_DS485803v1" chrStart: 247463936
+droso.fa : chr # 526  "chrUn_DS484315v1" chrStart: 247726080
+droso.fa : chr # 527  "chrUn_DS485912v1" chrStart: 247988224
+droso.fa : chr # 528  "chrUn_DS484027v1" chrStart: 248250368
+droso.fa : chr # 529  "chrUn_DS485122v1" chrStart: 248512512
+droso.fa : chr # 530  "chrUn_DS485847v1" chrStart: 248774656
+droso.fa : chr # 531  "chrUn_DS484941v1" chrStart: 249036800
+droso.fa : chr # 532  "chrUn_DS483734v1" chrStart: 249298944
+droso.fa : chr # 533  "chrUn_DS484510v1" chrStart: 249561088
+droso.fa : chr # 534  "chrUn_DS484028v1" chrStart: 249823232
+droso.fa : chr # 535  "chrUn_DS484561v1" chrStart: 250085376
+droso.fa : chr # 536  "chrUn_DS485802v1" chrStart: 250347520
+droso.fa : chr # 537  "chrUn_DS484118v1" chrStart: 250609664
+droso.fa : chr # 538  "chrUn_DS485915v1" chrStart: 250871808
+droso.fa : chr # 539  "chrUn_DS485933v1" chrStart: 251133952
+droso.fa : chr # 540  "chrUn_DS485371v1" chrStart: 251396096
+droso.fa : chr # 541  "chrUn_DS484437v1" chrStart: 251658240
+droso.fa : chr # 542  "chrUn_DS484155v1" chrStart: 251920384
+droso.fa : chr # 543  "chrUn_DS485298v1" chrStart: 252182528
+droso.fa : chr # 544  "chrUn_DS485007v1" chrStart: 252444672
+droso.fa : chr # 545  "chrUn_DS484899v1" chrStart: 252706816
+droso.fa : chr # 546  "chrUn_DS485544v1" chrStart: 252968960
+droso.fa : chr # 547  "chrUn_DS485841v1" chrStart: 253231104
+droso.fa : chr # 548  "chrUn_DS485614v1" chrStart: 253493248
+droso.fa : chr # 549  "chrUn_DS484651v1" chrStart: 253755392
+droso.fa : chr # 550  "chrUn_DS485968v1" chrStart: 254017536
+droso.fa : chr # 551  "chrUn_DS484962v1" chrStart: 254279680
+droso.fa : chr # 552  "chrUn_DS483840v1" chrStart: 254541824
+droso.fa : chr # 553  "chrUn_DS483739v1" chrStart: 254803968
+droso.fa : chr # 554  "chrUn_DS485903v1" chrStart: 255066112
+droso.fa : chr # 555  "chrUn_DS485983v1" chrStart: 255328256
+droso.fa : chr # 556  "chrUn_DS484984v1" chrStart: 255590400
+droso.fa : chr # 557  "chrUn_DS485582v1" chrStart: 255852544
+droso.fa : chr # 558  "chrUn_DS485880v1" chrStart: 256114688
+droso.fa : chr # 559  "chrUn_DS485273v1" chrStart: 256376832
+droso.fa : chr # 560  "chrUn_DS485583v1" chrStart: 256638976
+droso.fa : chr # 561  "chrUn_DS485309v1" chrStart: 256901120
+droso.fa : chr # 562  "chrUn_DS485428v1" chrStart: 257163264
+droso.fa : chr # 563  "chrUn_DS484967v1" chrStart: 257425408
+droso.fa : chr # 564  "chrUn_DS484910v1" chrStart: 257687552
+droso.fa : chr # 565  "chrUn_DS484550v1" chrStart: 257949696
+droso.fa : chr # 566  "chrUn_DS485666v1" chrStart: 258211840
+droso.fa : chr # 567  "chrUn_DS483944v1" chrStart: 258473984
+droso.fa : chr # 568  "chrUn_DS484894v1" chrStart: 258736128
+droso.fa : chr # 569  "chrUn_DS483908v1" chrStart: 258998272
+droso.fa : chr # 570  "chrUn_DS484244v1" chrStart: 259260416
+droso.fa : chr # 571  "chrUn_DS485632v1" chrStart: 259522560
+droso.fa : chr # 572  "chrUn_DS485291v1" chrStart: 259784704
+droso.fa : chr # 573  "chrUn_DS484472v1" chrStart: 260046848
+droso.fa : chr # 574  "chrUn_DS485045v1" chrStart: 260308992
+droso.fa : chr # 575  "chrUn_DS483792v1" chrStart: 260571136
+droso.fa : chr # 576  "chrUn_DS485986v1" chrStart: 260833280
+droso.fa : chr # 577  "chrUn_DS485823v1" chrStart: 261095424
+droso.fa : chr # 578  "chrUn_DS483848v1" chrStart: 261357568
+droso.fa : chr # 579  "chrUn_DS484886v1" chrStart: 261619712
+droso.fa : chr # 580  "chrUn_DS484025v1" chrStart: 261881856
+droso.fa : chr # 581  "chrUn_DS483856v1" chrStart: 262144000
+droso.fa : chr # 582  "chrUn_DS485543v1" chrStart: 262406144
+droso.fa : chr # 583  "chrUn_DS485520v1" chrStart: 262668288
+droso.fa : chr # 584  "chrUn_DS485725v1" chrStart: 262930432
+droso.fa : chr # 585  "chrUn_DS485264v1" chrStart: 263192576
+droso.fa : chr # 586  "chrUn_DS485497v1" chrStart: 263454720
+droso.fa : chr # 587  "chrUn_DS485996v1" chrStart: 263716864
+droso.fa : chr # 588  "chrUn_DS485025v1" chrStart: 263979008
+droso.fa : chr # 589  "chrUn_DS485118v1" chrStart: 264241152
+droso.fa : chr # 590  "chrUn_DS485220v1" chrStart: 264503296
+droso.fa : chr # 591  "chrUn_DS485569v1" chrStart: 264765440
+droso.fa : chr # 592  "chrUn_DS484919v1" chrStart: 265027584
+droso.fa : chr # 593  "chrUn_DS484149v1" chrStart: 265289728
+droso.fa : chr # 594  "chrUn_DS485127v1" chrStart: 265551872
+droso.fa : chr # 595  "chrUn_DS485439v1" chrStart: 265814016
+droso.fa : chr # 596  "chrUn_DS483673v1" chrStart: 266076160
+droso.fa : chr # 597  "chrUn_DS484929v1" chrStart: 266338304
+droso.fa : chr # 598  "chrUn_DS485441v1" chrStart: 266600448
+droso.fa : chr # 599  "chrUn_DS483701v1" chrStart: 266862592
+droso.fa : chr # 600  "chrUn_DS485796v1" chrStart: 267124736
+droso.fa : chr # 601  "chrUn_DS485218v1" chrStart: 267386880
+droso.fa : chr # 602  "chrUn_DS485712v1" chrStart: 267649024
+droso.fa : chr # 603  "chrUn_DS483979v1" chrStart: 267911168
+droso.fa : chr # 604  "chrUn_DS485087v1" chrStart: 268173312
+droso.fa : chr # 605  "chrUn_DS484889v1" chrStart: 268435456
+droso.fa : chr # 606  "chrUn_DS484291v1" chrStart: 268697600
+droso.fa : chr # 607  "chrUn_DS485053v1" chrStart: 268959744
+droso.fa : chr # 608  "chrUn_DS484093v1" chrStart: 269221888
+droso.fa : chr # 609  "chrUn_DS485850v1" chrStart: 269484032
+droso.fa : chr # 610  "chrUn_DS485243v1" chrStart: 269746176
+droso.fa : chr # 611  "chrUn_DS485215v1" chrStart: 270008320
+droso.fa : chr # 612  "chrUn_DS485370v1" chrStart: 270270464
+droso.fa : chr # 613  "chrUn_DS483825v1" chrStart: 270532608
+droso.fa : chr # 614  "chrUn_DS484658v1" chrStart: 270794752
+droso.fa : chr # 615  "chrUn_DS483820v1" chrStart: 271056896
+droso.fa : chr # 616  "chrUn_DS484851v1" chrStart: 271319040
+droso.fa : chr # 617  "chrUn_DS483688v1" chrStart: 271581184
+droso.fa : chr # 618  "chrUn_DS485233v1" chrStart: 271843328
+droso.fa : chr # 619  "chrUn_DS483853v1" chrStart: 272105472
+droso.fa : chr # 620  "chrUn_DS484847v1" chrStart: 272367616
+droso.fa : chr # 621  "chrUn_DS485818v1" chrStart: 272629760
+droso.fa : chr # 622  "chrUn_DS485383v1" chrStart: 272891904
+droso.fa : chr # 623  "chrUn_DS484435v1" chrStart: 273154048
+droso.fa : chr # 624  "chrUn_DS484565v1" chrStart: 273416192
+droso.fa : chr # 625  "chrUn_DS485379v1" chrStart: 273678336
+droso.fa : chr # 626  "chrUn_DS484403v1" chrStart: 273940480
+droso.fa : chr # 627  "chrUn_DS483930v1" chrStart: 274202624
+droso.fa : chr # 628  "chrUn_DS484370v1" chrStart: 274464768
+droso.fa : chr # 629  "chrUn_DS485203v1" chrStart: 274726912
+droso.fa : chr # 630  "chrUn_DS484635v1" chrStart: 274989056
+droso.fa : chr # 631  "chrUn_DS484231v1" chrStart: 275251200
+droso.fa : chr # 632  "chrUn_DS485392v1" chrStart: 275513344
+droso.fa : chr # 633  "chrUn_DS484098v1" chrStart: 275775488
+droso.fa : chr # 634  "chrUn_DS484678v1" chrStart: 276037632
+droso.fa : chr # 635  "chrUn_DS485521v1" chrStart: 276299776
+droso.fa : chr # 636  "chrUn_DS485251v1" chrStart: 276561920
+droso.fa : chr # 637  "chrUn_DS483675v1" chrStart: 276824064
+droso.fa : chr # 638  "chrUn_DS485775v1" chrStart: 277086208
+droso.fa : chr # 639  "chrUn_DS484838v1" chrStart: 277348352
+droso.fa : chr # 640  "chrUn_DS485263v1" chrStart: 277610496
+droso.fa : chr # 641  "chrUn_DS484804v1" chrStart: 277872640
+droso.fa : chr # 642  "chrUn_DS485571v1" chrStart: 278134784
+droso.fa : chr # 643  "chrUn_DS484236v1" chrStart: 278396928
+droso.fa : chr # 644  "chrUn_DS484954v1" chrStart: 278659072
+droso.fa : chr # 645  "chrUn_DS484467v1" chrStart: 278921216
+droso.fa : chr # 646  "chrUn_DS484148v1" chrStart: 279183360
+droso.fa : chr # 647  "chrUn_DS484817v1" chrStart: 279445504
+droso.fa : chr # 648  "chrUn_DS483741v1" chrStart: 279707648
+droso.fa : chr # 649  "chrUn_DS485911v1" chrStart: 279969792
+droso.fa : chr # 650  "chrUn_DS484157v1" chrStart: 280231936
+droso.fa : chr # 651  "chrUn_DS484852v1" chrStart: 280494080
+droso.fa : chr # 652  "chrUn_DS485636v1" chrStart: 280756224
+droso.fa : chr # 653  "chrUn_DS484588v1" chrStart: 281018368
+droso.fa : chr # 654  "chrUn_DS483769v1" chrStart: 281280512
+droso.fa : chr # 655  "chrUn_DS484779v1" chrStart: 281542656
+droso.fa : chr # 656  "chrUn_DS485326v1" chrStart: 281804800
+droso.fa : chr # 657  "chrUn_DS485642v1" chrStart: 282066944
+droso.fa : chr # 658  "chrUn_DS485184v1" chrStart: 282329088
+droso.fa : chr # 659  "chrUn_DS485228v1" chrStart: 282591232
+droso.fa : chr # 660  "chrUn_DS483663v1" chrStart: 282853376
+droso.fa : chr # 661  "chrUn_DS483804v1" chrStart: 283115520
+droso.fa : chr # 662  "chrUn_DS484169v1" chrStart: 283377664
+droso.fa : chr # 663  "chrUn_DS485491v1" chrStart: 283639808
+droso.fa : chr # 664  "chrUn_DS485657v1" chrStart: 283901952
+droso.fa : chr # 665  "chrUn_DS484520v1" chrStart: 284164096
+droso.fa : chr # 666  "chrUn_DS485780v1" chrStart: 284426240
+droso.fa : chr # 667  "chrUn_DS484253v1" chrStart: 284688384
+droso.fa : chr # 668  "chrUn_DS484591v1" chrStart: 284950528
+droso.fa : chr # 669  "chrUn_DS484673v1" chrStart: 285212672
+droso.fa : chr # 670  "chrUn_DS485528v1" chrStart: 285474816
+droso.fa : chr # 671  "chrUn_DS485656v1" chrStart: 285736960
+droso.fa : chr # 672  "chrUn_DS483659v1" chrStart: 285999104
+droso.fa : chr # 673  "chrUn_DS485011v1" chrStart: 286261248
+droso.fa : chr # 674  "chrUn_DS485737v1" chrStart: 286523392
+droso.fa : chr # 675  "chrUn_DS485160v1" chrStart: 286785536
+droso.fa : chr # 676  "chrUn_DS485208v1" chrStart: 287047680
+droso.fa : chr # 677  "chrUn_DS485717v1" chrStart: 287309824
+droso.fa : chr # 678  "chrUn_DS484882v1" chrStart: 287571968
+droso.fa : chr # 679  "chrUn_DS483686v1" chrStart: 287834112
+droso.fa : chr # 680  "chrUn_DS485876v1" chrStart: 288096256
+droso.fa : chr # 681  "chrUn_DS484831v1" chrStart: 288358400
+droso.fa : chr # 682  "chrUn_DS484205v1" chrStart: 288620544
+droso.fa : chr # 683  "chrUn_DS485434v1" chrStart: 288882688
+droso.fa : chr # 684  "chrUn_DS484003v1" chrStart: 289144832
+droso.fa : chr # 685  "chrUn_DS485948v1" chrStart: 289406976
+droso.fa : chr # 686  "chrUn_DS484340v1" chrStart: 289669120
+droso.fa : chr # 687  "chrUn_DS483965v1" chrStart: 289931264
+droso.fa : chr # 688  "chrUn_DS485068v1" chrStart: 290193408
+droso.fa : chr # 689  "chrUn_DS485533v1" chrStart: 290455552
+droso.fa : chr # 690  "chrUn_DS484774v1" chrStart: 290717696
+droso.fa : chr # 691  "chrUn_DS485292v1" chrStart: 290979840
+droso.fa : chr # 692  "chrUn_DS484156v1" chrStart: 291241984
+droso.fa : chr # 693  "chrUn_DS485709v1" chrStart: 291504128
+droso.fa : chr # 694  "chrUn_DS485947v1" chrStart: 291766272
+droso.fa : chr # 695  "chrUn_DS484544v1" chrStart: 292028416
+droso.fa : chr # 696  "chrUn_DS484524v1" chrStart: 292290560
+droso.fa : chr # 697  "chrUn_DS485275v1" chrStart: 292552704
+droso.fa : chr # 698  "chrUn_DS485527v1" chrStart: 292814848
+droso.fa : chr # 699  "chrUn_DS484619v1" chrStart: 293076992
+droso.fa : chr # 700  "chrUn_DS483801v1" chrStart: 293339136
+droso.fa : chr # 701  "chrUn_DS484307v1" chrStart: 293601280
+droso.fa : chr # 702  "chrUn_DS483687v1" chrStart: 293863424
+droso.fa : chr # 703  "chrUn_DS484463v1" chrStart: 294125568
+droso.fa : chr # 704  "chrUn_DS485939v1" chrStart: 294387712
+droso.fa : chr # 705  "chrUn_DS485146v1" chrStart: 294649856
+droso.fa : chr # 706  "chrUn_DS485174v1" chrStart: 294912000
+droso.fa : chr # 707  "chrUn_DS485194v1" chrStart: 295174144
+droso.fa : chr # 708  "chrUn_DS484283v1" chrStart: 295436288
+droso.fa : chr # 709  "chrUn_DS485500v1" chrStart: 295698432
+droso.fa : chr # 710  "chrUn_DS484183v1" chrStart: 295960576
+droso.fa : chr # 711  "chrUn_DS484499v1" chrStart: 296222720
+droso.fa : chr # 712  "chrUn_DS485338v1" chrStart: 296484864
+droso.fa : chr # 713  "chrUn_DS485036v1" chrStart: 296747008
+droso.fa : chr # 714  "chrUn_DS484553v1" chrStart: 297009152
+droso.fa : chr # 715  "chrUn_DS485587v1" chrStart: 297271296
+droso.fa : chr # 716  "chrUn_DS485265v1" chrStart: 297533440
+droso.fa : chr # 717  "chrUn_DS484425v1" chrStart: 297795584
+droso.fa : chr # 718  "chrUn_DS484802v1" chrStart: 298057728
+droso.fa : chr # 719  "chrUn_DS485538v1" chrStart: 298319872
+droso.fa : chr # 720  "chrUn_DS483872v1" chrStart: 298582016
+droso.fa : chr # 721  "chrUn_DS485319v1" chrStart: 298844160
+droso.fa : chr # 722  "chrUn_DS484752v1" chrStart: 299106304
+droso.fa : chr # 723  "chrUn_DS485630v1" chrStart: 299368448
+droso.fa : chr # 724  "chrUn_DS483915v1" chrStart: 299630592
+droso.fa : chr # 725  "chrUn_DS485161v1" chrStart: 299892736
+droso.fa : chr # 726  "chrUn_DS485482v1" chrStart: 300154880
+droso.fa : chr # 727  "chrUn_DS484943v1" chrStart: 300417024
+droso.fa : chr # 728  "chrUn_DS484722v1" chrStart: 300679168
+droso.fa : chr # 729  "chrUn_DS485010v1" chrStart: 300941312
+droso.fa : chr # 730  "chrUn_DS485952v1" chrStart: 301203456
+droso.fa : chr # 731  "chrUn_DS484869v1" chrStart: 301465600
+droso.fa : chr # 732  "chrUn_DS483749v1" chrStart: 301727744
+droso.fa : chr # 733  "chrUn_DS484799v1" chrStart: 301989888
+droso.fa : chr # 734  "chrUn_DS484998v1" chrStart: 302252032
+droso.fa : chr # 735  "chrUn_DS484041v1" chrStart: 302514176
+droso.fa : chr # 736  "chrUn_DS483841v1" chrStart: 302776320
+droso.fa : chr # 737  "chrUn_DS485031v1" chrStart: 303038464
+droso.fa : chr # 738  "chrUn_DS484254v1" chrStart: 303300608
+droso.fa : chr # 739  "chrUn_DS484279v1" chrStart: 303562752
+droso.fa : chr # 740  "chrUn_DS484503v1" chrStart: 303824896
+droso.fa : chr # 741  "chrUn_DS483658v1" chrStart: 304087040
+droso.fa : chr # 742  "chrUn_DS485397v1" chrStart: 304349184
+droso.fa : chr # 743  "chrUn_DS485004v1" chrStart: 304611328
+droso.fa : chr # 744  "chrUn_DS485046v1" chrStart: 304873472
+droso.fa : chr # 745  "chrUn_DS485382v1" chrStart: 305135616
+droso.fa : chr # 746  "chrUn_DS485728v1" chrStart: 305397760
+droso.fa : chr # 747  "chrUn_DS485125v1" chrStart: 305659904
+droso.fa : chr # 748  "chrUn_DS485200v1" chrStart: 305922048
+droso.fa : chr # 749  "chrUn_DS484471v1" chrStart: 306184192
+droso.fa : chr # 750  "chrUn_DS483750v1" chrStart: 306446336
+droso.fa : chr # 751  "chrUn_DS485946v1" chrStart: 306708480
+droso.fa : chr # 752  "chrUn_DS484874v1" chrStart: 306970624
+droso.fa : chr # 753  "chrUn_DS485258v1" chrStart: 307232768
+droso.fa : chr # 754  "chrUn_DS485833v1" chrStart: 307494912
+droso.fa : chr # 755  "chrUn_DS485944v1" chrStart: 307757056
+droso.fa : chr # 756  "chrUn_DS485714v1" chrStart: 308019200
+droso.fa : chr # 757  "chrUn_DS483920v1" chrStart: 308281344
+droso.fa : chr # 758  "chrUn_DS485464v1" chrStart: 308543488
+droso.fa : chr # 759  "chrUn_DS484614v1" chrStart: 308805632
+droso.fa : chr # 760  "chrUn_DS484153v1" chrStart: 309067776
+droso.fa : chr # 761  "chrUn_DS485461v1" chrStart: 309329920
+droso.fa : chr # 762  "chrUn_DS484828v1" chrStart: 309592064
+droso.fa : chr # 763  "chrUn_DS484834v1" chrStart: 309854208
+droso.fa : chr # 764  "chrUn_DS483913v1" chrStart: 310116352
+droso.fa : chr # 765  "chrUn_DS483670v1" chrStart: 310378496
+droso.fa : chr # 766  "chrUn_DS484427v1" chrStart: 310640640
+droso.fa : chr # 767  "chrUn_DS485247v1" chrStart: 310902784
+droso.fa : chr # 768  "chrUn_DS484083v1" chrStart: 311164928
+droso.fa : chr # 769  "chrUn_DS485530v1" chrStart: 311427072
+droso.fa : chr # 770  "chrUn_DS485020v1" chrStart: 311689216
+droso.fa : chr # 771  "chrUn_DS485827v1" chrStart: 311951360
+droso.fa : chr # 772  "chrUn_DS484047v1" chrStart: 312213504
+droso.fa : chr # 773  "chrUn_DS485149v1" chrStart: 312475648
+droso.fa : chr # 774  "chrUn_DS484287v1" chrStart: 312737792
+droso.fa : chr # 775  "chrUn_DS485655v1" chrStart: 312999936
+droso.fa : chr # 776  "chrUn_DS485757v1" chrStart: 313262080
+droso.fa : chr # 777  "chrUn_DS484062v1" chrStart: 313524224
+droso.fa : chr # 778  "chrUn_DS485932v1" chrStart: 313786368
+droso.fa : chr # 779  "chrUn_DS484348v1" chrStart: 314048512
+droso.fa : chr # 780  "chrUn_DS484686v1" chrStart: 314310656
+droso.fa : chr # 781  "chrUn_DS485253v1" chrStart: 314572800
+droso.fa : chr # 782  "chrUn_DS485953v1" chrStart: 314834944
+droso.fa : chr # 783  "chrUn_DS484812v1" chrStart: 315097088
+droso.fa : chr # 784  "chrUn_DS484449v1" chrStart: 315359232
+droso.fa : chr # 785  "chrUn_DS485032v1" chrStart: 315621376
+droso.fa : chr # 786  "chrUn_DS484438v1" chrStart: 315883520
+droso.fa : chr # 787  "chrUn_DS485923v1" chrStart: 316145664
+droso.fa : chr # 788  "chrUn_DS484314v1" chrStart: 316407808
+droso.fa : chr # 789  "chrUn_DS485306v1" chrStart: 316669952
+droso.fa : chr # 790  "chrUn_DS483975v1" chrStart: 316932096
+droso.fa : chr # 791  "chrUn_DS485770v1" chrStart: 317194240
+droso.fa : chr # 792  "chrUn_DS485204v1" chrStart: 317456384
+droso.fa : chr # 793  "chrUn_DS484502v1" chrStart: 317718528
+droso.fa : chr # 794  "chrUn_DS485667v1" chrStart: 317980672
+droso.fa : chr # 795  "chrUn_DS483679v1" chrStart: 318242816
+droso.fa : chr # 796  "chrUn_DS484080v1" chrStart: 318504960
+droso.fa : chr # 797  "chrUn_DS484712v1" chrStart: 318767104
+droso.fa : chr # 798  "chrUn_DS484742v1" chrStart: 319029248
+droso.fa : chr # 799  "chrUn_DS483939v1" chrStart: 319291392
+droso.fa : chr # 800  "chrUn_DS485535v1" chrStart: 319553536
+droso.fa : chr # 801  "chrUn_DS484258v1" chrStart: 319815680
+droso.fa : chr # 802  "chrUn_DS484285v1" chrStart: 320077824
+droso.fa : chr # 803  "chrUn_DS484509v1" chrStart: 320339968
+droso.fa : chr # 804  "chrUn_DS485211v1" chrStart: 320602112
+droso.fa : chr # 805  "chrUn_DS483867v1" chrStart: 320864256
+droso.fa : chr # 806  "chrUn_DS485066v1" chrStart: 321126400
+droso.fa : chr # 807  "chrUn_DS484630v1" chrStart: 321388544
+droso.fa : chr # 808  "chrUn_DS484271v1" chrStart: 321650688
+droso.fa : chr # 809  "chrUn_DS484117v1" chrStart: 321912832
+droso.fa : chr # 810  "chrUn_DS484042v1" chrStart: 322174976
+droso.fa : chr # 811  "chrUn_DS483746v1" chrStart: 322437120
+droso.fa : chr # 812  "chrUn_DS484932v1" chrStart: 322699264
+droso.fa : chr # 813  "chrUn_DS485177v1" chrStart: 322961408
+droso.fa : chr # 814  "chrUn_DS485540v1" chrStart: 323223552
+droso.fa : chr # 815  "chrUn_DS484815v1" chrStart: 323485696
+droso.fa : chr # 816  "chrUn_DS483989v1" chrStart: 323747840
+droso.fa : chr # 817  "chrUn_DS483767v1" chrStart: 324009984
+droso.fa : chr # 818  "chrUn_DS485621v1" chrStart: 324272128
+droso.fa : chr # 819  "chrUn_DS483782v1" chrStart: 324534272
+droso.fa : chr # 820  "chrUn_DS485774v1" chrStart: 324796416
+droso.fa : chr # 821  "chrUn_DS483862v1" chrStart: 325058560
+droso.fa : chr # 822  "chrUn_DS484513v1" chrStart: 325320704
+droso.fa : chr # 823  "chrUn_DS484878v1" chrStart: 325582848
+droso.fa : chr # 824  "chrUn_DS483737v1" chrStart: 325844992
+droso.fa : chr # 825  "chrUn_DS483689v1" chrStart: 326107136
+droso.fa : chr # 826  "chrUn_DS484671v1" chrStart: 326369280
+droso.fa : chr # 827  "chrUn_DS484255v1" chrStart: 326631424
+droso.fa : chr # 828  "chrUn_DS485481v1" chrStart: 326893568
+droso.fa : chr # 829  "chrUn_DS484528v1" chrStart: 327155712
+droso.fa : chr # 830  "chrUn_DS484797v1" chrStart: 327417856
+droso.fa : chr # 831  "chrUn_DS485874v1" chrStart: 327680000
+droso.fa : chr # 832  "chrUn_DS484286v1" chrStart: 327942144
+droso.fa : chr # 833  "chrUn_DS484177v1" chrStart: 328204288
+droso.fa : chr # 834  "chrUn_DS483816v1" chrStart: 328466432
+droso.fa : chr # 835  "chrUn_DS484584v1" chrStart: 328728576
+droso.fa : chr # 836  "chrUn_DS485574v1" chrStart: 328990720
+droso.fa : chr # 837  "chrUn_DS485022v1" chrStart: 329252864
+droso.fa : chr # 838  "chrUn_DS485750v1" chrStart: 329515008
+droso.fa : chr # 839  "chrUn_DS483815v1" chrStart: 329777152
+droso.fa : chr # 840  "chrUn_DS484389v1" chrStart: 330039296
+droso.fa : chr # 841  "chrUn_DS484656v1" chrStart: 330301440
+droso.fa : chr # 842  "chrUn_DS485567v1" chrStart: 330563584
+droso.fa : chr # 843  "chrUn_DS484692v1" chrStart: 330825728
+droso.fa : chr # 844  "chrUn_DS483858v1" chrStart: 331087872
+droso.fa : chr # 845  "chrUn_DS484458v1" chrStart: 331350016
+droso.fa : chr # 846  "chrUn_DS485628v1" chrStart: 331612160
+droso.fa : chr # 847  "chrUn_DS483961v1" chrStart: 331874304
+droso.fa : chr # 848  "chrUn_DS485966v1" chrStart: 332136448
+droso.fa : chr # 849  "chrUn_DS484147v1" chrStart: 332398592
+droso.fa : chr # 850  "chrUn_DS484378v1" chrStart: 332660736
+droso.fa : chr # 851  "chrUn_DS485754v1" chrStart: 332922880
+droso.fa : chr # 852  "chrUn_DS484017v1" chrStart: 333185024
+droso.fa : chr # 853  "chrUn_DS485918v1" chrStart: 333447168
+droso.fa : chr # 854  "chrUn_DS485314v1" chrStart: 333709312
+droso.fa : chr # 855  "chrUn_DS485692v1" chrStart: 333971456
+droso.fa : chr # 856  "chrUn_DS484300v1" chrStart: 334233600
+droso.fa : chr # 857  "chrUn_DS483953v1" chrStart: 334495744
+droso.fa : chr # 858  "chrUn_DS484138v1" chrStart: 334757888
+droso.fa : chr # 859  "chrUn_DS485593v1" chrStart: 335020032
+droso.fa : chr # 860  "chrUn_DS484342v1" chrStart: 335282176
+droso.fa : chr # 861  "chrUn_DS484557v1" chrStart: 335544320
+droso.fa : chr # 862  "chrUn_DS484685v1" chrStart: 335806464
+droso.fa : chr # 863  "chrUn_DS484607v1" chrStart: 336068608
+droso.fa : chr # 864  "chrUn_DS484189v1" chrStart: 336330752
+droso.fa : chr # 865  "chrUn_DS485610v1" chrStart: 336592896
+droso.fa : chr # 866  "chrUn_DS485151v1" chrStart: 336855040
+droso.fa : chr # 867  "chrUn_DS484267v1" chrStart: 337117184
+droso.fa : chr # 868  "chrUn_DS484020v1" chrStart: 337379328
+droso.fa : chr # 869  "chrUn_DS485525v1" chrStart: 337641472
+droso.fa : chr # 870  "chrUn_DS485429v1" chrStart: 337903616
+droso.fa : chr # 871  "chrUn_DS485088v1" chrStart: 338165760
+droso.fa : chr # 872  "chrUn_DS485190v1" chrStart: 338427904
+droso.fa : chr # 873  "chrUn_DS485565v1" chrStart: 338690048
+droso.fa : chr # 874  "chrUn_DS483870v1" chrStart: 338952192
+droso.fa : chr # 875  "chrUn_DS484022v1" chrStart: 339214336
+droso.fa : chr # 876  "chrUn_DS484836v1" chrStart: 339476480
+droso.fa : chr # 877  "chrUn_DS484105v1" chrStart: 339738624
+droso.fa : chr # 878  "chrUn_DS485889v1" chrStart: 340000768
+droso.fa : chr # 879  "chrUn_DS484109v1" chrStart: 340262912
+droso.fa : chr # 880  "chrUn_DS485882v1" chrStart: 340525056
+droso.fa : chr # 881  "chrUn_DS483824v1" chrStart: 340787200
+droso.fa : chr # 882  "chrUn_DS485426v1" chrStart: 341049344
+droso.fa : chr # 883  "chrUn_DS485083v1" chrStart: 341311488
+droso.fa : chr # 884  "chrUn_DS485851v1" chrStart: 341573632
+droso.fa : chr # 885  "chrUn_DS483945v1" chrStart: 341835776
+droso.fa : chr # 886  "chrUn_DS484534v1" chrStart: 342097920
+droso.fa : chr # 887  "chrUn_DS484901v1" chrStart: 342360064
+droso.fa : chr # 888  "chrUn_DS484789v1" chrStart: 342622208
+droso.fa : chr # 889  "chrUn_DS483904v1" chrStart: 342884352
+droso.fa : chr # 890  "chrUn_DS484264v1" chrStart: 343146496
+droso.fa : chr # 891  "chrUn_DS484086v1" chrStart: 343408640
+droso.fa : chr # 892  "chrUn_DS484089v1" chrStart: 343670784
+droso.fa : chr # 893  "chrUn_DS485792v1" chrStart: 343932928
+droso.fa : chr # 894  "chrUn_DS485085v1" chrStart: 344195072
+droso.fa : chr # 895  "chrUn_DS483773v1" chrStart: 344457216
+droso.fa : chr # 896  "chrUn_DS483837v1" chrStart: 344719360
+droso.fa : chr # 897  "chrUn_DS485648v1" chrStart: 344981504
+droso.fa : chr # 898  "chrUn_DS485105v1" chrStart: 345243648
+droso.fa : chr # 899  "chrUn_DS485694v1" chrStart: 345505792
+droso.fa : chr # 900  "chrUn_DS485389v1" chrStart: 345767936
+droso.fa : chr # 901  "chrUn_DS484343v1" chrStart: 346030080
+droso.fa : chr # 902  "chrUn_DS483702v1" chrStart: 346292224
+droso.fa : chr # 903  "chrUn_DS485640v1" chrStart: 346554368
+droso.fa : chr # 904  "chrUn_DS483868v1" chrStart: 346816512
+droso.fa : chr # 905  "chrUn_DS485806v1" chrStart: 347078656
+droso.fa : chr # 906  "chrUn_DS484434v1" chrStart: 347340800
+droso.fa : chr # 907  "chrUn_DS484888v1" chrStart: 347602944
+droso.fa : chr # 908  "chrUn_DS484693v1" chrStart: 347865088
+droso.fa : chr # 909  "chrUn_DS485627v1" chrStart: 348127232
+droso.fa : chr # 910  "chrUn_DS485245v1" chrStart: 348389376
+droso.fa : chr # 911  "chrUn_DS485595v1" chrStart: 348651520
+droso.fa : chr # 912  "chrUn_DS484064v1" chrStart: 348913664
+droso.fa : chr # 913  "chrUn_DS485176v1" chrStart: 349175808
+droso.fa : chr # 914  "chrUn_DS485252v1" chrStart: 349437952
+droso.fa : chr # 915  "chrUn_DS485670v1" chrStart: 349700096
+droso.fa : chr # 916  "chrUn_DS485152v1" chrStart: 349962240
+droso.fa : chr # 917  "chrUn_DS484078v1" chrStart: 350224384
+droso.fa : chr # 918  "chrUn_DS483814v1" chrStart: 350486528
+droso.fa : chr # 919  "chrUn_DS484206v1" chrStart: 350748672
+droso.fa : chr # 920  "chrUn_DS485071v1" chrStart: 351010816
+droso.fa : chr # 921  "chrUn_DS484070v1" chrStart: 351272960
+droso.fa : chr # 922  "chrUn_DS485584v1" chrStart: 351535104
+droso.fa : chr # 923  "chrUn_DS483886v1" chrStart: 351797248
+droso.fa : chr # 924  "chrUn_DS484773v1" chrStart: 352059392
+droso.fa : chr # 925  "chrUn_DS484004v1" chrStart: 352321536
+droso.fa : chr # 926  "chrUn_DS485393v1" chrStart: 352583680
+droso.fa : chr # 927  "chrUn_DS484192v1" chrStart: 352845824
+droso.fa : chr # 928  "chrUn_DS483891v1" chrStart: 353107968
+droso.fa : chr # 929  "chrUn_DS484217v1" chrStart: 353370112
+droso.fa : chr # 930  "chrUn_DS484055v1" chrStart: 353632256
+droso.fa : chr # 931  "chrUn_DS484015v1" chrStart: 353894400
+droso.fa : chr # 932  "chrUn_DS485848v1" chrStart: 354156544
+droso.fa : chr # 933  "chrUn_DS485221v1" chrStart: 354418688
+droso.fa : chr # 934  "chrUn_DS485227v1" chrStart: 354680832
+droso.fa : chr # 935  "chrUn_DS485579v1" chrStart: 354942976
+droso.fa : chr # 936  "chrUn_DS485400v1" chrStart: 355205120
+droso.fa : chr # 937  "chrUn_DS485154v1" chrStart: 355467264
+droso.fa : chr # 938  "chrUn_DS483956v1" chrStart: 355729408
+droso.fa : chr # 939  "chrUn_DS483854v1" chrStart: 355991552
+droso.fa : chr # 940  "chrUn_DS485410v1" chrStart: 356253696
+droso.fa : chr # 941  "chrUn_DS484718v1" chrStart: 356515840
+droso.fa : chr # 942  "chrUn_DS484412v1" chrStart: 356777984
+droso.fa : chr # 943  "chrUn_DS484424v1" chrStart: 357040128
+droso.fa : chr # 944  "chrUn_DS484213v1" chrStart: 357302272
+droso.fa : chr # 945  "chrUn_DS485157v1" chrStart: 357564416
+droso.fa : chr # 946  "chrUn_DS484940v1" chrStart: 357826560
+droso.fa : chr # 947  "chrUn_DS484221v1" chrStart: 358088704
+droso.fa : chr # 948  "chrUn_DS485746v1" chrStart: 358350848
+droso.fa : chr # 949  "chrUn_DS484466v1" chrStart: 358612992
+droso.fa : chr # 950  "chrUn_DS484306v1" chrStart: 358875136
+droso.fa : chr # 951  "chrUn_DS485807v1" chrStart: 359137280
+droso.fa : chr # 952  "chrUn_DS485591v1" chrStart: 359399424
+droso.fa : chr # 953  "chrUn_DS484486v1" chrStart: 359661568
+droso.fa : chr # 954  "chrUn_DS485030v1" chrStart: 359923712
+droso.fa : chr # 955  "chrUn_DS484395v1" chrStart: 360185856
+droso.fa : chr # 956  "chrUn_DS485216v1" chrStart: 360448000
+droso.fa : chr # 957  "chrUn_DS483964v1" chrStart: 360710144
+droso.fa : chr # 958  "chrUn_DS484750v1" chrStart: 360972288
+droso.fa : chr # 959  "chrUn_DS484661v1" chrStart: 361234432
+droso.fa : chr # 960  "chrUn_DS484621v1" chrStart: 361496576
+droso.fa : chr # 961  "chrUn_DS484927v1" chrStart: 361758720
+droso.fa : chr # 962  "chrUn_DS485330v1" chrStart: 362020864
+droso.fa : chr # 963  "chrUn_DS485988v1" chrStart: 362283008
+droso.fa : chr # 964  "chrUn_DS485832v1" chrStart: 362545152
+droso.fa : chr # 965  "chrUn_DS484159v1" chrStart: 362807296
+droso.fa : chr # 966  "chrUn_DS485041v1" chrStart: 363069440
+droso.fa : chr # 967  "chrUn_DS484421v1" chrStart: 363331584
+droso.fa : chr # 968  "chrUn_DS485091v1" chrStart: 363593728
+droso.fa : chr # 969  "chrUn_DS485878v1" chrStart: 363855872
+droso.fa : chr # 970  "chrUn_DS485140v1" chrStart: 364118016
+droso.fa : chr # 971  "chrUn_DS485419v1" chrStart: 364380160
+droso.fa : chr # 972  "chrUn_DS484887v1" chrStart: 364642304
+droso.fa : chr # 973  "chrUn_DS485301v1" chrStart: 364904448
+droso.fa : chr # 974  "chrUn_DS485002v1" chrStart: 365166592
+droso.fa : chr # 975  "chrUn_DS484491v1" chrStart: 365428736
+droso.fa : chr # 976  "chrUn_DS485589v1" chrStart: 365690880
+droso.fa : chr # 977  "chrUn_DS485284v1" chrStart: 365953024
+droso.fa : chr # 978  "chrUn_DS484525v1" chrStart: 366215168
+droso.fa : chr # 979  "chrUn_DS484734v1" chrStart: 366477312
+droso.fa : chr # 980  "chrUn_DS484212v1" chrStart: 366739456
+droso.fa : chr # 981  "chrUn_DS483866v1" chrStart: 367001600
+droso.fa : chr # 982  "chrUn_DS484107v1" chrStart: 367263744
+droso.fa : chr # 983  "chrUn_DS484930v1" chrStart: 367525888
+droso.fa : chr # 984  "chrUn_DS484321v1" chrStart: 367788032
+droso.fa : chr # 985  "chrUn_DS485134v1" chrStart: 368050176
+droso.fa : chr # 986  "chrUn_DS484044v1" chrStart: 368312320
+droso.fa : chr # 987  "chrUn_DS484066v1" chrStart: 368574464
+droso.fa : chr # 988  "chrUn_DS484151v1" chrStart: 368836608
+droso.fa : chr # 989  "chrUn_DS484242v1" chrStart: 369098752
+droso.fa : chr # 990  "chrUn_DS484602v1" chrStart: 369360896
+droso.fa : chr # 991  "chrUn_DS484762v1" chrStart: 369623040
+droso.fa : chr # 992  "chrUn_DS484408v1" chrStart: 369885184
+droso.fa : chr # 993  "chrUn_DS485067v1" chrStart: 370147328
+droso.fa : chr # 994  "chrUn_DS485297v1" chrStart: 370409472
+droso.fa : chr # 995  "chrUn_DS484700v1" chrStart: 370671616
+droso.fa : chr # 996  "chrUn_DS484116v1" chrStart: 370933760
+droso.fa : chr # 997  "chrUn_DS484335v1" chrStart: 371195904
+droso.fa : chr # 998  "chrUn_DS485169v1" chrStart: 371458048
+droso.fa : chr # 999  "chrUn_DS485448v1" chrStart: 371720192
+droso.fa : chr # 1000  "chrUn_DS483822v1" chrStart: 371982336
+droso.fa : chr # 1001  "chrUn_DS484792v1" chrStart: 372244480
+droso.fa : chr # 1002  "chrUn_DS483768v1" chrStart: 372506624
+droso.fa : chr # 1003  "chrUn_DS483735v1" chrStart: 372768768
+droso.fa : chr # 1004  "chrUn_DS485653v1" chrStart: 373030912
+droso.fa : chr # 1005  "chrUn_DS484662v1" chrStart: 373293056
+droso.fa : chr # 1006  "chrUn_DS484097v1" chrStart: 373555200
+droso.fa : chr # 1007  "chrUn_DS484001v1" chrStart: 373817344
+droso.fa : chr # 1008  "chrUn_DS485609v1" chrStart: 374079488
+droso.fa : chr # 1009  "chrUn_DS485323v1" chrStart: 374341632
+droso.fa : chr # 1010  "chrUn_DS483649v1" chrStart: 374603776
+droso.fa : chr # 1011  "chrUn_DS484079v1" chrStart: 374865920
+droso.fa : chr # 1012  "chrUn_DS484065v1" chrStart: 375128064
+droso.fa : chr # 1013  "chrUn_DS485035v1" chrStart: 375390208
+droso.fa : chr # 1014  "chrUn_DS485897v1" chrStart: 375652352
+droso.fa : chr # 1015  "chrUn_DS485503v1" chrStart: 375914496
+droso.fa : chr # 1016  "chrUn_DS484521v1" chrStart: 376176640
+droso.fa : chr # 1017  "chrUn_DS484104v1" chrStart: 376438784
+droso.fa : chr # 1018  "chrUn_DS483863v1" chrStart: 376700928
+droso.fa : chr # 1019  "chrUn_DS484196v1" chrStart: 376963072
+droso.fa : chr # 1020  "chrUn_DS484318v1" chrStart: 377225216
+droso.fa : chr # 1021  "chrUn_DS485955v1" chrStart: 377487360
+droso.fa : chr # 1022  "chrUn_DS485624v1" chrStart: 377749504
+droso.fa : chr # 1023  "chrUn_DS484729v1" chrStart: 378011648
+droso.fa : chr # 1024  "chrUn_DS484573v1" chrStart: 378273792
+droso.fa : chr # 1025  "chrUn_DS484464v1" chrStart: 378535936
+droso.fa : chr # 1026  "chrUn_DS483994v1" chrStart: 378798080
+droso.fa : chr # 1027  "chrUn_DS484013v1" chrStart: 379060224
+droso.fa : chr # 1028  "chrUn_DS484714v1" chrStart: 379322368
+droso.fa : chr # 1029  "chrUn_DS484649v1" chrStart: 379584512
+droso.fa : chr # 1030  "chrUn_DS484543v1" chrStart: 379846656
+droso.fa : chr # 1031  "chrUn_DS484308v1" chrStart: 380108800
+droso.fa : chr # 1032  "chrUn_DS485155v1" chrStart: 380370944
+droso.fa : chr # 1033  "chrUn_DS485107v1" chrStart: 380633088
+droso.fa : chr # 1034  "chrUn_DS483899v1" chrStart: 380895232
+droso.fa : chr # 1035  "chrUn_DS485162v1" chrStart: 381157376
+droso.fa : chr # 1036  "chrUn_DS484108v1" chrStart: 381419520
+droso.fa : chr # 1037  "chrUn_DS485536v1" chrStart: 381681664
+droso.fa : chr # 1038  "chrUn_DS485198v1" chrStart: 381943808
+droso.fa : chr # 1039  "chrUn_DS484699v1" chrStart: 382205952
+droso.fa : chr # 1040  "chrUn_DS484091v1" chrStart: 382468096
+droso.fa : chr # 1041  "chrUn_DS485144v1" chrStart: 382730240
+droso.fa : chr # 1042  "chrUn_DS485256v1" chrStart: 382992384
+droso.fa : chr # 1043  "chrUn_DS484616v1" chrStart: 383254528
+droso.fa : chr # 1044  "chrUn_DS484862v1" chrStart: 383516672
+droso.fa : chr # 1045  "chrUn_DS484754v1" chrStart: 383778816
+droso.fa : chr # 1046  "chrUn_DS484617v1" chrStart: 384040960
+droso.fa : chr # 1047  "chrUn_DS484917v1" chrStart: 384303104
+droso.fa : chr # 1048  "chrUn_DS483646v1" chrStart: 384565248
+droso.fa : chr # 1049  "chrUn_DS485559v1" chrStart: 384827392
+droso.fa : chr # 1050  "chrUn_DS484120v1" chrStart: 385089536
+droso.fa : chr # 1051  "chrUn_DS483983v1" chrStart: 385351680
+droso.fa : chr # 1052  "chrUn_DS484853v1" chrStart: 385613824
+droso.fa : chr # 1053  "chrUn_DS484780v1" chrStart: 385875968
+droso.fa : chr # 1054  "chrUn_DS484145v1" chrStart: 386138112
+droso.fa : chr # 1055  "chrUn_DS484898v1" chrStart: 386400256
+droso.fa : chr # 1056  "chrUn_DS484926v1" chrStart: 386662400
+droso.fa : chr # 1057  "chrUn_DS484592v1" chrStart: 386924544
+droso.fa : chr # 1058  "chrUn_DS485230v1" chrStart: 387186688
+droso.fa : chr # 1059  "chrUn_DS484870v1" chrStart: 387448832
+droso.fa : chr # 1060  "chrUn_DS484581v1" chrStart: 387710976
+droso.fa : chr # 1061  "chrUn_DS485724v1" chrStart: 387973120
+droso.fa : chr # 1062  "chrUn_DS485695v2" chrStart: 388235264
+droso.fa : chr # 1063  "chrUn_DS484123v1" chrStart: 388497408
+droso.fa : chr # 1064  "chrUn_DS483780v1" chrStart: 388759552
+droso.fa : chr # 1065  "chrUn_DS484007v1" chrStart: 389021696
+droso.fa : chr # 1066  "chrUn_DS484230v1" chrStart: 389283840
+droso.fa : chr # 1067  "chrUn_DS483819v1" chrStart: 389545984
+droso.fa : chr # 1068  "chrUn_DS483898v1" chrStart: 389808128
+droso.fa : chr # 1069  "chrUn_DS483762v1" chrStart: 390070272
+droso.fa : chr # 1070  "chrUn_DS483895v1" chrStart: 390332416
+droso.fa : chr # 1071  "chrUn_DS483929v1" chrStart: 390594560
+droso.fa : chr # 1072  "chrUn_DS484038v1" chrStart: 390856704
+droso.fa : chr # 1073  "chrUn_DS483844v1" chrStart: 391118848
+droso.fa : chr # 1074  "chrUn_DS483806v1" chrStart: 391380992
+droso.fa : chr # 1075  "chrUn_DS483812v1" chrStart: 391643136
+droso.fa : chr # 1076  "chrUn_DS483785v1" chrStart: 391905280
+droso.fa : chr # 1077  "chrUn_DS483943v1" chrStart: 392167424
+droso.fa : chr # 1078  "chrUn_DS483753v1" chrStart: 392429568
+droso.fa : chr # 1079  "chrUn_DS484045v1" chrStart: 392691712
+droso.fa : chr # 1080  "chrUn_DS484144v1" chrStart: 392953856
+droso.fa : chr # 1081  "chrUn_DS483925v1" chrStart: 393216000
+droso.fa : chr # 1082  "chrUn_DS483787v1" chrStart: 393478144
+droso.fa : chr # 1083  "chrUn_DS483865v1" chrStart: 393740288
+droso.fa : chr # 1084  "chrUn_DS484090v1" chrStart: 394002432
+droso.fa : chr # 1085  "chrUn_DS483757v1" chrStart: 394264576
+droso.fa : chr # 1086  "chrUn_DS484010v1" chrStart: 394526720
+droso.fa : chr # 1087  "chrUn_DS484247v1" chrStart: 394788864
+droso.fa : chr # 1088  "chrUn_DS483751v1" chrStart: 395051008
+droso.fa : chr # 1089  "chrUn_DS484280v1" chrStart: 395313152
+droso.fa : chr # 1090  "chrUn_DS484167v1" chrStart: 395575296
+droso.fa : chr # 1091  "chrUn_DS483918v1" chrStart: 395837440
+droso.fa : chr # 1092  "chrUn_DS484414v1" chrStart: 396099584
+droso.fa : chr # 1093  "chrUn_DS484134v1" chrStart: 396361728
+droso.fa : chr # 1094  "chrUn_DS483833v1" chrStart: 396623872
+droso.fa : chr # 1095  "chrUn_DS483878v1" chrStart: 396886016
+droso.fa : chr # 1096  "chrUn_DS484053v1" chrStart: 397148160
+droso.fa : chr # 1097  "chrUn_DS483859v1" chrStart: 397410304
+droso.fa : chr # 1098  "chrUn_DS483793v1" chrStart: 397672448
+droso.fa : chr # 1099  "chrUn_DS483774v1" chrStart: 397934592
+droso.fa : chr # 1100  "chrUn_DS483770v1" chrStart: 398196736
+droso.fa : chr # 1101  "chrUn_DS484225v1" chrStart: 398458880
+droso.fa : chr # 1102  "chrUn_DS483947v1" chrStart: 398721024
+droso.fa : chr # 1103  "chrUn_DS484006v1" chrStart: 398983168
+droso.fa : chr # 1104  "chrUn_DS483954v1" chrStart: 399245312
+droso.fa : chr # 1105  "chrUn_DS483982v1" chrStart: 399507456
+droso.fa : chr # 1106  "chrUn_DS484222v1" chrStart: 399769600
+droso.fa : chr # 1107  "chrUn_DS484092v1" chrStart: 400031744
+droso.fa : chr # 1108  "chrUn_DS483647v1" chrStart: 400293888
+droso.fa : chr # 1109  "chrUn_DS484095v1" chrStart: 400556032
+droso.fa : chr # 1110  "chrUn_DS483776v1" chrStart: 400818176
+droso.fa : chr # 1111  "chrUn_DS484209v1" chrStart: 401080320
+droso.fa : chr # 1112  "chrUn_DS483927v1" chrStart: 401342464
+droso.fa : chr # 1113  "chrUn_DS484234v1" chrStart: 401604608
+droso.fa : chr # 1114  "chrUn_DS483992v1" chrStart: 401866752
+droso.fa : chr # 1115  "chrUn_DS484036v1" chrStart: 402128896
+droso.fa : chr # 1116  "chrUn_DS483986v1" chrStart: 402391040
+droso.fa : chr # 1117  "chrUn_DS484031v1" chrStart: 402653184
+droso.fa : chr # 1118  "chrUn_DS483813v1" chrStart: 402915328
+droso.fa : chr # 1119  "chrUn_DS483881v1" chrStart: 403177472
+droso.fa : chr # 1120  "chrUn_DS484296v1" chrStart: 403439616
+droso.fa : chr # 1121  "chrUn_DS483949v1" chrStart: 403701760
+droso.fa : chr # 1122  "chrUn_DS484000v1" chrStart: 403963904
+droso.fa : chr # 1123  "chrUn_DS483941v1" chrStart: 404226048
+droso.fa : chr # 1124  "chrUn_DS483985v1" chrStart: 404488192
+droso.fa : chr # 1125  "chrUn_DS484375v1" chrStart: 404750336
+droso.fa : chr # 1126  "chrUn_DS483998v1" chrStart: 405012480
+droso.fa : chr # 1127  "chrUn_DS484068v1" chrStart: 405274624
+droso.fa : chr # 1128  "chrUn_DS484353v1" chrStart: 405536768
+droso.fa : chr # 1129  "chrUn_DS483810v1" chrStart: 405798912
+droso.fa : chr # 1130  "chrUn_DS484018v1" chrStart: 406061056
+droso.fa : chr # 1131  "chrUn_DS483817v1" chrStart: 406323200
+droso.fa : chr # 1132  "chrUn_DS483999v1" chrStart: 406585344
+droso.fa : chr # 1133  "chrUn_DS483724v1" chrStart: 406847488
+droso.fa : chr # 1134  "chrUn_DS484256v1" chrStart: 407109632
+droso.fa : chr # 1135  "chrUn_DS484391v1" chrStart: 407371776
+droso.fa : chr # 1136  "chrUn_DS484539v1" chrStart: 407633920
+droso.fa : chr # 1137  "chrUn_DS483937v1" chrStart: 407896064
+droso.fa : chr # 1138  "chrUn_DS483828v1" chrStart: 408158208
+droso.fa : chr # 1139  "chrUn_DS484113v1" chrStart: 408420352
+droso.fa : chr # 1140  "chrUn_DS483811v1" chrStart: 408682496
+droso.fa : chr # 1141  "chrUn_DS484432v1" chrStart: 408944640
+droso.fa : chr # 1142  "chrUn_DS483832v1" chrStart: 409206784
+droso.fa : chr # 1143  "chrUn_DS484386v1" chrStart: 409468928
+droso.fa : chr # 1144  "chrUn_DS483896v1" chrStart: 409731072
+droso.fa : chr # 1145  "chrUn_DS484294v1" chrStart: 409993216
+droso.fa : chr # 1146  "chrUn_DS484426v1" chrStart: 410255360
+droso.fa : chr # 1147  "chrUn_DS483800v1" chrStart: 410517504
+droso.fa : chr # 1148  "chrUn_DS483763v1" chrStart: 410779648
+droso.fa : chr # 1149  "chrUn_DS484289v1" chrStart: 411041792
+droso.fa : chr # 1150  "chrUn_DS484865v1" chrStart: 411303936
+droso.fa : chr # 1151  "chrUn_DS483839v1" chrStart: 411566080
+droso.fa : chr # 1152  "chrUn_DS483880v1" chrStart: 411828224
+droso.fa : chr # 1153  "chrUn_DS483951v1" chrStart: 412090368
+droso.fa : chr # 1154  "chrUn_DS483781v1" chrStart: 412352512
+droso.fa : chr # 1155  "chrUn_DS483798v1" chrStart: 412614656
+droso.fa : chr # 1156  "chrUn_DS483641v1" chrStart: 412876800
+droso.fa : chr # 1157  "chrUn_DS483861v1" chrStart: 413138944
+droso.fa : chr # 1158  "chrUn_DS484872v1" chrStart: 413401088
+droso.fa : chr # 1159  "chrUn_DS485098v1" chrStart: 413663232
+droso.fa : chr # 1160  "chrUn_DS484292v1" chrStart: 413925376
+droso.fa : chr # 1161  "chrUn_DS485935v1" chrStart: 414187520
+droso.fa : chr # 1162  "chrUn_DS483900v1" chrStart: 414449664
+droso.fa : chr # 1163  "chrUn_DS485601v1" chrStart: 414711808
+droso.fa : chr # 1164  "chrUn_DS484009v1" chrStart: 414973952
+droso.fa : chr # 1165  "chrUn_DS485385v1" chrStart: 415236096
+droso.fa : chr # 1166  "chrUn_DS485259v1" chrStart: 415498240
+droso.fa : chr # 1167  "chrUn_DS485182v1" chrStart: 415760384
+droso.fa : chr # 1168  "chrUn_DS483960v1" chrStart: 416022528
+droso.fa : chr # 1169  "chrUn_DS484735v1" chrStart: 416284672
+droso.fa : chr # 1170  "chrUn_DS484224v1" chrStart: 416546816
+droso.fa : chr # 1171  "chrUn_DS484363v1" chrStart: 416808960
+droso.fa : chr # 1172  "chrUn_DS483760v1" chrStart: 417071104
+droso.fa : chr # 1173  "chrUn_DS484652v1" chrStart: 417333248
+droso.fa : chr # 1174  "chrUn_DS485548v1" chrStart: 417595392
+droso.fa : chr # 1175  "chrUn_DS483910v1" chrStart: 417857536
+droso.fa : chr # 1176  "chrUn_DS485424v1" chrStart: 418119680
+droso.fa : chr # 1177  "chrUn_DS484848v1" chrStart: 418381824
+droso.fa : chr # 1178  "chrUn_DS484176v1" chrStart: 418643968
+droso.fa : chr # 1179  "chrUn_DS483807v1" chrStart: 418906112
+droso.fa : chr # 1180  "chrUn_DS483796v1" chrStart: 419168256
+droso.fa : chr # 1181  "chrUn_DS483754v1" chrStart: 419430400
+droso.fa : chr # 1182  "chrUn_DS483758v1" chrStart: 419692544
+droso.fa : chr # 1183  "chrUn_DS483846v1" chrStart: 419954688
+droso.fa : chr # 1184  "chrUn_DS484317v1" chrStart: 420216832
+droso.fa : chr # 1185  "chrUn_DS483744v1" chrStart: 420478976
+droso.fa : chr # 1186  "chrUn_DS483709v1" chrStart: 420741120
+droso.fa : chr # 1187  "chrUn_DS483874v1" chrStart: 421003264
+droso.fa : chr # 1188  "chrUn_DS483629v1" chrStart: 421265408
+droso.fa : chr # 1189  "chrUn_CP007071v1" chrStart: 421527552
+droso.fa : chr # 1190  "chrUn_CP007072v1" chrStart: 421789696
+droso.fa : chr # 1191  "chrUn_CP007073v1" chrStart: 422051840
+droso.fa : chr # 1192  "chrUn_CP007074v1" chrStart: 422313984
+droso.fa : chr # 1193  "chrUn_CP007075v1" chrStart: 422576128
+droso.fa : chr # 1194  "chrUn_CP007076v1" chrStart: 422838272
+droso.fa : chr # 1195  "chrUn_CP007077v1" chrStart: 423100416
+droso.fa : chr # 1196  "chrUn_CP007078v1" chrStart: 423362560
+droso.fa : chr # 1197  "chrUn_CP007079v1" chrStart: 423624704
+droso.fa : chr # 1198  "chrUn_CP007082v1" chrStart: 423886848
+droso.fa : chr # 1199  "chrUn_CP007083v1" chrStart: 424148992
+droso.fa : chr # 1200  "chrUn_CP007084v1" chrStart: 424411136
+droso.fa : chr # 1201  "chrUn_CP007085v1" chrStart: 424673280
+droso.fa : chr # 1202  "chrUn_CP007086v1" chrStart: 424935424
+droso.fa : chr # 1203  "chrUn_CP007087v1" chrStart: 425197568
+droso.fa : chr # 1204  "chrUn_CP007088v1" chrStart: 425459712
+droso.fa : chr # 1205  "chrUn_CP007089v1" chrStart: 425721856
+droso.fa : chr # 1206  "chrUn_CP007090v1" chrStart: 425984000
+droso.fa : chr # 1207  "chrUn_CP007091v1" chrStart: 426246144
+droso.fa : chr # 1208  "chrUn_CP007092v1" chrStart: 426508288
+droso.fa : chr # 1209  "chrUn_CP007093v1" chrStart: 426770432
+droso.fa : chr # 1210  "chrUn_CP007094v1" chrStart: 427032576
+droso.fa : chr # 1211  "chrUn_CP007095v1" chrStart: 427294720
+droso.fa : chr # 1212  "chrUn_CP007096v1" chrStart: 427556864
+droso.fa : chr # 1213  "chrUn_CP007080v1" chrStart: 427819008
+droso.fa : chr # 1214  "chrUn_CP007097v1" chrStart: 428081152
+droso.fa : chr # 1215  "chrUn_CP007098v1" chrStart: 428343296
+droso.fa : chr # 1216  "chrUn_CP007099v1" chrStart: 428605440
+droso.fa : chr # 1217  "chrUn_CP007100v1" chrStart: 428867584
+droso.fa : chr # 1218  "chrUn_CP007101v1" chrStart: 429129728
+droso.fa : chr # 1219  "chrUn_CP007081v1" chrStart: 429391872
+droso.fa : chr # 1220  "chrUn_CP007105v1" chrStart: 429654016
+droso.fa : chr # 1221  "chrUn_DS483562v1" chrStart: 429916160
+droso.fa : chr # 1222  "chrUn_CP007120v1" chrStart: 430178304
+droso.fa : chr # 1223  "chrX" chrStart: 430440448
+droso.fa : chr # 1224  "chrX_DS484701v1_random" chrStart: 454033408
+droso.fa : chr # 1225  "chrX_DS484968v1_random" chrStart: 454295552
+droso.fa : chr # 1226  "chrX_DS484668v1_random" chrStart: 454557696
+droso.fa : chr # 1227  "chrX_DS484664v1_random" chrStart: 454819840
+droso.fa : chr # 1228  "chrX_DS484272v1_random" chrStart: 455081984
+droso.fa : chr # 1229  "chrX_DS485077v1_random" chrStart: 455344128
+droso.fa : chr # 1230  "chrX_DS484084v1_random" chrStart: 455606272
+droso.fa : chr # 1231  "chrX_DS484161v1_random" chrStart: 455868416
+droso.fa : chr # 1232  "chrX_DS484284v1_random" chrStart: 456130560
+droso.fa : chr # 1233  "chrX_DS484459v1_random" chrStart: 456392704
+droso.fa : chr # 1234  "chrX_DS484765v1_random" chrStart: 456654848
+droso.fa : chr # 1235  "chrX_DS484622v1_random" chrStart: 456916992
+droso.fa : chr # 1236  "chrX_DS484526v1_random" chrStart: 457179136
+droso.fa : chr # 1237  "chrX_DS485994v1_random" chrStart: 457441280
+droso.fa : chr # 1238  "chrX_DS485235v1_random" chrStart: 457703424
+droso.fa : chr # 1239  "chrX_DS484745v1_random" chrStart: 457965568
+droso.fa : chr # 1240  "chrX_DS484507v1_random" chrStart: 458227712
+droso.fa : chr # 1241  "chrX_DS484074v1_random" chrStart: 458489856
+droso.fa : chr # 1242  "chrX_DS485618v1_random" chrStart: 458752000
+droso.fa : chr # 1243  "chrX_DS485797v1_random" chrStart: 459014144
+droso.fa : chr # 1244  "chrX_DS484367v1_random" chrStart: 459276288
+droso.fa : chr # 1245  "chrX_DS484809v1_random" chrStart: 459538432
+droso.fa : chr # 1246  "chrX_DS484965v1_random" chrStart: 459800576
+droso.fa : chr # 1247  "chrX_DS484585v1_random" chrStart: 460062720
+droso.fa : chr # 1248  "chrX_DS485172v1_random" chrStart: 460324864
+droso.fa : chr # 1249  "chrX_DS484219v1_random" chrStart: 460587008
+droso.fa : chr # 1250  "chrX_DS484650v1_random" chrStart: 460849152
+droso.fa : chr # 1251  "chrX_DS484730v1_random" chrStart: 461111296
+droso.fa : chr # 1252  "chrX_DS484200v1_random" chrStart: 461373440
+droso.fa : chr # 1253  "chrX_DS484512v1_random" chrStart: 461635584
+droso.fa : chr # 1254  "chrX_DS484582v1_random" chrStart: 461897728
+droso.fa : chr # 1255  "chrX_DS484529v1_random" chrStart: 462159872
+droso.fa : chr # 1256  "chrX_DS484429v1_random" chrStart: 462422016
+droso.fa : chr # 1257  "chrX_DS484518v1_random" chrStart: 462684160
+droso.fa : chr # 1258  "chrX_DS484833v1_random" chrStart: 462946304
+droso.fa : chr # 1259  "chrX_DS484724v1_random" chrStart: 463208448
+droso.fa : chr # 1260  "chrX_DS485015v1_random" chrStart: 463470592
+droso.fa : chr # 1261  "chrX_DS484594v1_random" chrStart: 463732736
+droso.fa : chr # 1262  "chrX_DS485606v1_random" chrStart: 463994880
+droso.fa : chr # 1263  "chrX_DS484819v1_random" chrStart: 464257024
+droso.fa : chr # 1264  "chrX_DS484358v1_random" chrStart: 464519168
+droso.fa : chr # 1265  "chrX_DS484845v1_random" chrStart: 464781312
+droso.fa : chr # 1266  "chrX_DS484430v1_random" chrStart: 465043456
+droso.fa : chr # 1267  "chrX_DS484568v1_random" chrStart: 465305600
+droso.fa : chr # 1268  "chrX_DS485942v1_random" chrStart: 465567744
+droso.fa : chr # 1269  "chrX_DS484583v1_random" chrStart: 465829888
+droso.fa : chr # 1270  "chrX_DS484428v1_random" chrStart: 466092032
+droso.fa : chr # 1271  "chrX_DS485266v1_random" chrStart: 466354176
+droso.fa : chr # 1272  "chrX_DS484399v1_random" chrStart: 466616320
+droso.fa : chr # 1273  "chrX_DS485514v1_random" chrStart: 466878464
+droso.fa : chr # 1274  "chrX_DS484012v1_random" chrStart: 467140608
+droso.fa : chr # 1275  "chrX_DS484552v1_random" chrStart: 467402752
+droso.fa : chr # 1276  "chrX_DS485074v1_random" chrStart: 467664896
+droso.fa : chr # 1277  "chrX_DS484576v1_random" chrStart: 467927040
+droso.fa : chr # 1278  "chrX_DS484803v1_random" chrStart: 468189184
+droso.fa : chr # 1279  "chrX_DS485765v1_random" chrStart: 468451328
+droso.fa : chr # 1280  "chrX_DS484447v1_random" chrStart: 468713472
+droso.fa : chr # 1281  "chrX_DS485962v1_random" chrStart: 468975616
+droso.fa : chr # 1282  "chrX_DS485769v1_random" chrStart: 469237760
+droso.fa : chr # 1283  "chrX_DS484533v1_random" chrStart: 469499904
+droso.fa : chr # 1284  "chrX_DS484388v1_random" chrStart: 469762048
+droso.fa : chr # 1285  "chrX_DS484564v1_random" chrStart: 470024192
+droso.fa : chr # 1286  "chrX_DS484126v1_random" chrStart: 470286336
+droso.fa : chr # 1287  "chrX_DS484450v1_random" chrStart: 470548480
+droso.fa : chr # 1288  "chrX_DS484610v1_random" chrStart: 470810624
+droso.fa : chr # 1289  "chrX_DS485238v1_random" chrStart: 471072768
+droso.fa : chr # 1290  "chrX_DS484402v1_random" chrStart: 471334912
+droso.fa : chr # 1291  "chrX_DS484558v1_random" chrStart: 471597056
+droso.fa : chr # 1292  "chrX_DS484684v1_random" chrStart: 471859200
+droso.fa : chr # 1293  "chrX_DS484951v1_random" chrStart: 472121344
+droso.fa : chr # 1294  "chrX_DS484679v1_random" chrStart: 472383488
+droso.fa : chr # 1295  "chrX_DS484691v1_random" chrStart: 472645632
+droso.fa : chr # 1296  "chrX_DS484647v1_random" chrStart: 472907776
+droso.fa : chr # 1297  "chrX_DS485913v1_random" chrStart: 473169920
+droso.fa : chr # 1298  "chrX_DS484608v1_random" chrStart: 473432064
+droso.fa : chr # 1299  "chrX_DS484913v1_random" chrStart: 473694208
+droso.fa : chr # 1300  "chrX_DS485358v1_random" chrStart: 473956352
+droso.fa : chr # 1301  "chrX_DS485096v1_random" chrStart: 474218496
+droso.fa : chr # 1302  "chrX_DS485257v1_random" chrStart: 474480640
+droso.fa : chr # 1303  "chrX_DS484547v1_random" chrStart: 474742784
+droso.fa : chr # 1304  "chrX_DS484596v1_random" chrStart: 475004928
+droso.fa : chr # 1305  "chrX_DS484497v1_random" chrStart: 475267072
+droso.fa : chr # 1306  "chrX_DS485967v1_random" chrStart: 475529216
+droso.fa : chr # 1307  "chrX_DS484688v1_random" chrStart: 475791360
+droso.fa : chr # 1308  "chrX_DS485476v1_random" chrStart: 476053504
+droso.fa : chr # 1309  "chrX_DS485649v1_random" chrStart: 476315648
+droso.fa : chr # 1310  "chrX_DS484996v1_random" chrStart: 476577792
+droso.fa : chr # 1311  "chrX_DS485981v1_random" chrStart: 476839936
+droso.fa : chr # 1312  "chrX_DS484235v1_random" chrStart: 477102080
+droso.fa : chr # 1313  "chrX_DS484431v1_random" chrStart: 477364224
+droso.fa : chr # 1314  "chrX_DS484672v1_random" chrStart: 477626368
+droso.fa : chr # 1315  "chrX_DS484961v1_random" chrStart: 477888512
+droso.fa : chr # 1316  "chrX_DS483648v1_random" chrStart: 478150656
+droso.fa : chr # 1317  "chrX_DS484600v1_random" chrStart: 478412800
+droso.fa : chr # 1318  "chrX_DS485813v1_random" chrStart: 478674944
+droso.fa : chr # 1319  "chrX_DS485104v1_random" chrStart: 478937088
+droso.fa : chr # 1320  "chrX_DS484785v1_random" chrStart: 479199232
+droso.fa : chr # 1321  "chrX_DS484379v1_random" chrStart: 479461376
+droso.fa : chr # 1322  "chrX_DS485465v1_random" chrStart: 479723520
+droso.fa : chr # 1323  "chrX_DS485676v1_random" chrStart: 479985664
+droso.fa : chr # 1324  "chrX_DS485735v1_random" chrStart: 480247808
+droso.fa : chr # 1325  "chrX_DS484023v1_random" chrStart: 480509952
+droso.fa : chr # 1326  "chrX_DS484401v1_random" chrStart: 480772096
+droso.fa : chr # 1327  "chrX_DS484354v1_random" chrStart: 481034240
+droso.fa : chr # 1328  "chrX_DS484298v1_random" chrStart: 481296384
+droso.fa : chr # 1329  "chrX_DS484723v1_random" chrStart: 481558528
+droso.fa : chr # 1330  "chrX_DS485860v1_random" chrStart: 481820672
+droso.fa : chr # 1331  "chrX_DS484995v1_random" chrStart: 482082816
+droso.fa : chr # 1332  "chrX_DS484393v1_random" chrStart: 482344960
+droso.fa : chr # 1333  "chrX_DS484911v1_random" chrStart: 482607104
+droso.fa : chr # 1334  "chrX_DS485305v1_random" chrStart: 482869248
+droso.fa : chr # 1335  "chrX_DS484362v1_random" chrStart: 483131392
+droso.fa : chr # 1336  "chrX_DS484628v1_random" chrStart: 483393536
+droso.fa : chr # 1337  "chrX_DS484604v1_random" chrStart: 483655680
+droso.fa : chr # 1338  "chrX_DS484201v1_random" chrStart: 483917824
+droso.fa : chr # 1339  "chrX_DS484411v1_random" chrStart: 484179968
+droso.fa : chr # 1340  "chrX_DS485855v1_random" chrStart: 484442112
+droso.fa : chr # 1341  "chrX_DS484811v1_random" chrStart: 484704256
+droso.fa : chr # 1342  "chrX_DS484504v1_random" chrStart: 484966400
+droso.fa : chr # 1343  "chrX_DS484695v1_random" chrStart: 485228544
+droso.fa : chr # 1344  "chrX_DS484670v1_random" chrStart: 485490688
+droso.fa : chr # 1345  "chrX_DS484261v1_random" chrStart: 485752832
+droso.fa : chr # 1346  "chrX_DS485660v1_random" chrStart: 486014976
+droso.fa : chr # 1347  "chrX_DS485164v1_random" chrStart: 486277120
+droso.fa : chr # 1348  "chrX_DS484609v1_random" chrStart: 486539264
+droso.fa : chr # 1349  "chrX_DS485941v1_random" chrStart: 486801408
+droso.fa : chr # 1350  "chrX_DS484545v1_random" chrStart: 487063552
+droso.fa : chr # 1351  "chrX_DS484397v1_random" chrStart: 487325696
+droso.fa : chr # 1352  "chrX_DS484368v1_random" chrStart: 487587840
+droso.fa : chr # 1353  "chrX_DS484198v1_random" chrStart: 487849984
+droso.fa : chr # 1354  "chrX_DS485101v1_random" chrStart: 488112128
+droso.fa : chr # 1355  "chrX_DS485141v1_random" chrStart: 488374272
+droso.fa : chr # 1356  "chrX_DS484625v1_random" chrStart: 488636416
+droso.fa : chr # 1357  "chrX_DS484626v1_random" chrStart: 488898560
+droso.fa : chr # 1358  "chrX_DS485723v1_random" chrStart: 489160704
+droso.fa : chr # 1359  "chrX_DS484587v1_random" chrStart: 489422848
+droso.fa : chr # 1360  "chrX_DS485167v1_random" chrStart: 489684992
+droso.fa : chr # 1361  "chrX_DS485934v1_random" chrStart: 489947136
+droso.fa : chr # 1362  "chrX_DS484364v1_random" chrStart: 490209280
+droso.fa : chr # 1363  "chrX_DS485110v1_random" chrStart: 490471424
+droso.fa : chr # 1364  "chrX_DS484540v1_random" chrStart: 490733568
+droso.fa : chr # 1365  "chrX_DS484879v1_random" chrStart: 490995712
+droso.fa : chr # 1366  "chrX_DS484182v1_random" chrStart: 491257856
+droso.fa : chr # 1367  "chrX_DS484850v1_random" chrStart: 491520000
+droso.fa : chr # 1368  "chrX_DS485785v1_random" chrStart: 491782144
+droso.fa : chr # 1369  "chrX_DS484215v1_random" chrStart: 492044288
+droso.fa : chr # 1370  "chrX_DS484337v1_random" chrStart: 492306432
+droso.fa : chr # 1371  "chrX_DS485126v1_random" chrStart: 492568576
+droso.fa : chr # 1372  "chrX_DS484737v1_random" chrStart: 492830720
+droso.fa : chr # 1373  "chrX_DS485909v1_random" chrStart: 493092864
+droso.fa : chr # 1374  "chrX_DS484703v1_random" chrStart: 493355008
+droso.fa : chr # 1375  "chrX_DS484740v1_random" chrStart: 493617152
+droso.fa : chr # 1376  "chrX_DS484660v1_random" chrStart: 493879296
+droso.fa : chr # 1377  "chrX_DS484810v1_random" chrStart: 494141440
+droso.fa : chr # 1378  "chrX_DS485081v1_random" chrStart: 494403584
+droso.fa : chr # 1379  "chrX_DS484758v1_random" chrStart: 494665728
+droso.fa : chr # 1380  "chrX_DS484763v1_random" chrStart: 494927872
+droso.fa : chr # 1381  "chrX_DS484572v1_random" chrStart: 495190016
+droso.fa : chr # 1382  "chrX_DS484477v1_random" chrStart: 495452160
+droso.fa : chr # 1383  "chrX_DS485691v1_random" chrStart: 495714304
+droso.fa : chr # 1384  "chrX_DS485801v1_random" chrStart: 495976448
+droso.fa : chr # 1385  "chrX_DS485845v1_random" chrStart: 496238592
+droso.fa : chr # 1386  "chrX_DS484101v1_random" chrStart: 496500736
+droso.fa : chr # 1387  "chrX_DS485573v1_random" chrStart: 496762880
+droso.fa : chr # 1388  "chrX_DS484690v1_random" chrStart: 497025024
+droso.fa : chr # 1389  "chrX_DS484598v1_random" chrStart: 497287168
+droso.fa : chr # 1390  "chrX_DS484406v1_random" chrStart: 497549312
+droso.fa : chr # 1391  "chrX_DS484349v1_random" chrStart: 497811456
+droso.fa : chr # 1392  "chrX_DS485987v1_random" chrStart: 498073600
+droso.fa : chr # 1393  "chrX_DS484555v1_random" chrStart: 498335744
+droso.fa : chr # 1394  "chrX_DS485687v1_random" chrStart: 498597888
+droso.fa : chr # 1395  "chrX_DS485109v1_random" chrStart: 498860032
+droso.fa : chr # 1396  "chrX_DS484569v1_random" chrStart: 499122176
+droso.fa : chr # 1397  "chrX_DS484648v1_random" chrStart: 499384320
+droso.fa : chr # 1398  "chrX_DS484483v1_random" chrStart: 499646464
+droso.fa : chr # 1399  "chrX_DS485856v1_random" chrStart: 499908608
+droso.fa : chr # 1400  "chrX_DS484633v1_random" chrStart: 500170752
+droso.fa : chr # 1401  "chrX_DS484500v1_random" chrStart: 500432896
+droso.fa : chr # 1402  "chrX_DS484136v1_random" chrStart: 500695040
+droso.fa : chr # 1403  "chrX_DS484871v1_random" chrStart: 500957184
+droso.fa : chr # 1404  "chrX_DS484360v1_random" chrStart: 501219328
+droso.fa : chr # 1405  "chrX_DS485852v1_random" chrStart: 501481472
+droso.fa : chr # 1406  "chrX_DS484415v1_random" chrStart: 501743616
+droso.fa : chr # 1407  "chrX_DS484570v1_random" chrStart: 502005760
+droso.fa : chr # 1408  "chrX_DS484783v1_random" chrStart: 502267904
+droso.fa : chr # 1409  "chrX_DS484288v1_random" chrStart: 502530048
+droso.fa : chr # 1410  "chrX_DS484778v1_random" chrStart: 502792192
+droso.fa : chr # 1411  "chrX_DS484955v1_random" chrStart: 503054336
+droso.fa : chr # 1412  "chrX_DS484252v1_random" chrStart: 503316480
+droso.fa : chr # 1413  "chrX_DS484935v1_random" chrStart: 503578624
+droso.fa : chr # 1414  "chrX_DS485620v1_random" chrStart: 503840768
+droso.fa : chr # 1415  "chrX_DS485898v1_random" chrStart: 504102912
+droso.fa : chr # 1416  "chrX_DS485782v1_random" chrStart: 504365056
+droso.fa : chr # 1417  "chrX_DS484880v1_random" chrStart: 504627200
+droso.fa : chr # 1418  "chrX_DS484840v1_random" chrStart: 504889344
+droso.fa : chr # 1419  "chrX_DS484837v1_random" chrStart: 505151488
+droso.fa : chr # 1420  "chrX_DS484698v1_random" chrStart: 505413632
+droso.fa : chr # 1421  "chrX_DS484442v1_random" chrStart: 505675776
+droso.fa : chr # 1422  "chrX_DS485771v1_random" chrStart: 505937920
+droso.fa : chr # 1423  "chrX_DS484644v1_random" chrStart: 506200064
+droso.fa : chr # 1424  "chrX_DS485084v1_random" chrStart: 506462208
+droso.fa : chr # 1425  "chrX_DS484323v1_random" chrStart: 506724352
+droso.fa : chr # 1426  "chrX_DS484457v1_random" chrStart: 506986496
+droso.fa : chr # 1427  "chrX_DS484112v1_random" chrStart: 507248640
+droso.fa : chr # 1428  "chrX_DS484741v1_random" chrStart: 507510784
+droso.fa : chr # 1429  "chrX_DS484786v1_random" chrStart: 507772928
+droso.fa : chr # 1430  "chrX_DS485745v1_random" chrStart: 508035072
+droso.fa : chr # 1431  "chrX_DS484409v1_random" chrStart: 508297216
+droso.fa : chr # 1432  "chrX_DS484590v1_random" chrStart: 508559360
+droso.fa : chr # 1433  "chrX_DS484890v1_random" chrStart: 508821504
+droso.fa : chr # 1434  "chrX_DS485043v1_random" chrStart: 509083648
+droso.fa : chr # 1435  "chrX_DS484731v1_random" chrStart: 509345792
+droso.fa : chr # 1436  "chrX_DS484768v1_random" chrStart: 509607936
+droso.fa : chr # 1437  "chrX_DS484114v1_random" chrStart: 509870080
+droso.fa : chr # 1438  "chrX_DS484611v1_random" chrStart: 510132224
+droso.fa : chr # 1439  "chrX_DS484519v1_random" chrStart: 510394368
+droso.fa : chr # 1440  "chrX_DS485599v1_random" chrStart: 510656512
+droso.fa : chr # 1441  "chrX_DS485111v1_random" chrStart: 510918656
+droso.fa : chr # 1442  "chrX_DS485378v1_random" chrStart: 511180800
+droso.fa : chr # 1443  "chrX_DS483963v1_random" chrStart: 511442944
+droso.fa : chr # 1444  "chrX_DS484605v1_random" chrStart: 511705088
+droso.fa : chr # 1445  "chrX_DS485471v1_random" chrStart: 511967232
+droso.fa : chr # 1446  "chrX_DS484657v1_random" chrStart: 512229376
+droso.fa : chr # 1447  "chrX_DS484305v1_random" chrStart: 512491520
+droso.fa : chr # 1448  "chrX_DS485635v1_random" chrStart: 512753664
+droso.fa : chr # 1449  "chrX_DS485277v1_random" chrStart: 513015808
+droso.fa : chr # 1450  "chrX_DS484597v1_random" chrStart: 513277952
+droso.fa : chr # 1451  "chrX_DS484178v1_random" chrStart: 513540096
+droso.fa : chr # 1452  "chrX_DS485262v1_random" chrStart: 513802240
+droso.fa : chr # 1453  "chrX_DS485478v1_random" chrStart: 514064384
+droso.fa : chr # 1454  "chrX_DS484683v1_random" chrStart: 514326528
+droso.fa : chr # 1455  "chrX_DS485334v1_random" chrStart: 514588672
+droso.fa : chr # 1456  "chrX_DS485112v1_random" chrStart: 514850816
+droso.fa : chr # 1457  "chrX_DS484506v1_random" chrStart: 515112960
+droso.fa : chr # 1458  "chrX_DS485336v1_random" chrStart: 515375104
+droso.fa : chr # 1459  "chrX_DS483669v1_random" chrStart: 515637248
+droso.fa : chr # 1460  "chrX_DS483655v1_random" chrStart: 515899392
+droso.fa : chr # 1461  "chrX_DS485959v1_random" chrStart: 516161536
+droso.fa : chr # 1462  "chrX_DS485300v1_random" chrStart: 516423680
+droso.fa : chr # 1463  "chrX_DS485050v1_random" chrStart: 516685824
+droso.fa : chr # 1464  "chrX_DS484260v1_random" chrStart: 516947968
+droso.fa : chr # 1465  "chrX_DS484444v1_random" chrStart: 517210112
+droso.fa : chr # 1466  "chrX_DS484694v1_random" chrStart: 517472256
+droso.fa : chr # 1467  "chrX_DS484677v1_random" chrStart: 517734400
+droso.fa : chr # 1468  "chrX_DS484777v1_random" chrStart: 517996544
+droso.fa : chr # 1469  "chrX_DS485617v1_random" chrStart: 518258688
+droso.fa : chr # 1470  "chrX_DS484839v1_random" chrStart: 518520832
+droso.fa : chr # 1471  "chrX_DS485080v1_random" chrStart: 518782976
+droso.fa : chr # 1472  "chrX_DS484560v1_random" chrStart: 519045120
+droso.fa : chr # 1473  "chrX_DS484928v1_random" chrStart: 519307264
+droso.fa : chr # 1474  "chrX_DS484775v1_random" chrStart: 519569408
+droso.fa : chr # 1475  "chrX_DS484535v1_random" chrStart: 519831552
+droso.fa : chr # 1476  "chrX_DS484725v1_random" chrStart: 520093696
+droso.fa : chr # 1477  "chrX_DS484682v1_random" chrStart: 520355840
+droso.fa : chr # 1478  "chrX_DS484618v1_random" chrStart: 520617984
+droso.fa : chr # 1479  "chrX_DS484952v1_random" chrStart: 520880128
+droso.fa : chr # 1480  "chrX_DS484599v1_random" chrStart: 521142272
+droso.fa : chr # 1481  "chrX_DS484072v1_random" chrStart: 521404416
+droso.fa : chr # 1482  "chrX_DS484137v1_random" chrStart: 521666560
+droso.fa : chr # 1483  "chrX_DS485836v1_random" chrStart: 521928704
+droso.fa : chr # 1484  "chrX_DS484419v1_random" chrStart: 522190848
+droso.fa : chr # 1485  "chrX_DS484357v1_random" chrStart: 522452992
+droso.fa : chr # 1486  "chrX_DS485798v1_random" chrStart: 522715136
+droso.fa : chr # 1487  "chrX_DS484344v1_random" chrStart: 522977280
+droso.fa : chr # 1488  "chrX_DS484623v1_random" chrStart: 523239424
+droso.fa : chr # 1489  "chrX_DS485537v1_random" chrStart: 523501568
+droso.fa : chr # 1490  "chrX_DS484057v1_random" chrStart: 523763712
+droso.fa : chr # 1491  "chrX_DS485899v1_random" chrStart: 524025856
+droso.fa : chr # 1492  "chrX_DS484832v1_random" chrStart: 524288000
+droso.fa : chr # 1493  "chrX_DS485950v1_random" chrStart: 524550144
+droso.fa : chr # 1494  "chrX_DS483995v1_random" chrStart: 524812288
+droso.fa : chr # 1495  "chrX_DS485603v1_random" chrStart: 525074432
+droso.fa : chr # 1496  "chrX_DS484733v1_random" chrStart: 525336576
+droso.fa : chr # 1497  "chrX_DS484541v1_random" chrStart: 525598720
+droso.fa : chr # 1498  "chrX_DS484085v1_random" chrStart: 525860864
+droso.fa : chr # 1499  "chrX_DS484165v1_random" chrStart: 526123008
+droso.fa : chr # 1500  "chrX_DS485271v1_random" chrStart: 526385152
+droso.fa : chr # 1501  "chrX_DS485790v1_random" chrStart: 526647296
+droso.fa : chr # 1502  "chrX_DS484753v1_random" chrStart: 526909440
+droso.fa : chr # 1503  "chrX_DS484645v1_random" chrStart: 527171584
+droso.fa : chr # 1504  "chrX_DS484669v1_random" chrStart: 527433728
+droso.fa : chr # 1505  "chrX_DS484162v1_random" chrStart: 527695872
+droso.fa : chr # 1506  "chrX_DS484374v1_random" chrStart: 527958016
+droso.fa : chr # 1507  "chrX_DS485189v1_random" chrStart: 528220160
+droso.fa : chr # 1508  "chrX_DS484603v1_random" chrStart: 528482304
+droso.fa : chr # 1509  "chrX_DS485195v1_random" chrStart: 528744448
+droso.fa : chr # 1510  "chrX_DS484580v1_random" chrStart: 529006592
+droso.fa : chr # 1511  "chrX_DS485351v1_random" chrStart: 529268736
+droso.fa : chr # 1512  "chrX_DS484433v1_random" chrStart: 529530880
+droso.fa : chr # 1513  "chrX_DS485738v1_random" chrStart: 529793024
+droso.fa : chr # 1514  "chrX_DS484423v1_random" chrStart: 530055168
+droso.fa : chr # 1515  "chrX_DS485879v1_random" chrStart: 530317312
+droso.fa : chr # 1516  "chrX_DS484702v1_random" chrStart: 530579456
+droso.fa : chr # 1517  "chrX_DS484636v1_random" chrStart: 530841600
+droso.fa : chr # 1518  "chrX_DS485762v1_random" chrStart: 531103744
+droso.fa : chr # 1519  "chrX_DS485012v1_random" chrStart: 531365888
+droso.fa : chr # 1520  "chrX_DS484474v1_random" chrStart: 531628032
+droso.fa : chr # 1521  "chrX_DS485278v1_random" chrStart: 531890176
+droso.fa : chr # 1522  "chrX_DS484322v1_random" chrStart: 532152320
+droso.fa : chr # 1523  "chrX_DS484974v1_random" chrStart: 532414464
+droso.fa : chr # 1524  "chrX_DS484135v1_random" chrStart: 532676608
+droso.fa : chr # 1525  "chrX_DS484826v1_random" chrStart: 532938752
+droso.fa : chr # 1526  "chrX_DS485816v1_random" chrStart: 533200896
+droso.fa : chr # 1527  "chrX_DS483665v1_random" chrStart: 533463040
+droso.fa : chr # 1528  "chrX_DS484067v1_random" chrStart: 533725184
+droso.fa : chr # 1529  "chrX_DS485672v1_random" chrStart: 533987328
+droso.fa : chr # 1530  "chrX_DS484005v1_random" chrStart: 534249472
+droso.fa : chr # 1531  "chrX_DS483971v1_random" chrStart: 534511616
+droso.fa : chr # 1532  "chrX_DS485303v1_random" chrStart: 534773760
+droso.fa : chr # 1533  "chrX_DS484143v1_random" chrStart: 535035904
+droso.fa : chr # 1534  "chrX_DS484346v1_random" chrStart: 535298048
+droso.fa : chr # 1535  "chrX_DS485299v1_random" chrStart: 535560192
+droso.fa : chr # 1536  "chrX_DS484384v1_random" chrStart: 535822336
+droso.fa : chr # 1537  "chrX_DS484767v1_random" chrStart: 536084480
+droso.fa : chr # 1538  "chrX_DS485857v1_random" chrStart: 536346624
+droso.fa : chr # 1539  "chrX_DS485072v1_random" chrStart: 536608768
+droso.fa : chr # 1540  "chrX_DS484319v1_random" chrStart: 536870912
+droso.fa : chr # 1541  "chrX_DS485225v1_random" chrStart: 537133056
+droso.fa : chr # 1542  "chrX_DS485268v1_random" chrStart: 537395200
+droso.fa : chr # 1543  "chrX_DS484293v1_random" chrStart: 537657344
+droso.fa : chr # 1544  "chrX_DS484715v1_random" chrStart: 537919488
+droso.fa : chr # 1545  "chrX_DS485454v1_random" chrStart: 538181632
+droso.fa : chr # 1546  "chrX_DS484130v1_random" chrStart: 538443776
+droso.fa : chr # 1547  "chrX_DS484359v1_random" chrStart: 538705920
+droso.fa : chr # 1548  "chrX_DS483784v1_random" chrStart: 538968064
+droso.fa : chr # 1549  "chrX_DS485119v1_random" chrStart: 539230208
+droso.fa : chr # 1550  "chrX_DS484462v1_random" chrStart: 539492352
+droso.fa : chr # 1551  "chrX_DS485592v1_random" chrStart: 539754496
+droso.fa : chr # 1552  "chrX_DS485647v1_random" chrStart: 540016640
+droso.fa : chr # 1553  "chrX_DS484088v1_random" chrStart: 540278784
+droso.fa : chr # 1554  "chrX_DS485078v1_random" chrStart: 540540928
+droso.fa : chr # 1555  "chrX_DS483905v1_random" chrStart: 540803072
+droso.fa : chr # 1556  "chrX_DS484963v1_random" chrStart: 541065216
+droso.fa : chr # 1557  "chrX_DS483685v1_random" chrStart: 541327360
+droso.fa : chr # 1558  "chrX_DS484749v1_random" chrStart: 541589504
+droso.fa : chr # 1559  "chrX_DS484356v1_random" chrStart: 541851648
+droso.fa : chr # 1560  "chrX_DS485418v1_random" chrStart: 542113792
+droso.fa : chr # 1561  "chrX_DS484125v1_random" chrStart: 542375936
+droso.fa : chr # 1562  "chrX_DS484131v1_random" chrStart: 542638080
+droso.fa : chr # 1563  "chrX_DS484328v1_random" chrStart: 542900224
+droso.fa : chr # 1564  "chrX_DS483843v1_random" chrStart: 543162368
+droso.fa : chr # 1565  "chrX_DS484468v1_random" chrStart: 543424512
+droso.fa : chr # 1566  "chrX_DS485978v1_random" chrStart: 543686656
+droso.fa : chr # 1567  "chrX_DS485054v1_random" chrStart: 543948800
+droso.fa : chr # 1568  "chrX_DS483955v1_random" chrStart: 544210944
+droso.fa : chr # 1569  "chrX_DS483897v1_random" chrStart: 544473088
+droso.fa : chr # 1570  "chrX_DS484361v1_random" chrStart: 544735232
+droso.fa : chr # 1571  "chrX_DS485049v1_random" chrStart: 544997376
+droso.fa : chr # 1572  "chrX_DS484978v1_random" chrStart: 545259520
+droso.fa : chr # 1573  "chrX_DS484002v1_random" chrStart: 545521664
+droso.fa : chr # 1574  "chrX_DS485364v1_random" chrStart: 545783808
+droso.fa : chr # 1575  "chrX_DS484345v1_random" chrStart: 546045952
+droso.fa : chr # 1576  "chrX_DS485310v1_random" chrStart: 546308096
+droso.fa : chr # 1577  "chrX_DS485281v1_random" chrStart: 546570240
+droso.fa : chr # 1578  "chrX_DS485597v1_random" chrStart: 546832384
+droso.fa : chr # 1579  "chrX_DS485345v1_random" chrStart: 547094528
+droso.fa : chr # 1580  "chrX_DS484417v1_random" chrStart: 547356672
+droso.fa : chr # 1581  "chrX_DS483698v1_random" chrStart: 547618816
+droso.fa : chr # 1582  "chrX_DS484620v1_random" chrStart: 547880960
+droso.fa : chr # 1583  "chrX_DS485360v1_random" chrStart: 548143104
+droso.fa : chr # 1584  "chrX_DS485562v1_random" chrStart: 548405248
+droso.fa : chr # 1585  "chrX_DS485186v1_random" chrStart: 548667392
+droso.fa : chr # 1586  "chrX_DS485778v1_random" chrStart: 548929536
+droso.fa : chr # 1587  "chrX_DS485201v1_random" chrStart: 549191680
+droso.fa : chr # 1588  "chrX_DS485384v1_random" chrStart: 549453824
+droso.fa : chr # 1589  "chrX_DS485707v1_random" chrStart: 549715968
+droso.fa : chr # 1590  "chrX_DS483809v1_random" chrStart: 549978112
+droso.fa : chr # 1591  "chrX_DS484857v1_random" chrStart: 550240256
+droso.fa : chr # 1592  "chrX_DS484268v1_random" chrStart: 550502400
+droso.fa : chr # 1593  "chrX_DS484203v1_random" chrStart: 550764544
+droso.fa : chr # 1594  "chrX_DS484970v1_random" chrStart: 551026688
+droso.fa : chr # 1595  "chrX_DS483789v1_random" chrStart: 551288832
+droso.fa : chr # 1596  "chrX_DS484719v1_random" chrStart: 551550976
+droso.fa : chr # 1597  "chrX_DS484297v1_random" chrStart: 551813120
+droso.fa : chr # 1598  "chrX_DS484124v1_random" chrStart: 552075264
+droso.fa : chr # 1599  "chrX_DS485044v1_random" chrStart: 552337408
+droso.fa : chr # 1600  "chrX_DS484990v1_random" chrStart: 552599552
+droso.fa : chr # 1601  "chrX_DS484273v1_random" chrStart: 552861696
+droso.fa : chr # 1602  "chrX_DS485017v1_random" chrStart: 553123840
+droso.fa : chr # 1603  "chrX_DS484997v1_random" chrStart: 553385984
+droso.fa : chr # 1604  "chrX_DS483888v1_random" chrStart: 553648128
+droso.fa : chr # 1605  "chrX_DS485459v1_random" chrStart: 553910272
+droso.fa : chr # 1606  "chrX_DS485651v1_random" chrStart: 554172416
+droso.fa : chr # 1607  "chrX_DS484907v1_random" chrStart: 554434560
+droso.fa : chr # 1608  "chrX_DS485549v1_random" chrStart: 554696704
+droso.fa : chr # 1609  "chrX_DS484732v1_random" chrStart: 554958848
+droso.fa : chr # 1610  "chrX_DS484953v1_random" chrStart: 555220992
+droso.fa : chr # 1611  "chrX_DS483660v1_random" chrStart: 555483136
+droso.fa : chr # 1612  "chrX_DS484615v1_random" chrStart: 555745280
+droso.fa : chr # 1613  "chrX_DS484697v1_random" chrStart: 556007424
+droso.fa : chr # 1614  "chrX_DS484216v1_random" chrStart: 556269568
+droso.fa : chr # 1615  "chrX_DS485287v1_random" chrStart: 556531712
+droso.fa : chr # 1616  "chrX_DS484382v1_random" chrStart: 556793856
+droso.fa : chr # 1617  "chrX_DS484187v1_random" chrStart: 557056000
+droso.fa : chr # 1618  "chrX_DS485756v1_random" chrStart: 557318144
+droso.fa : chr # 1619  "chrX_DS484185v1_random" chrStart: 557580288
+droso.fa : chr # 1620  "chrX_DS485550v1_random" chrStart: 557842432
+droso.fa : chr # 1621  "chrX_DS483795v1_random" chrStart: 558104576
+droso.fa : chr # 1622  "chrX_DS484666v1_random" chrStart: 558366720
+droso.fa : chr # 1623  "chrX_DS483666v1_random" chrStart: 558628864
+droso.fa : chr # 1624  "chrX_DS484371v1_random" chrStart: 558891008
+droso.fa : chr # 1625  "chrX_DS483907v1_random" chrStart: 559153152
+droso.fa : chr # 1626  "chrX_DS484387v1_random" chrStart: 559415296
+droso.fa : chr # 1627  "chrX_DS484316v1_random" chrStart: 559677440
+droso.fa : chr # 1628  "chrX_DS483803v1_random" chrStart: 559939584
+droso.fa : chr # 1629  "chrX_DS483950v1_random" chrStart: 560201728
+droso.fa : chr # 1630  "chrX_DS483885v1_random" chrStart: 560463872
+droso.fa : chr # 1631  "chrX_DS483928v1_random" chrStart: 560726016
+droso.fa : chr # 1632  "chrX_DS484326v1_random" chrStart: 560988160
+droso.fa : chr # 1633  "chrX_DS483745v1_random" chrStart: 561250304
+droso.fa : chr # 1634  "chrX_DS483892v1_random" chrStart: 561512448
+droso.fa : chr # 1635  "chrX_DS484061v1_random" chrStart: 561774592
+droso.fa : chr # 1636  "chrX_DS484330v1_random" chrStart: 562036736
+droso.fa : chr # 1637  "chrX_DS484140v1_random" chrStart: 562298880
+droso.fa : chr # 1638  "chrX_DS484051v1_random" chrStart: 562561024
+droso.fa : chr # 1639  "chrX_DS483893v1_random" chrStart: 562823168
+droso.fa : chr # 1640  "chrX_DS484075v1_random" chrStart: 563085312
+droso.fa : chr # 1641  "chrX_DS483948v1_random" chrStart: 563347456
+droso.fa : chr # 1642  "chrX_DS484081v1_random" chrStart: 563609600
+droso.fa : chr # 1643  "chrX_DS484586v1_random" chrStart: 563871744
+droso.fa : chr # 1644  "chrX_DS484278v1_random" chrStart: 564133888
+droso.fa : chr # 1645  "chrX_DS484046v1_random" chrStart: 564396032
+droso.fa : chr # 1646  "chrX_DS484133v1_random" chrStart: 564658176
+droso.fa : chr # 1647  "chrX_DS483909v1_random" chrStart: 564920320
+droso.fa : chr # 1648  "chrX_DS484488v1_random" chrStart: 565182464
+droso.fa : chr # 1649  "chrX_DS483974v1_random" chrStart: 565444608
+droso.fa : chr # 1650  "chrX_DS483903v1_random" chrStart: 565706752
+droso.fa : chr # 1651  "chrX_DS484538v1_random" chrStart: 565968896
+droso.fa : chr # 1652  "chrX_DS483946v1_random" chrStart: 566231040
+droso.fa : chr # 1653  "chrX_DS484556v1_random" chrStart: 566493184
+droso.fa : chr # 1654  "chrX_DS483851v1_random" chrStart: 566755328
+droso.fa : chr # 1655  "chrX_DS483926v1_random" chrStart: 567017472
+droso.fa : chr # 1656  "chrX_DS484563v1_random" chrStart: 567279616
+droso.fa : chr # 1657  "chrX_DS483923v1_random" chrStart: 567541760
+droso.fa : chr # 1658  "chrX_DS484166v1_random" chrStart: 567803904
+droso.fa : chr # 1659  "chrX_DS484341v1_random" chrStart: 568066048
+droso.fa : chr # 1660  "chrX_DS484099v1_random" chrStart: 568328192
+droso.fa : chr # 1661  "chrX_DS484060v1_random" chrStart: 568590336
+droso.fa : chr # 1662  "chrX_DS484132v1_random" chrStart: 568852480
+droso.fa : chr # 1663  "chrX_DS483821v1_random" chrStart: 569114624
+droso.fa : chr # 1664  "chrX_DS483818v1_random" chrStart: 569376768
+droso.fa : chr # 1665  "chrX_DS484562v1_random" chrStart: 569638912
+droso.fa : chr # 1666  "chrX_DS483969v1_random" chrStart: 569901056
+droso.fa : chr # 1667  "chrX_DS484026v1_random" chrStart: 570163200
+droso.fa : chr # 1668  "chrX_CP007104v1_random" chrStart: 570425344
+droso.fa : chr # 1669  "chrX_CP007103v1_random" chrStart: 570687488
+droso.fa : chr # 1670  "chrY" chrStart: 570949632
+droso.fa : chr # 1671  "chrY_DS485113v1_random" chrStart: 574619648
+droso.fa : chr # 1672  "chrY_DS485267v1_random" chrStart: 574881792
+droso.fa : chr # 1673  "chrY_DS484992v1_random" chrStart: 575143936
+droso.fa : chr # 1674  "chrY_DS485594v1_random" chrStart: 575406080
+droso.fa : chr # 1675  "chrY_DS484805v1_random" chrStart: 575668224
+droso.fa : chr # 1676  "chrY_DS484021v1_random" chrStart: 575930368
+droso.fa : chr # 1677  "chrY_DS484184v1_random" chrStart: 576192512
+droso.fa : chr # 1678  "chrY_DS485013v1_random" chrStart: 576454656
+droso.fa : chr # 1679  "chrY_DS485016v1_random" chrStart: 576716800
+droso.fa : chr # 1680  "chrY_DS484142v1_random" chrStart: 576978944
+droso.fa : chr # 1681  "chrY_DS484530v1_random" chrStart: 577241088
+droso.fa : chr # 1682  "chrY_DS485460v1_random" chrStart: 577503232
+droso.fa : chr # 1683  "chrY_DS486003v1_random" chrStart: 577765376
+droso.fa : chr # 1684  "chrY_DS485375v1_random" chrStart: 578027520
+droso.fa : chr # 1685  "chrY_DS484233v1_random" chrStart: 578289664
+droso.fa : chr # 1686  "chrY_DS484270v1_random" chrStart: 578551808
+droso.fa : chr # 1687  "chrY_DS485865v1_random" chrStart: 578813952
+droso.fa : chr # 1688  "chrY_DS484643v1_random" chrStart: 579076096
+droso.fa : chr # 1689  "chrY_DS484351v1_random" chrStart: 579338240
+droso.fa : chr # 1690  "chrY_DS484146v1_random" chrStart: 579600384
+droso.fa : chr # 1691  "chrY_DS483959v1_random" chrStart: 579862528
+droso.fa : chr # 1692  "chrY_DS485795v1_random" chrStart: 580124672
+droso.fa : chr # 1693  "chrY_DS484259v1_random" chrStart: 580386816
+droso.fa : chr # 1694  "chrY_DS483778v1_random" chrStart: 580648960
+droso.fa : chr # 1695  "chrY_DS484681v1_random" chrStart: 580911104
+droso.fa : chr # 1696  "chrY_DS485927v1_random" chrStart: 581173248
+droso.fa : chr # 1697  "chrY_DS484986v1_random" chrStart: 581435392
+droso.fa : chr # 1698  "chrY_DS484164v1_random" chrStart: 581697536
+droso.fa : chr # 1699  "chrY_DS485534v1_random" chrStart: 581959680
+droso.fa : chr # 1700  "chrY_DS484250v1_random" chrStart: 582221824
+droso.fa : chr # 1701  "chrY_DS485070v1_random" chrStart: 582483968
+droso.fa : chr # 1702  "chrY_DS485423v1_random" chrStart: 582746112
+droso.fa : chr # 1703  "chrY_DS485873v1_random" chrStart: 583008256
+droso.fa : chr # 1704  "chrY_DS485736v1_random" chrStart: 583270400
+droso.fa : chr # 1705  "chrY_DS485051v1_random" chrStart: 583532544
+droso.fa : chr # 1706  "chrY_DS483987v1_random" chrStart: 583794688
+droso.fa : chr # 1707  "chrY_DS485159v1_random" chrStart: 584056832
+droso.fa : chr # 1708  "chrY_DS484266v1_random" chrStart: 584318976
+droso.fa : chr # 1709  "chrY_DS485646v1_random" chrStart: 584581120
+droso.fa : chr # 1710  "chrY_DS484781v1_random" chrStart: 584843264
+droso.fa : chr # 1711  "chrY_DS485561v1_random" chrStart: 585105408
+droso.fa : chr # 1712  "chrY_DS484056v1_random" chrStart: 585367552
+droso.fa : chr # 1713  "chrY_DS485166v1_random" chrStart: 585629696
+droso.fa : chr # 1714  "chrY_DS485427v1_random" chrStart: 585891840
+droso.fa : chr # 1715  "chrY_DS485894v1_random" chrStart: 586153984
+droso.fa : chr # 1716  "chrY_DS484631v1_random" chrStart: 586416128
+droso.fa : chr # 1717  "chrY_DS485840v1_random" chrStart: 586678272
+droso.fa : chr # 1718  "chrY_DS485492v1_random" chrStart: 586940416
+droso.fa : chr # 1719  "chrY_DS485875v1_random" chrStart: 587202560
+droso.fa : chr # 1720  "chrY_DS484492v1_random" chrStart: 587464704
+droso.fa : chr # 1721  "chrY_DS485483v1_random" chrStart: 587726848
+droso.fa : chr # 1722  "chrY_DS485250v1_random" chrStart: 587988992
+droso.fa : chr # 1723  "chrY_DS485388v1_random" chrStart: 588251136
+droso.fa : chr # 1724  "chrY_DS484818v1_random" chrStart: 588513280
+droso.fa : chr # 1725  "chrY_DS485575v1_random" chrStart: 588775424
+droso.fa : chr # 1726  "chrY_DS485696v1_random" chrStart: 589037568
+droso.fa : chr # 1727  "chrY_DS484675v1_random" chrStart: 589299712
+droso.fa : chr # 1728  "chrY_DS484665v1_random" chrStart: 589561856
+droso.fa : chr # 1729  "chrY_DS483966v1_random" chrStart: 589824000
+droso.fa : chr # 1730  "chrY_DS485749v1_random" chrStart: 590086144
+droso.fa : chr # 1731  "chrY_DS485752v1_random" chrStart: 590348288
+droso.fa : chr # 1732  "chrY_DS484197v1_random" chrStart: 590610432
+droso.fa : chr # 1733  "chrY_DS485158v1_random" chrStart: 590872576
+droso.fa : chr # 1734  "chrY_DS484706v1_random" chrStart: 591134720
+droso.fa : chr # 1735  "chrY_DS484574v1_random" chrStart: 591396864
+droso.fa : chr # 1736  "chrY_DS484637v1_random" chrStart: 591659008
+droso.fa : chr # 1737  "chrY_DS485732v1_random" chrStart: 591921152
+droso.fa : chr # 1738  "chrY_DS485374v1_random" chrStart: 592183296
+droso.fa : chr # 1739  "chrY_DS485359v1_random" chrStart: 592445440
+droso.fa : chr # 1740  "chrY_DS485523v1_random" chrStart: 592707584
+droso.fa : chr # 1741  "chrY_DS485236v1_random" chrStart: 592969728
+droso.fa : chr # 1742  "chrY_DS485399v1_random" chrStart: 593231872
+droso.fa : chr # 1743  "chrY_DS484049v1_random" chrStart: 593494016
+droso.fa : chr # 1744  "chrY_DS485767v1_random" chrStart: 593756160
+droso.fa : chr # 1745  "chrY_DS484037v1_random" chrStart: 594018304
+droso.fa : chr # 1746  "chrY_DS485975v1_random" chrStart: 594280448
+droso.fa : chr # 1747  "chrY_DS485560v1_random" chrStart: 594542592
+droso.fa : chr # 1748  "chrY_DS484249v1_random" chrStart: 594804736
+droso.fa : chr # 1749  "chrY_DS485938v1_random" chrStart: 595066880
+droso.fa : chr # 1750  "chrY_DS485329v1_random" chrStart: 595329024
+droso.fa : chr # 1751  "chrY_DS484523v1_random" chrStart: 595591168
+droso.fa : chr # 1752  "chrY_DS485042v1_random" chrStart: 595853312
+droso.fa : chr # 1753  "chrY_DS485901v1_random" chrStart: 596115456
+droso.fa : chr # 1754  "chrY_DS484863v1_random" chrStart: 596377600
+droso.fa : chr # 1755  "chrY_DS485343v1_random" chrStart: 596639744
+droso.fa : chr # 1756  "chrY_DS485772v1_random" chrStart: 596901888
+droso.fa : chr # 1757  "chrY_DS484994v1_random" chrStart: 597164032
+droso.fa : chr # 1758  "chrY_DS485328v1_random" chrStart: 597426176
+droso.fa : chr # 1759  "chrY_DS484336v1_random" chrStart: 597688320
+droso.fa : chr # 1760  "chrY_DS485178v1_random" chrStart: 597950464
+droso.fa : chr # 1761  "chrY_DS485409v1_random" chrStart: 598212608
+droso.fa : chr # 1762  "chrY_DS485764v1_random" chrStart: 598474752
+droso.fa : chr # 1763  "chrY_DS484128v1_random" chrStart: 598736896
+droso.fa : chr # 1764  "chrY_DS485739v1_random" chrStart: 598999040
+droso.fa : chr # 1765  "chrY_DS485452v1_random" chrStart: 599261184
+droso.fa : chr # 1766  "chrY_DS484909v1_random" chrStart: 599523328
+droso.fa : chr # 1767  "chrY_DS485641v1_random" chrStart: 599785472
+droso.fa : chr # 1768  "chrY_DS484956v1_random" chrStart: 600047616
+droso.fa : chr # 1769  "chrY_DS485320v1_random" chrStart: 600309760
+droso.fa : chr # 1770  "chrY_DS485302v1_random" chrStart: 600571904
+droso.fa : chr # 1771  "chrY_DS485440v1_random" chrStart: 600834048
+droso.fa : chr # 1772  "chrY_DS485685v1_random" chrStart: 601096192
+droso.fa : chr # 1773  "chrY_DS483967v1_random" chrStart: 601358336
+droso.fa : chr # 1774  "chrY_DS484908v1_random" chrStart: 601620480
+droso.fa : chr # 1775  "chrY_DS484945v1_random" chrStart: 601882624
+droso.fa : chr # 1776  "chrY_DS485718v1_random" chrStart: 602144768
+droso.fa : chr # 1777  "chrY_DS485099v1_random" chrStart: 602406912
+droso.fa : chr # 1778  "chrY_DS485839v1_random" chrStart: 602669056
+droso.fa : chr # 1779  "chrY_DS484589v1_random" chrStart: 602931200
+droso.fa : chr # 1780  "chrY_DS485048v1_random" chrStart: 603193344
+droso.fa : chr # 1781  "chrY_DS485363v1_random" chrStart: 603455488
+droso.fa : chr # 1782  "chrY_DS484103v1_random" chrStart: 603717632
+droso.fa : chr # 1783  "chrY_DS485532v1_random" chrStart: 603979776
+droso.fa : chr # 1784  "chrY_DS484942v1_random" chrStart: 604241920
+droso.fa : chr # 1785  "chrY_DS484983v1_random" chrStart: 604504064
+droso.fa : chr # 1786  "chrY_DS484680v1_random" chrStart: 604766208
+droso.fa : chr # 1787  "chrY_DS484441v1_random" chrStart: 605028352
+droso.fa : chr # 1788  "chrY_DS485604v1_random" chrStart: 605290496
+droso.fa : chr # 1789  "chrY_DS485960v1_random" chrStart: 605552640
+droso.fa : chr # 1790  "chrY_DS485974v1_random" chrStart: 605814784
+droso.fa : chr # 1791  "chrY_DS484063v1_random" chrStart: 606076928
+droso.fa : chr # 1792  "chrY_DS485972v1_random" chrStart: 606339072
+droso.fa : chr # 1793  "chrY_DS484043v1_random" chrStart: 606601216
+droso.fa : chr # 1794  "chrY_DS485625v1_random" chrStart: 606863360
+droso.fa : chr # 1795  "chrY_DS485318v1_random" chrStart: 607125504
+droso.fa : chr # 1796  "chrY_DS485963v1_random" chrStart: 607387648
+droso.fa : chr # 1797  "chrY_DS485776v1_random" chrStart: 607649792
+droso.fa : chr # 1798  "chrY_DS485137v1_random" chrStart: 607911936
+droso.fa : chr # 1799  "chrY_DS485315v1_random" chrStart: 608174080
+droso.fa : chr # 1800  "chrY_DS484696v1_random" chrStart: 608436224
+droso.fa : chr # 1801  "chrY_DS483742v1_random" chrStart: 608698368
+droso.fa : chr # 1802  "chrY_DS483790v1_random" chrStart: 608960512
+droso.fa : chr # 1803  "chrY_DS484171v1_random" chrStart: 609222656
+droso.fa : chr # 1804  "chrY_DS485097v1_random" chrStart: 609484800
+droso.fa : chr # 1805  "chrY_DS484181v1_random" chrStart: 609746944
+droso.fa : chr # 1806  "chrY_CP007119v1_random" chrStart: 610009088
+droso.fa : chr # 1807  "chrY_DS485888v1_random" chrStart: 610271232
+droso.fa : chr # 1808  "chrY_DS484531v1_random" chrStart: 610533376
+droso.fa : chr # 1809  "chrY_DS485470v1_random" chrStart: 610795520
+droso.fa : chr # 1810  "chrY_DS485473v1_random" chrStart: 611057664
+droso.fa : chr # 1811  "chrY_DS485755v1_random" chrStart: 611319808
+droso.fa : chr # 1812  "chrY_DS485892v1_random" chrStart: 611581952
+droso.fa : chr # 1813  "chrY_DS485552v1_random" chrStart: 611844096
+droso.fa : chr # 1814  "chrY_DS485288v1_random" chrStart: 612106240
+droso.fa : chr # 1815  "chrY_DS485014v1_random" chrStart: 612368384
+droso.fa : chr # 1816  "chrY_DS484757v1_random" chrStart: 612630528
+droso.fa : chr # 1817  "chrY_DS484820v1_random" chrStart: 612892672
+droso.fa : chr # 1818  "chrY_DS485422v1_random" chrStart: 613154816
+droso.fa : chr # 1819  "chrY_DS484876v1_random" chrStart: 613416960
+droso.fa : chr # 1820  "chrY_DS485858v1_random" chrStart: 613679104
+droso.fa : chr # 1821  "chrY_DS485512v1_random" chrStart: 613941248
+droso.fa : chr # 1822  "chrY_DS485143v1_random" chrStart: 614203392
+droso.fa : chr # 1823  "chrY_DS484390v1_random" chrStart: 614465536
+droso.fa : chr # 1824  "chrY_DS485416v1_random" chrStart: 614727680
+droso.fa : chr # 1825  "chrY_DS484674v1_random" chrStart: 614989824
+droso.fa : chr # 1826  "chrY_DS484465v1_random" chrStart: 615251968
+droso.fa : chr # 1827  "chrY_DS485436v1_random" chrStart: 615514112
+droso.fa : chr # 1828  "chrY_DS485450v1_random" chrStart: 615776256
+droso.fa : chr # 1829  "chrY_DS484830v1_random" chrStart: 616038400
+droso.fa : chr # 1830  "chrY_DS483988v1_random" chrStart: 616300544
+droso.fa : chr # 1831  "chrY_DS484807v1_random" chrStart: 616562688
+droso.fa : chr # 1832  "chrY_DS485956v1_random" chrStart: 616824832
+droso.fa : chr # 1833  "chrY_DS485283v1_random" chrStart: 617086976
+droso.fa : chr # 1834  "chrY_DS485335v1_random" chrStart: 617349120
+droso.fa : chr # 1835  "chrY_DS485698v1_random" chrStart: 617611264
+droso.fa : chr # 1836  "chrY_DS484641v1_random" chrStart: 617873408
+droso.fa : chr # 1837  "chrY_DS485430v1_random" chrStart: 618135552
+droso.fa : chr # 1838  "chrY_DS485316v1_random" chrStart: 618397696
+droso.fa : chr # 1839  "chrY_DS484377v1_random" chrStart: 618659840
+droso.fa : chr # 1840  "chrY_DS485786v1_random" chrStart: 618921984
+droso.fa : chr # 1841  "chrY_DS484924v1_random" chrStart: 619184128
+droso.fa : chr # 1842  "chrY_DS485885v1_random" chrStart: 619446272
+droso.fa : chr # 1843  "chrY_DS485849v1_random" chrStart: 619708416
+droso.fa : chr # 1844  "chrY_DS485219v1_random" chrStart: 619970560
+droso.fa : chr # 1845  "chrY_DS484875v1_random" chrStart: 620232704
+droso.fa : chr # 1846  "chrY_DS484175v1_random" chrStart: 620494848
+droso.fa : chr # 1847  "chrY_DS485028v1_random" chrStart: 620756992
+droso.fa : chr # 1848  "chrY_DS483725v1_random" chrStart: 621019136
+droso.fa : chr # 1849  "chrY_DS483931v1_random" chrStart: 621281280
+droso.fa : chr # 1850  "chrY_DS483996v1_random" chrStart: 621543424
+droso.fa : chr # 1851  "chrY_DS483875v1_random" chrStart: 621805568
+droso.fa : chr # 1852  "chrY_DS483889v1_random" chrStart: 622067712
+droso.fa : chr # 1853  "chrY_DS484029v1_random" chrStart: 622329856
+droso.fa : chr # 1854  "chrY_DS484094v1_random" chrStart: 622592000
+droso.fa : chr # 1855  "chrY_DS483677v1_random" chrStart: 622854144
+droso.fa : chr # 1856  "chrY_DS483788v1_random" chrStart: 623116288
+droso.fa : chr # 1857  "chrY_DS483690v1_random" chrStart: 623378432
+droso.fa : chr # 1858  "chrY_CP007109v1_random" chrStart: 623640576
+droso.fa : chr # 1859  "chrY_CP007110v1_random" chrStart: 623902720
+droso.fa : chr # 1860  "chrY_CP007111v1_random" chrStart: 624164864
+droso.fa : chr # 1861  "chrY_CP007112v1_random" chrStart: 624427008
+droso.fa : chr # 1862  "chrY_CP007113v1_random" chrStart: 624689152
+droso.fa : chr # 1863  "chrY_CP007114v1_random" chrStart: 624951296
+droso.fa : chr # 1864  "chrY_CP007115v1_random" chrStart: 625213440
+droso.fa : chr # 1865  "chrY_CP007116v1_random" chrStart: 625475584
+droso.fa : chr # 1866  "chrY_CP007117v1_random" chrStart: 625737728
+droso.fa : chr # 1867  "chrY_CP007118v1_random" chrStart: 625999872
+droso.fa : chr # 1868  "chrY_CP007107v1_random" chrStart: 626262016
+droso.fa : chr # 1869  "chrY_CP007108v1_random" chrStart: 626524160
+Chromosome sequence lengths: 
+chr2L	23513712
+chr2R	25286936
+chr3L	28110227
+chr3R	32079331
+chr4	1348131
+chrM	19524
+chrUn_DS485919v1	1021
+chrUn_DS483755v1	6936
+chrUn_DS485425v1	1143
+chrUn_DS484861v1	1395
+chrUn_DS484484v1	2020
+chrUn_DS483705v1	27456
+chrUn_DS485490v1	1127
+chrUn_DS485998v1	1003
+chrUn_DS483873v1	4222
+chrUn_DS485608v1	1097
+chrUn_DS485270v1	1185
+chrUn_DS485979v1	1008
+chrUn_DS485398v1	1148
+chrUn_DS484139v1	2820
+chrUn_DS483906v1	3924
+chrUn_DS485760v1	1058
+chrUn_DS484191v1	2665
+chrUn_DS485340v1	1163
+chrUn_DS484489v1	2008
+chrUn_DS485495v1	1126
+chrUn_DS484923v1	1343
+chrUn_DS484663v1	1714
+chrUn_DS485390v1	1152
+chrUn_DS485130v1	1232
+chrUn_DS485995v1	1004
+chrUn_DS484448v1	2088
+chrUn_DS484827v1	1432
+chrUn_DS485467v1	1132
+chrUn_DS485433v1	1140
+chrUn_DS484944v1	1330
+chrUn_DS485504v1	1123
+chrUn_DS484938v1	1334
+chrUn_DS485984v1	1006
+chrUn_DS484921v1	1346
+chrUn_DS485859v1	1036
+chrUn_DS485086v1	1250
+chrUn_DS484058v1	3073
+chrUn_DS485294v1	1178
+chrUn_DS484855v1	1404
+chrUn_DS485356v1	1160
+chrUn_DS485246v1	1193
+chrUn_DS485386v1	1153
+chrUn_DS484726v1	1571
+chrUn_DS484366v1	2266
+chrUn_DS486002v1	1001
+chrUn_DS484770v1	1504
+chrUn_DS485354v1	1160
+chrUn_DS483728v1	12681
+chrUn_DS485403v1	1148
+chrUn_DS484964v1	1315
+chrUn_DS483921v1	3806
+chrUn_DS485181v1	1214
+chrUn_DS485602v1	1099
+chrUn_DS485783v1	1052
+chrUn_DS485547v1	1112
+chrUn_DS485280v1	1184
+chrUn_DS483976v1	3463
+chrUn_DS484972v1	1310
+chrUn_DS484407v1	2176
+chrUn_DS484446v1	2090
+chrUn_DS485906v1	1025
+chrUn_DS484769v1	1508
+chrUn_DS484527v1	1956
+chrUn_DS484933v1	1337
+chrUn_DS483748v1	8346
+chrUn_DS484460v1	2076
+chrUn_DS483711v1	14687
+chrUn_DS484039v1	3162
+chrUn_DS484339v1	2330
+chrUn_DS485457v1	1135
+chrUn_DS485643v1	1086
+chrUn_DS484689v1	1650
+chrUn_DS485822v1	1045
+chrUn_DS485678v1	1077
+chrUn_DS485150v1	1226
+chrUn_DS484746v1	1540
+chrUn_DS485957v1	1013
+chrUn_DS485541v1	1114
+chrUn_DS485741v1	1063
+chrUn_DS484490v1	2006
+chrUn_DS484881v1	1380
+chrUn_DS485539v1	1115
+chrUn_DS485958v1	1013
+chrUn_DS485748v1	1061
+chrUn_DS484822v1	1436
+chrUn_DS485421v1	1144
+chrUn_DS485296v1	1178
+chrUn_DS485337v1	1163
+chrUn_DS483700v1	11430
+chrUn_DS484511v1	1974
+chrUn_DS485973v1	1010
+chrUn_DS483719v1	12027
+chrUn_DS484571v1	1893
+chrUn_DS485733v1	1063
+chrUn_CP007102v1	12714
+chrUn_DS484052v1	3089
+chrUn_DS485073v1	1259
+chrUn_DS484257v1	2511
+chrUn_DS485376v1	1155
+chrUn_DS484485v1	2017
+chrUn_DS485572v1	1107
+chrUn_DS484816v1	1446
+chrUn_DS485925v1	1020
+chrUn_DS485239v1	1195
+chrUn_DS485853v1	1038
+chrUn_DS485443v1	1138
+chrUn_DS485381v1	1154
+chrUn_DS485339v1	1163
+chrUn_DS484707v1	1614
+chrUn_DS485675v1	1078
+chrUn_DS485065v1	1262
+chrUn_DS484546v1	1928
+chrUn_DS485846v1	1040
+chrUn_DS484667v1	1710
+chrUn_DS484756v1	1525
+chrUn_DS485558v1	1110
+chrUn_DS485703v1	1071
+chrUn_DS483977v1	3458
+chrUn_DS485341v1	1162
+chrUn_DS484226v1	2576
+chrUn_DS485505v1	1123
+chrUn_DS485451v1	1136
+chrUn_DS484736v1	1552
+chrUn_DS484304v1	2390
+chrUn_DS485024v1	1278
+chrUn_DS485808v1	1047
+chrUn_DS485578v1	1105
+chrUn_DS485029v1	1277
+chrUn_DS485634v1	1088
+chrUn_DS483877v1	4183
+chrUn_DS483723v1	21074
+chrUn_DS485038v1	1272
+chrUn_DS485788v1	1051
+chrUn_DS484496v1	1998
+chrUn_DS484841v1	1416
+chrUn_DS485123v1	1234
+chrUn_DS485261v1	1189
+chrUn_DS485673v1	1078
+chrUn_DS483879v1	4163
+chrUn_DS484716v1	1594
+chrUn_DS485907v1	1025
+chrUn_DS484100v1	2905
+chrUn_DS486008v1	1001
+chrUn_DS485747v1	1062
+chrUn_DS485891v1	1029
+chrUn_DS484329v1	2354
+chrUn_DS484653v1	1732
+chrUn_DS483692v1	11985
+chrUn_DS485387v1	1152
+chrUn_DS483938v1	3650
+chrUn_DS484073v1	2999
+chrUn_DS483957v1	3553
+chrUn_DS484050v1	3100
+chrUn_DS483694v1	11951
+chrUn_DS485407v1	1147
+chrUn_DS485357v1	1159
+chrUn_DS484122v1	2849
+chrUn_DS484548v1	1926
+chrUn_DS485254v1	1190
+chrUn_DS484988v1	1301
+chrUn_DS485205v1	1206
+chrUn_DS485793v1	1050
+chrUn_DS485496v1	1126
+chrUn_DS484904v1	1366
+chrUn_DS483707v1	25840
+chrUn_DS485365v1	1157
+chrUn_DS485789v1	1051
+chrUn_DS484842v1	1416
+chrUn_DS484180v1	2697
+chrUn_DS485333v1	1165
+chrUn_DS485954v1	1014
+chrUn_DS484202v1	2636
+chrUn_DS485825v1	1044
+chrUn_DS485285v1	1181
+chrUn_DS485223v1	1200
+chrUn_DS485313v1	1171
+chrUn_DS484567v1	1900
+chrUn_DS484040v1	3159
+chrUn_DS484475v1	2043
+chrUn_DS484168v1	2744
+chrUn_DS485711v1	1070
+chrUn_DS485475v1	1130
+chrUn_DS484532v1	1945
+chrUn_DS484751v1	1533
+chrUn_DS484229v1	2575
+chrUn_DS485870v1	1033
+chrUn_DS484787v1	1475
+chrUn_DS484277v1	2442
+chrUn_DS485304v1	1175
+chrUn_DS485794v1	1049
+chrUn_DS485226v1	1199
+chrUn_DS484470v1	2059
+chrUn_DS484303v1	2390
+chrUn_DS485506v1	1123
+chrUn_DS485522v1	1118
+chrUn_DS484505v1	1986
+chrUn_DS485854v1	1038
+chrUn_DS485342v1	1162
+chrUn_DS484739v1	1549
+chrUn_DS484452v1	2086
+chrUn_DS484720v1	1586
+chrUn_DS485722v1	1067
+chrUn_DS484522v1	1962
+chrUn_DS485781v1	1052
+chrUn_DS485542v1	1114
+chrUn_DS485821v1	1045
+chrUn_DS484350v1	2304
+chrUn_DS485623v1	1090
+chrUn_DS485989v1	1005
+chrUn_DS485743v1	1062
+chrUn_DS485872v1	1033
+chrUn_DS484190v1	2668
+chrUn_DS485240v1	1195
+chrUn_DS484844v1	1415
+chrUn_DS483695v1	11743
+chrUn_DS484798v1	1466
+chrUn_DS484096v1	2916
+chrUn_DS483799v1	5323
+chrUn_DS484843v1	1416
+chrUn_DS484659v1	1719
+chrUn_DS485864v1	1035
+chrUn_DS484825v1	1432
+chrUn_DS485229v1	1198
+chrUn_DS485773v1	1054
+chrUn_DS485659v1	1082
+chrUn_DS484993v1	1297
+chrUn_DS484896v1	1374
+chrUn_DS486005v1	1001
+chrUn_DS485047v1	1270
+chrUn_DS484069v1	3010
+chrUn_DS485138v1	1229
+chrUn_DS485929v1	1020
+chrUn_DS485886v1	1030
+chrUn_DS484493v1	2005
+chrUn_DS485661v1	1081
+chrUn_DS484866v1	1391
+chrUn_DS484772v1	1502
+chrUn_DS484727v1	1567
+chrUn_DS485838v1	1042
+chrUn_DS485701v1	1072
+chrUn_DS483936v1	3681
+chrUn_DS485581v1	1105
+chrUn_DS485019v1	1280
+chrUn_DS483940v1	3648
+chrUn_DS485810v1	1047
+chrUn_DS485982v1	1007
+chrUn_DS485165v1	1222
+chrUn_DS484404v1	2185
+chrUn_DS483736v1	14006
+chrUn_DS485654v1	1084
+chrUn_DS485415v1	1146
+chrUn_DS484275v1	2451
+chrUn_DS485255v1	1190
+chrUn_DS484383v1	2221
+chrUn_DS485331v1	1165
+chrUn_DS483901v1	3950
+chrUn_DS484884v1	1378
+chrUn_DS484515v1	1966
+chrUn_DS485883v1	1030
+chrUn_DS483703v1	11126
+chrUn_DS485311v1	1173
+chrUn_DS484897v1	1373
+chrUn_DS483933v1	3708
+chrUn_DS485740v1	1063
+chrUn_DS485290v1	1179
+chrUn_DS484481v1	2027
+chrUn_DS485349v1	1161
+chrUn_DS484454v1	2084
+chrUn_DS483808v1	5060
+chrUn_DS484976v1	1308
+chrUn_DS484311v1	2383
+chrUn_DS485089v1	1247
+chrUn_DS485985v1	1006
+chrUn_DS485753v1	1059
+chrUn_DS484776v1	1490
+chrUn_DS483864v1	4295
+chrUn_DS485132v1	1231
+chrUn_DS485209v1	1205
+chrUn_DS485693v1	1074
+chrUn_DS484210v1	2617
+chrUn_DS484764v1	1518
+chrUn_DS484999v1	1294
+chrUn_DS484232v1	2570
+chrUn_DS484262v1	2491
+chrUn_DS484076v1	2991
+chrUn_DS485437v1	1140
+chrUn_DS485515v1	1120
+chrUn_DS485199v1	1208
+chrUn_DS485462v1	1134
+chrUn_DS485501v1	1124
+chrUn_DS484710v1	1610
+chrUn_DS485153v1	1225
+chrUn_DS484920v1	1347
+chrUn_DS485163v1	1223
+chrUn_DS485940v1	1018
+chrUn_DS485650v1	1084
+chrUn_DS483849v1	4400
+chrUn_DS483972v1	3477
+chrUn_DS485242v1	1194
+chrUn_DS485056v1	1263
+chrUn_DS485683v1	1076
+chrUn_DS483682v1	12354
+chrUn_DS484478v1	2033
+chrUn_DS485325v1	1167
+chrUn_DS484054v1	3080
+chrUn_DS484771v1	1504
+chrUn_DS485477v1	1130
+chrUn_DS484170v1	2733
+chrUn_DS484922v1	1344
+chrUn_DS484160v1	2783
+chrUn_DS485812v1	1047
+chrUn_DS485438v1	1139
+chrUn_DS485102v1	1240
+chrUn_DS485082v1	1251
+chrUn_DS483743v1	11569
+chrUn_DS484282v1	2435
+chrUn_DS485664v1	1081
+chrUn_DS484369v1	2253
+chrUn_DS485585v1	1103
+chrUn_DS484948v1	1328
+chrUn_DS484728v1	1566
+chrUn_DS484313v1	2381
+chrUn_DS485395v1	1150
+chrUn_DS484443v1	2094
+chrUn_DS483650v1	13906
+chrUn_DS485498v1	1125
+chrUn_DS485668v1	1080
+chrUn_DS485751v1	1060
+chrUn_DS484077v1	2984
+chrUn_DS485900v1	1027
+chrUn_DS485545v1	1114
+chrUn_DS485076v1	1258
+chrUn_DS484394v1	2200
+chrUn_DS485064v1	1262
+chrUn_DS484549v1	1926
+chrUn_DS484738v1	1550
+chrUn_DS484985v1	1303
+chrUn_DS485324v1	1167
+chrUn_DS485904v1	1025
+chrUn_DS484979v1	1304
+chrUn_DS485353v1	1160
+chrUn_DS485688v1	1075
+chrUn_DS484987v1	1302
+chrUn_DS483680v1	12399
+chrUn_DS485686v1	1075
+chrUn_DS484456v1	2081
+chrUn_DS485488v1	1127
+chrUn_DS484479v1	2033
+chrUn_DS484154v1	2791
+chrUn_DS483845v1	4465
+chrUn_DS484251v1	2521
+chrUn_DS485442v1	1139
+chrUn_DS484559v1	1905
+chrUn_DS485062v1	1262
+chrUn_DS484333v1	2344
+chrUn_DS484207v1	2626
+chrUn_DS485322v1	1168
+chrUn_DS484309v1	2384
+chrUn_DS485100v1	1241
+chrUn_DS485526v1	1117
+chrUn_DS483914v1	3864
+chrUn_DS485362v1	1158
+chrUn_DS484760v1	1521
+chrUn_DS485893v1	1029
+chrUn_DS484846v1	1412
+chrUn_DS485249v1	1192
+chrUn_DS484102v1	2903
+chrUn_DS484380v1	2227
+chrUn_DS485466v1	1133
+chrUn_DS483805v1	5182
+chrUn_DS485000v1	1293
+chrUn_DS484243v1	2541
+chrUn_DS483871v1	4225
+chrUn_DS484436v1	2105
+chrUn_DS484713v1	1608
+chrUn_DS485863v1	1035
+chrUn_DS485905v1	1025
+chrUn_DS485055v1	1264
+chrUn_DS483712v1	14199
+chrUn_DS484152v1	2793
+chrUn_DS485472v1	1131
+chrUn_DS483678v1	12424
+chrUn_DS484709v1	1611
+chrUn_DS485026v1	1278
+chrUn_DS484508v1	1976
+chrUn_DS485842v1	1041
+chrUn_DS485826v1	1044
+chrUn_DS484578v1	1872
+chrUn_DS485766v1	1056
+chrUn_DS484654v1	1728
+chrUn_DS485058v1	1263
+chrUn_DS485828v1	1043
+chrUn_DS484301v1	2394
+chrUn_DS483740v1	12002
+chrUn_DS484606v1	1826
+chrUn_DS484220v1	2588
+chrUn_DS484355v1	2291
+chrUn_DS485682v1	1076
+chrUn_DS485563v1	1109
+chrUn_DS485059v1	1263
+chrUn_DS486004v1	1001
+chrUn_DS485173v1	1219
+chrUn_DS483759v1	6860
+chrUn_DS484111v1	2881
+chrUn_DS483674v1	12632
+chrUn_DS484895v1	1374
+chrUn_DS484577v1	1882
+chrUn_DS484400v1	2190
+chrUn_DS484721v1	1581
+chrUn_DS485529v1	1117
+chrUn_DS484445v1	2092
+chrUn_DS484991v1	1299
+chrUn_DS484642v1	1754
+chrUn_DS485868v1	1035
+chrUn_DS485607v1	1097
+chrUn_DS483876v1	4188
+chrUn_DS485867v1	1035
+chrUn_DS485509v1	1123
+chrUn_DS484241v1	2547
+chrUn_DS485605v1	1098
+chrUn_DS484331v1	2352
+chrUn_DS484106v1	2884
+chrUn_DS485368v1	1157
+chrUn_DS484276v1	2447
+chrUn_DS485005v1	1289
+chrUn_DS485469v1	1132
+chrUn_DS485566v2	544
+chrUn_DS483855v1	4377
+chrUn_DS483662v1	13317
+chrUn_DS485260v1	1189
+chrUn_DS484469v1	2060
+chrUn_DS484601v1	1832
+chrUn_DS483681v1	12368
+chrUn_DS484916v1	1352
+chrUn_DS484385v1	2217
+chrUn_DS485557v1	1110
+chrUn_DS485997v1	1004
+chrUn_DS484960v1	1316
+chrUn_DS483726v1	14983
+chrUn_DS485456v1	1135
+chrUn_DS484246v1	2529
+chrUn_DS485887v1	1029
+chrUn_DS484396v1	2198
+chrUn_DS485902v1	1026
+chrUn_DS484629v1	1785
+chrUn_DS484310v1	2383
+chrUn_DS485117v1	1236
+chrUn_DS485468v1	1132
+chrUn_DS484263v1	2487
+chrUn_DS485224v1	1200
+chrUn_DS485156v1	1225
+chrUn_DS484501v1	1990
+chrUn_DS485991v1	1005
+chrUn_DS485964v1	1012
+chrUn_DS485361v1	1159
+chrUn_DS484593v1	1849
+chrUn_DS485681v1	1076
+chrUn_DS484982v1	1304
+chrUn_DS485136v1	1231
+chrUn_DS483738v1	12856
+chrUn_DS483783v1	5891
+chrUn_DS485411v1	1146
+chrUn_DS485729v1	1064
+chrUn_DS485622v1	1090
+chrUn_DS484796v1	1468
+chrUn_DS485671v1	1079
+chrUn_DS485684v1	1076
+chrUn_DS485148v1	1227
+chrUn_DS484188v1	2670
+chrUn_DS484566v1	1900
+chrUn_DS484646v1	1747
+chrUn_DS485588v1	1103
+chrUn_DS484498v1	1998
+chrUn_DS485820v1	1045
+chrUn_DS484048v1	3120
+chrUn_DS485079v1	1253
+chrUn_DS485420v1	1144
+chrUn_DS483772v1	6076
+chrUn_DS484281v1	2438
+chrUn_DS484059v1	3073
+chrUn_DS485969v1	1011
+chrUn_DS485027v1	1277
+chrUn_DS485133v1	1231
+chrUn_DS485192v1	1210
+chrUn_DS483693v1	11958
+chrUn_DS484228v1	2575
+chrUn_DS484239v1	2549
+chrUn_DS484595v1	1843
+chrUn_DS484274v1	2462
+chrUn_DS485917v1	1022
+chrUn_DS484320v1	2369
+chrUn_DS484480v1	2030
+chrUn_DS484579v1	1872
+chrUn_DS485980v1	1008
+chrUn_DS485531v1	1116
+chrUn_DS484806v1	1458
+chrUn_DS484782v1	1484
+chrUn_DS484639v1	1761
+chrUn_DS485494v1	1126
+chrUn_DS484238v1	2555
+chrUn_DS485965v1	1012
+chrUn_DS484514v1	1966
+chrUn_DS485092v1	1246
+chrUn_DS485518v1	1119
+chrUn_DS485453v1	1136
+chrUn_DS484542v1	1933
+chrUn_DS483970v1	3490
+chrUn_DS484632v1	1775
+chrUn_DS485401v1	1148
+chrUn_DS484193v1	2647
+chrUn_DS484487v1	2010
+chrUn_DS484087v1	2937
+chrUn_DS485517v1	1119
+chrUn_DS485742v1	1062
+chrUn_DS483919v1	3807
+chrUn_DS484748v1	1538
+chrUn_DS484312v1	2382
+chrUn_DS485679v1	1077
+chrUn_DS483797v1	5360
+chrUn_DS485803v1	1048
+chrUn_DS484315v1	2379
+chrUn_DS485912v1	1022
+chrUn_DS484027v1	3197
+chrUn_DS485122v1	1234
+chrUn_DS485847v1	1040
+chrUn_DS484941v1	1333
+chrUn_DS483734v1	15522
+chrUn_DS484510v1	1975
+chrUn_DS484028v1	3196
+chrUn_DS484561v1	1903
+chrUn_DS485802v1	1048
+chrUn_DS484118v1	2858
+chrUn_DS485915v1	1022
+chrUn_DS485933v1	1019
+chrUn_DS485371v1	1156
+chrUn_DS484437v1	2103
+chrUn_DS484155v1	2790
+chrUn_DS485298v1	1178
+chrUn_DS485007v1	1287
+chrUn_DS484899v1	1369
+chrUn_DS485544v1	1114
+chrUn_DS485841v1	1041
+chrUn_DS485614v1	1094
+chrUn_DS484651v1	1734
+chrUn_DS485968v1	1011
+chrUn_DS484962v1	1315
+chrUn_DS483840v1	4573
+chrUn_DS483739v1	12459
+chrUn_DS485903v1	1026
+chrUn_DS485983v1	1006
+chrUn_DS484984v1	1304
+chrUn_DS485582v1	1105
+chrUn_DS485880v1	1031
+chrUn_DS485273v1	1185
+chrUn_DS485583v1	1105
+chrUn_DS485309v1	1173
+chrUn_DS485428v1	1142
+chrUn_DS484967v1	1311
+chrUn_DS484910v1	1356
+chrUn_DS484550v1	1924
+chrUn_DS485666v1	1080
+chrUn_DS483944v1	3622
+chrUn_DS484894v1	1375
+chrUn_DS483908v1	3913
+chrUn_DS484244v1	2536
+chrUn_DS485632v1	1088
+chrUn_DS485291v1	1179
+chrUn_DS484472v1	2046
+chrUn_DS485045v1	1271
+chrUn_DS483792v1	5465
+chrUn_DS485986v1	1005
+chrUn_DS485823v1	1044
+chrUn_DS483848v1	4436
+chrUn_DS484886v1	1377
+chrUn_DS484025v1	3201
+chrUn_DS483856v1	4370
+chrUn_DS485543v1	1114
+chrUn_DS485520v1	1118
+chrUn_DS485725v1	1066
+chrUn_DS485264v1	1186
+chrUn_DS485497v1	1125
+chrUn_DS485996v1	1004
+chrUn_DS485025v1	1278
+chrUn_DS485118v1	1235
+chrUn_DS485220v1	1202
+chrUn_DS485569v1	1108
+chrUn_DS484919v1	1347
+chrUn_DS484149v1	2795
+chrUn_DS485127v1	1233
+chrUn_DS485439v1	1139
+chrUn_DS483673v1	12654
+chrUn_DS484929v1	1339
+chrUn_DS485441v1	1139
+chrUn_DS483701v1	11220
+chrUn_DS485796v1	1049
+chrUn_DS485218v1	1203
+chrUn_DS485712v1	1070
+chrUn_DS483979v1	3434
+chrUn_DS485087v1	1249
+chrUn_DS484889v1	1377
+chrUn_DS484291v1	2421
+chrUn_DS485053v1	1266
+chrUn_DS484093v1	2922
+chrUn_DS485850v1	1039
+chrUn_DS485243v1	1193
+chrUn_DS485215v1	1203
+chrUn_DS485370v1	1156
+chrUn_DS483825v1	4815
+chrUn_DS484658v1	1719
+chrUn_DS483820v1	4888
+chrUn_DS484851v1	1408
+chrUn_DS483688v1	12095
+chrUn_DS485233v1	1197
+chrUn_DS483853v1	4381
+chrUn_DS484847v1	1411
+chrUn_DS485818v1	1045
+chrUn_DS485383v1	1154
+chrUn_DS484435v1	2105
+chrUn_DS484565v1	1901
+chrUn_DS485379v1	1154
+chrUn_DS484403v1	2187
+chrUn_DS483930v1	3716
+chrUn_DS484370v1	2248
+chrUn_DS485203v1	1208
+chrUn_DS484635v1	1770
+chrUn_DS484231v1	2574
+chrUn_DS485392v1	1151
+chrUn_DS484098v1	2911
+chrUn_DS484678v1	1685
+chrUn_DS485521v1	1118
+chrUn_DS485251v1	1192
+chrUn_DS483675v1	12536
+chrUn_DS485775v1	1053
+chrUn_DS484838v1	1422
+chrUn_DS485263v1	1188
+chrUn_DS484804v1	1461
+chrUn_DS485571v1	1107
+chrUn_DS484236v1	2556
+chrUn_DS484954v1	1323
+chrUn_DS484467v1	2060
+chrUn_DS484148v1	2795
+chrUn_DS484817v1	1445
+chrUn_DS483741v1	11807
+chrUn_DS485911v1	1023
+chrUn_DS484157v1	2787
+chrUn_DS484852v1	1407
+chrUn_DS485636v1	1088
+chrUn_DS484588v1	1863
+chrUn_DS483769v1	6237
+chrUn_DS484779v1	1487
+chrUn_DS485326v1	1166
+chrUn_DS485642v1	1087
+chrUn_DS485184v1	1212
+chrUn_DS485228v1	1198
+chrUn_DS483663v1	13256
+chrUn_DS483804v1	5189
+chrUn_DS484169v1	2736
+chrUn_DS485491v1	1126
+chrUn_DS485657v1	1083
+chrUn_DS484520v1	1962
+chrUn_DS485780v1	1053
+chrUn_DS484253v1	2520
+chrUn_DS484591v1	1854
+chrUn_DS484673v1	1696
+chrUn_DS485528v1	1117
+chrUn_DS485656v1	1083
+chrUn_DS483659v1	13416
+chrUn_DS485011v1	1285
+chrUn_DS485737v1	1063
+chrUn_DS485160v1	1224
+chrUn_DS485208v1	1205
+chrUn_DS485717v1	1069
+chrUn_DS484882v1	1379
+chrUn_DS483686v1	12148
+chrUn_DS485876v1	1032
+chrUn_DS484831v1	1429
+chrUn_DS484205v1	2629
+chrUn_DS485434v1	1140
+chrUn_DS484003v1	3284
+chrUn_DS485948v1	1015
+chrUn_DS484340v1	2328
+chrUn_DS483965v1	3503
+chrUn_DS485068v1	1260
+chrUn_DS485533v1	1116
+chrUn_DS484774v1	1492
+chrUn_DS485292v1	1179
+chrUn_DS484156v1	2788
+chrUn_DS485709v1	1070
+chrUn_DS485947v1	1016
+chrUn_DS484544v1	1929
+chrUn_DS484524v1	1961
+chrUn_DS485275v1	1185
+chrUn_DS485527v1	1117
+chrUn_DS484619v1	1800
+chrUn_DS483801v1	5281
+chrUn_DS484307v1	2385
+chrUn_DS483687v1	12142
+chrUn_DS484463v1	2064
+chrUn_DS485939v1	1018
+chrUn_DS485146v1	1227
+chrUn_DS485174v1	1219
+chrUn_DS485194v1	1209
+chrUn_DS484283v1	2434
+chrUn_DS485500v1	1124
+chrUn_DS484183v1	2688
+chrUn_DS484499v1	1995
+chrUn_DS485338v1	1163
+chrUn_DS485036v1	1274
+chrUn_DS484553v1	1917
+chrUn_DS485587v1	1103
+chrUn_DS485265v1	1186
+chrUn_DS484425v1	2124
+chrUn_DS484802v1	1462
+chrUn_DS485538v1	1115
+chrUn_DS483872v1	4222
+chrUn_DS485319v1	1169
+chrUn_DS484752v1	1532
+chrUn_DS485630v1	1089
+chrUn_DS483915v1	3858
+chrUn_DS485161v1	1224
+chrUn_DS485482v1	1129
+chrUn_DS484943v1	1332
+chrUn_DS484722v1	1577
+chrUn_DS485010v1	1286
+chrUn_DS485952v1	1014
+chrUn_DS484869v1	1391
+chrUn_DS483749v1	8007
+chrUn_DS484799v1	1464
+chrUn_DS484998v1	1294
+chrUn_DS484041v1	3157
+chrUn_DS483841v1	4553
+chrUn_DS485031v1	1275
+chrUn_DS484254v1	2517
+chrUn_DS484279v1	2438
+chrUn_DS484503v1	1988
+chrUn_DS483658v1	13455
+chrUn_DS485397v1	1148
+chrUn_DS485004v1	1290
+chrUn_DS485046v1	1270
+chrUn_DS485382v1	1154
+chrUn_DS485728v1	1064
+chrUn_DS485125v1	1234
+chrUn_DS485200v1	1208
+chrUn_DS484471v1	2050
+chrUn_DS483750v1	7722
+chrUn_DS485946v1	1016
+chrUn_DS484874v1	1384
+chrUn_DS485258v1	1189
+chrUn_DS485833v1	1042
+chrUn_DS485944v1	1016
+chrUn_DS485714v1	1069
+chrUn_DS483920v1	3806
+chrUn_DS485464v1	1133
+chrUn_DS484614v1	1806
+chrUn_DS484153v1	2793
+chrUn_DS485461v1	1134
+chrUn_DS484828v1	1430
+chrUn_DS484834v1	1424
+chrUn_DS483913v1	3871
+chrUn_DS483670v1	12827
+chrUn_DS484427v1	2117
+chrUn_DS485247v1	1193
+chrUn_DS484083v1	2957
+chrUn_DS485530v1	1117
+chrUn_DS485020v1	1280
+chrUn_DS485827v1	1043
+chrUn_DS484047v1	3123
+chrUn_DS485149v1	1226
+chrUn_DS484287v1	2428
+chrUn_DS485655v1	1083
+chrUn_DS485757v1	1058
+chrUn_DS484062v1	3058
+chrUn_DS485932v1	1019
+chrUn_DS484348v1	2308
+chrUn_DS484686v1	1667
+chrUn_DS485253v1	1191
+chrUn_DS485953v1	1014
+chrUn_DS484812v1	1451
+chrUn_DS484449v1	2087
+chrUn_DS485032v1	1275
+chrUn_DS484438v1	2102
+chrUn_DS485923v1	1021
+chrUn_DS484314v1	2381
+chrUn_DS485306v1	1174
+chrUn_DS483975v1	3466
+chrUn_DS485770v1	1055
+chrUn_DS485204v1	1207
+chrUn_DS484502v1	1990
+chrUn_DS485667v1	1080
+chrUn_DS483679v1	12424
+chrUn_DS484080v1	2971
+chrUn_DS484712v1	1610
+chrUn_DS484742v1	1543
+chrUn_DS483939v1	3649
+chrUn_DS485535v1	1116
+chrUn_DS484258v1	2510
+chrUn_DS484285v1	2431
+chrUn_DS484509v1	1976
+chrUn_DS485211v1	1205
+chrUn_DS483867v1	4272
+chrUn_DS485066v1	1261
+chrUn_DS484630v1	1776
+chrUn_DS484271v1	2470
+chrUn_DS484117v1	2860
+chrUn_DS484042v1	3156
+chrUn_DS483746v1	9341
+chrUn_DS484932v1	1337
+chrUn_DS485177v1	1218
+chrUn_DS485540v1	1114
+chrUn_DS484815v1	1446
+chrUn_DS483989v1	3373
+chrUn_DS483767v1	6396
+chrUn_DS485621v1	1091
+chrUn_DS483782v1	5915
+chrUn_DS485774v1	1053
+chrUn_DS483862v1	4310
+chrUn_DS484513v1	1966
+chrUn_DS484878v1	1381
+chrUn_DS483737v1	13553
+chrUn_DS483689v1	12034
+chrUn_DS484671v1	1703
+chrUn_DS484255v1	2516
+chrUn_DS485481v1	1129
+chrUn_DS484528v1	1947
+chrUn_DS484797v1	1467
+chrUn_DS485874v1	1033
+chrUn_DS484286v1	2429
+chrUn_DS484177v1	2703
+chrUn_DS483816v1	4939
+chrUn_DS484584v1	1869
+chrUn_DS485574v1	1106
+chrUn_DS485022v1	1279
+chrUn_DS485750v1	1060
+chrUn_DS483815v1	4967
+chrUn_DS484389v1	2207
+chrUn_DS484656v1	1724
+chrUn_DS485567v1	1108
+chrUn_DS484692v1	1643
+chrUn_DS483858v1	4361
+chrUn_DS484458v1	2079
+chrUn_DS485628v1	1089
+chrUn_DS483961v1	3527
+chrUn_DS485966v1	1011
+chrUn_DS484147v1	2796
+chrUn_DS484378v1	2232
+chrUn_DS485754v1	1059
+chrUn_DS484017v1	3227
+chrUn_DS485918v1	1021
+chrUn_DS485314v1	1171
+chrUn_DS485692v1	1074
+chrUn_DS484300v1	2400
+chrUn_DS483953v1	3557
+chrUn_DS484138v1	2822
+chrUn_DS485593v1	1101
+chrUn_DS484342v1	2326
+chrUn_DS484557v1	1907
+chrUn_DS484685v1	1675
+chrUn_DS484607v1	1819
+chrUn_DS484189v1	2669
+chrUn_DS485610v1	1096
+chrUn_DS485151v1	1226
+chrUn_DS484267v1	2476
+chrUn_DS484020v1	3218
+chrUn_DS485525v1	1117
+chrUn_DS485429v1	1141
+chrUn_DS485088v1	1248
+chrUn_DS485190v1	1211
+chrUn_DS485565v1	1109
+chrUn_DS483870v1	4231
+chrUn_DS484022v1	3209
+chrUn_DS484836v1	1424
+chrUn_DS484105v1	2889
+chrUn_DS485889v1	1029
+chrUn_DS484109v1	2882
+chrUn_DS485882v1	1031
+chrUn_DS483824v1	4820
+chrUn_DS485426v1	1142
+chrUn_DS485083v1	1251
+chrUn_DS485851v1	1039
+chrUn_DS483945v1	3622
+chrUn_DS484534v1	1943
+chrUn_DS484901v1	1368
+chrUn_DS484789v1	1473
+chrUn_DS483904v1	3932
+chrUn_DS484264v1	2479
+chrUn_DS484086v1	2943
+chrUn_DS484089v1	2928
+chrUn_DS485792v1	1050
+chrUn_DS485085v1	1251
+chrUn_DS483773v1	6062
+chrUn_DS483837v1	4608
+chrUn_DS485648v1	1086
+chrUn_DS485105v1	1240
+chrUn_DS485694v1	1074
+chrUn_DS485389v1	1152
+chrUn_DS484343v1	2325
+chrUn_DS483702v1	11148
+chrUn_DS485640v1	1087
+chrUn_DS483868v1	4256
+chrUn_DS485806v1	1048
+chrUn_DS484434v1	2108
+chrUn_DS484888v1	1377
+chrUn_DS484693v1	1641
+chrUn_DS485627v1	1090
+chrUn_DS485245v1	1193
+chrUn_DS485595v1	1101
+chrUn_DS484064v1	3044
+chrUn_DS485176v1	1219
+chrUn_DS485252v1	1191
+chrUn_DS485670v1	1079
+chrUn_DS485152v1	1225
+chrUn_DS484078v1	2982
+chrUn_DS483814v1	4986
+chrUn_DS484206v1	2628
+chrUn_DS485071v1	1260
+chrUn_DS484070v1	3009
+chrUn_DS485584v1	1105
+chrUn_DS483886v1	4081
+chrUn_DS484773v1	1494
+chrUn_DS484004v1	3277
+chrUn_DS485393v1	1150
+chrUn_DS484192v1	2664
+chrUn_DS483891v1	4030
+chrUn_DS484217v1	2603
+chrUn_DS484055v1	3080
+chrUn_DS484015v1	3234
+chrUn_DS485848v1	1040
+chrUn_DS485221v1	1201
+chrUn_DS485227v1	1199
+chrUn_DS485579v1	1105
+chrUn_DS485400v1	1148
+chrUn_DS485154v1	1225
+chrUn_DS483956v1	3553
+chrUn_DS483854v1	4378
+chrUn_DS485410v1	1147
+chrUn_DS484718v1	1586
+chrUn_DS484412v1	2161
+chrUn_DS484424v1	2124
+chrUn_DS484213v1	2611
+chrUn_DS485157v1	1225
+chrUn_DS484940v1	1333
+chrUn_DS484221v1	2584
+chrUn_DS485746v1	1062
+chrUn_DS484466v1	2062
+chrUn_DS484306v1	2385
+chrUn_DS485807v1	1048
+chrUn_DS485591v1	1102
+chrUn_DS484486v1	2014
+chrUn_DS485030v1	1276
+chrUn_DS484395v1	2198
+chrUn_DS485216v1	1203
+chrUn_DS483964v1	3519
+chrUn_DS484750v1	1533
+chrUn_DS484661v1	1716
+chrUn_DS484621v1	1797
+chrUn_DS484927v1	1340
+chrUn_DS485330v1	1166
+chrUn_DS485988v1	1005
+chrUn_DS485832v1	1042
+chrUn_DS484159v1	2784
+chrUn_DS485041v1	1271
+chrUn_DS484421v1	2129
+chrUn_DS485091v1	1246
+chrUn_DS485878v1	1032
+chrUn_DS485140v1	1229
+chrUn_DS485419v1	1144
+chrUn_DS484887v1	1377
+chrUn_DS485301v1	1177
+chrUn_DS485002v1	1291
+chrUn_DS484491v1	2006
+chrUn_DS485589v1	1102
+chrUn_DS485284v1	1182
+chrUn_DS484525v1	1961
+chrUn_DS484734v1	1555
+chrUn_DS484212v1	2612
+chrUn_DS483866v1	4273
+chrUn_DS484107v1	2882
+chrUn_DS484930v1	1339
+chrUn_DS484321v1	2368
+chrUn_DS485134v1	1231
+chrUn_DS484044v1	3144
+chrUn_DS484066v1	3025
+chrUn_DS484151v1	2794
+chrUn_DS484242v1	2541
+chrUn_DS484602v1	1832
+chrUn_DS484762v1	1520
+chrUn_DS484408v1	2173
+chrUn_DS485067v1	1261
+chrUn_DS485297v1	1178
+chrUn_DS484700v1	1625
+chrUn_DS484116v1	2860
+chrUn_DS484335v1	2342
+chrUn_DS485169v1	1220
+chrUn_DS485448v1	1137
+chrUn_DS483822v1	4865
+chrUn_DS484792v1	1471
+chrUn_DS483768v1	6294
+chrUn_DS483735v1	15068
+chrUn_DS485653v1	1084
+chrUn_DS484662v1	1715
+chrUn_DS484097v1	2914
+chrUn_DS484001v1	3299
+chrUn_DS485609v1	1096
+chrUn_DS485323v1	1167
+chrUn_DS483649v1	13935
+chrUn_DS484079v1	2982
+chrUn_DS484065v1	3043
+chrUn_DS485035v1	1274
+chrUn_DS485897v1	1028
+chrUn_DS485503v1	1123
+chrUn_DS484521v1	1962
+chrUn_DS484104v1	2893
+chrUn_DS483863v1	4305
+chrUn_DS484196v1	2644
+chrUn_DS484318v1	2375
+chrUn_DS485955v1	1014
+chrUn_DS485624v1	1090
+chrUn_DS484729v1	1560
+chrUn_DS484573v1	1890
+chrUn_DS484464v1	2063
+chrUn_DS483994v1	3348
+chrUn_DS484013v1	3252
+chrUn_DS484714v1	1597
+chrUn_DS484649v1	1738
+chrUn_DS484543v1	1931
+chrUn_DS484308v1	2385
+chrUn_DS485155v1	1225
+chrUn_DS485107v1	1239
+chrUn_DS483899v1	3964
+chrUn_DS485162v1	1223
+chrUn_DS484108v1	2882
+chrUn_DS485536v1	1116
+chrUn_DS485198v1	1209
+chrUn_DS484699v1	1629
+chrUn_DS484091v1	2926
+chrUn_DS485144v1	1227
+chrUn_DS485256v1	1190
+chrUn_DS484616v1	1802
+chrUn_DS484862v1	1394
+chrUn_DS484754v1	1527
+chrUn_DS484617v1	1801
+chrUn_DS484917v1	1351
+chrUn_DS483646v1	14098
+chrUn_DS485559v1	1110
+chrUn_DS484120v1	2855
+chrUn_DS483983v1	3396
+chrUn_DS484853v1	1406
+chrUn_DS484780v1	1487
+chrUn_DS484145v1	2804
+chrUn_DS484898v1	1371
+chrUn_DS484926v1	1340
+chrUn_DS484592v1	1851
+chrUn_DS485230v1	1197
+chrUn_DS484870v1	1386
+chrUn_DS484581v1	1870
+chrUn_DS485724v1	1067
+chrUn_DS485695v2	564
+chrUn_DS484123v1	2848
+chrUn_DS483780v1	5968
+chrUn_DS484007v1	3262
+chrUn_DS484230v1	2575
+chrUn_DS483819v1	4903
+chrUn_DS483898v1	3970
+chrUn_DS483762v1	6698
+chrUn_DS483895v1	4006
+chrUn_DS483929v1	3717
+chrUn_DS484038v1	3171
+chrUn_DS483844v1	4471
+chrUn_DS483806v1	5098
+chrUn_DS483812v1	4996
+chrUn_DS483785v1	5772
+chrUn_DS483943v1	3638
+chrUn_DS483753v1	7123
+chrUn_DS484045v1	3129
+chrUn_DS484144v1	2811
+chrUn_DS483925v1	3755
+chrUn_DS483787v1	5698
+chrUn_DS483865v1	4289
+chrUn_DS484090v1	2927
+chrUn_DS483757v1	6900
+chrUn_DS484010v1	3259
+chrUn_DS484247v1	2529
+chrUn_DS483751v1	7314
+chrUn_DS484280v1	2438
+chrUn_DS484167v1	2745
+chrUn_DS483918v1	3818
+chrUn_DS484414v1	2157
+chrUn_DS484134v1	2828
+chrUn_DS483833v1	4701
+chrUn_DS483878v1	4182
+chrUn_DS484053v1	3085
+chrUn_DS483859v1	4336
+chrUn_DS483793v1	5463
+chrUn_DS483774v1	6041
+chrUn_DS483770v1	6193
+chrUn_DS484225v1	2577
+chrUn_DS483947v1	3603
+chrUn_DS484006v1	3268
+chrUn_DS483954v1	3554
+chrUn_DS483982v1	3402
+chrUn_DS484222v1	2583
+chrUn_DS484092v1	2924
+chrUn_DS483647v1	14028
+chrUn_DS484095v1	2919
+chrUn_DS483776v1	6000
+chrUn_DS484209v1	2618
+chrUn_DS483927v1	3737
+chrUn_DS484234v1	2561
+chrUn_DS483992v1	3365
+chrUn_DS484036v1	3174
+chrUn_DS483986v1	3386
+chrUn_DS484031v1	3190
+chrUn_DS483813v1	4994
+chrUn_DS483881v1	4135
+chrUn_DS484296v1	2417
+chrUn_DS483949v1	3593
+chrUn_DS484000v1	3302
+chrUn_DS483941v1	3646
+chrUn_DS483985v1	3389
+chrUn_DS484375v1	2234
+chrUn_DS483998v1	3313
+chrUn_DS484068v1	3013
+chrUn_DS484353v1	2295
+chrUn_DS483810v1	5026
+chrUn_DS484018v1	3223
+chrUn_DS483817v1	4933
+chrUn_DS483999v1	3308
+chrUn_DS483724v1	13501
+chrUn_DS484256v1	2511
+chrUn_DS484391v1	2205
+chrUn_DS484539v1	1936
+chrUn_DS483937v1	3660
+chrUn_DS483828v1	4785
+chrUn_DS484113v1	2876
+chrUn_DS483811v1	5000
+chrUn_DS484432v1	2112
+chrUn_DS483832v1	4705
+chrUn_DS484386v1	2216
+chrUn_DS483896v1	3991
+chrUn_DS484294v1	2419
+chrUn_DS484426v1	2119
+chrUn_DS483800v1	5316
+chrUn_DS483763v1	6546
+chrUn_DS484289v1	2425
+chrUn_DS484865v1	1391
+chrUn_DS483839v1	4581
+chrUn_DS483880v1	4150
+chrUn_DS483951v1	3574
+chrUn_DS483781v1	5952
+chrUn_DS483798v1	5324
+chrUn_DS483641v1	14503
+chrUn_DS483861v1	4310
+chrUn_DS484872v1	1385
+chrUn_DS485098v1	1242
+chrUn_DS484292v1	2421
+chrUn_DS485935v1	1019
+chrUn_DS483900v1	3960
+chrUn_DS485601v1	1099
+chrUn_DS484009v1	3259
+chrUn_DS485385v1	1153
+chrUn_DS485259v1	1189
+chrUn_DS485182v1	1213
+chrUn_DS483960v1	3527
+chrUn_DS484735v1	1553
+chrUn_DS484224v1	2577
+chrUn_DS484363v1	2270
+chrUn_DS483760v1	6825
+chrUn_DS484652v1	1733
+chrUn_DS485548v1	1112
+chrUn_DS483910v1	3906
+chrUn_DS485424v1	1143
+chrUn_DS484848v1	1410
+chrUn_DS484176v1	2708
+chrUn_DS483807v1	5061
+chrUn_DS483796v1	5383
+chrUn_DS483754v1	7003
+chrUn_DS483758v1	6860
+chrUn_DS483846v1	4452
+chrUn_DS484317v1	2378
+chrUn_DS483744v1	9865
+chrUn_DS483709v1	18299
+chrUn_DS483874v1	4202
+chrUn_DS483629v1	15417
+chrUn_CP007071v1	19956
+chrUn_CP007072v1	44411
+chrUn_CP007073v1	13157
+chrUn_CP007074v1	76224
+chrUn_CP007075v1	11983
+chrUn_CP007076v1	87365
+chrUn_CP007077v1	36913
+chrUn_CP007078v1	22604
+chrUn_CP007079v1	23238
+chrUn_CP007082v1	36482
+chrUn_CP007083v1	25537
+chrUn_CP007084v1	62570
+chrUn_CP007085v1	45120
+chrUn_CP007086v1	22882
+chrUn_CP007087v1	46986
+chrUn_CP007088v1	37106
+chrUn_CP007089v1	16157
+chrUn_CP007090v1	57785
+chrUn_CP007091v1	20763
+chrUn_CP007092v1	28305
+chrUn_CP007093v1	25698
+chrUn_CP007094v1	29583
+chrUn_CP007095v1	25560
+chrUn_CP007096v1	26115
+chrUn_CP007080v1	86267
+chrUn_CP007097v1	13455
+chrUn_CP007098v1	43383
+chrUn_CP007099v1	12632
+chrUn_CP007100v1	10091
+chrUn_CP007101v1	24503
+chrUn_CP007081v1	88768
+chrUn_CP007105v1	47411
+chrUn_DS483562v1	50625
+chrUn_CP007120v1	76973
+chrX	23542271
+chrX_DS484701v1_random	1625
+chrX_DS484968v1_random	1311
+chrX_DS484668v1_random	1709
+chrX_DS484664v1_random	1713
+chrX_DS484272v1_random	2464
+chrX_DS485077v1_random	1258
+chrX_DS484084v1_random	2956
+chrX_DS484161v1_random	2781
+chrX_DS484284v1_random	2432
+chrX_DS484459v1_random	2078
+chrX_DS484765v1_random	1516
+chrX_DS484622v1_random	1793
+chrX_DS484526v1_random	1956
+chrX_DS485994v1_random	1004
+chrX_DS485235v1_random	1195
+chrX_DS484745v1_random	1541
+chrX_DS484507v1_random	1978
+chrX_DS484074v1_random	2999
+chrX_DS485618v1_random	1092
+chrX_DS485797v1_random	1049
+chrX_DS484367v1_random	2259
+chrX_DS484809v1_random	1453
+chrX_DS484965v1_random	1312
+chrX_DS484585v1_random	1869
+chrX_DS485172v1_random	1220
+chrX_DS484219v1_random	2591
+chrX_DS484650v1_random	1737
+chrX_DS484730v1_random	1560
+chrX_DS484200v1_random	2639
+chrX_DS484512v1_random	1970
+chrX_DS484582v1_random	1870
+chrX_DS484529v1_random	1947
+chrX_DS484429v1_random	2113
+chrX_DS484518v1_random	1964
+chrX_DS484833v1_random	1424
+chrX_DS484724v1_random	1575
+chrX_DS485015v1_random	1283
+chrX_DS484594v1_random	1843
+chrX_DS485606v1_random	1097
+chrX_DS484819v1_random	1441
+chrX_DS484358v1_random	2286
+chrX_DS484845v1_random	1412
+chrX_DS484430v1_random	2113
+chrX_DS484568v1_random	1899
+chrX_DS485942v1_random	1018
+chrX_DS484583v1_random	1869
+chrX_DS484428v1_random	2114
+chrX_DS485266v1_random	1186
+chrX_DS484399v1_random	2192
+chrX_DS485514v1_random	1121
+chrX_DS484012v1_random	3254
+chrX_DS484552v1_random	1920
+chrX_DS485074v1_random	1258
+chrX_DS484576v1_random	1888
+chrX_DS484803v1_random	1461
+chrX_DS485765v1_random	1056
+chrX_DS484447v1_random	2089
+chrX_DS485962v1_random	1012
+chrX_DS485769v1_random	1055
+chrX_DS484533v1_random	1944
+chrX_DS484388v1_random	2209
+chrX_DS484564v1_random	1902
+chrX_DS484126v1_random	2841
+chrX_DS484450v1_random	2087
+chrX_DS484610v1_random	1813
+chrX_DS485238v1_random	1195
+chrX_DS484402v1_random	2189
+chrX_DS484558v1_random	1906
+chrX_DS484684v1_random	1678
+chrX_DS484951v1_random	1327
+chrX_DS484679v1_random	1683
+chrX_DS484691v1_random	1643
+chrX_DS484647v1_random	1743
+chrX_DS485913v1_random	1022
+chrX_DS484608v1_random	1818
+chrX_DS484913v1_random	1355
+chrX_DS485358v1_random	1159
+chrX_DS485096v1_random	1244
+chrX_DS485257v1_random	1189
+chrX_DS484547v1_random	1927
+chrX_DS484596v1_random	1843
+chrX_DS484497v1_random	1998
+chrX_DS485967v1_random	1011
+chrX_DS484688v1_random	1657
+chrX_DS485476v1_random	1130
+chrX_DS485649v1_random	1084
+chrX_DS484996v1_random	1295
+chrX_DS485981v1_random	1007
+chrX_DS484235v1_random	2557
+chrX_DS484431v1_random	2113
+chrX_DS484672v1_random	1703
+chrX_DS484961v1_random	1315
+chrX_DS483648v1_random	13940
+chrX_DS484600v1_random	1841
+chrX_DS485813v1_random	1047
+chrX_DS485104v1_random	1240
+chrX_DS484785v1_random	1478
+chrX_DS484379v1_random	2228
+chrX_DS485465v1_random	1133
+chrX_DS485676v1_random	1078
+chrX_DS485735v1_random	1063
+chrX_DS484023v1_random	3206
+chrX_DS484401v1_random	2189
+chrX_DS484354v1_random	2293
+chrX_DS484298v1_random	2412
+chrX_DS484723v1_random	1577
+chrX_DS485860v1_random	1036
+chrX_DS484995v1_random	1296
+chrX_DS484393v1_random	2201
+chrX_DS484911v1_random	1355
+chrX_DS485305v1_random	1174
+chrX_DS484362v1_random	2273
+chrX_DS484628v1_random	1785
+chrX_DS484604v1_random	1829
+chrX_DS484201v1_random	2637
+chrX_DS484411v1_random	2161
+chrX_DS485855v1_random	1037
+chrX_DS484811v1_random	1452
+chrX_DS484504v1_random	1986
+chrX_DS484695v1_random	1637
+chrX_DS484670v1_random	1704
+chrX_DS484261v1_random	2500
+chrX_DS485660v1_random	1082
+chrX_DS485164v1_random	1223
+chrX_DS484609v1_random	1818
+chrX_DS485941v1_random	1018
+chrX_DS484545v1_random	1928
+chrX_DS484397v1_random	2196
+chrX_DS484368v1_random	2259
+chrX_DS484198v1_random	2641
+chrX_DS485101v1_random	1241
+chrX_DS485141v1_random	1228
+chrX_DS484625v1_random	1787
+chrX_DS484626v1_random	1786
+chrX_DS485723v1_random	1067
+chrX_DS484587v1_random	1865
+chrX_DS485167v1_random	1221
+chrX_DS485934v1_random	1019
+chrX_DS484364v1_random	2269
+chrX_DS485110v1_random	1238
+chrX_DS484540v1_random	1935
+chrX_DS484879v1_random	1381
+chrX_DS484182v1_random	2689
+chrX_DS484850v1_random	1408
+chrX_DS485785v1_random	1051
+chrX_DS484215v1_random	2605
+chrX_DS484337v1_random	2335
+chrX_DS485126v1_random	1233
+chrX_DS484737v1_random	1550
+chrX_DS485909v1_random	1023
+chrX_DS484703v1_random	1622
+chrX_DS484740v1_random	1546
+chrX_DS484660v1_random	1716
+chrX_DS484810v1_random	1452
+chrX_DS485081v1_random	1252
+chrX_DS484758v1_random	1525
+chrX_DS484763v1_random	1519
+chrX_DS484572v1_random	1891
+chrX_DS484477v1_random	2035
+chrX_DS485691v1_random	1074
+chrX_DS485801v1_random	1048
+chrX_DS485845v1_random	1040
+chrX_DS484101v1_random	2904
+chrX_DS485573v1_random	1107
+chrX_DS484690v1_random	1645
+chrX_DS484598v1_random	1842
+chrX_DS484406v1_random	2177
+chrX_DS484349v1_random	2307
+chrX_DS485987v1_random	1005
+chrX_DS484555v1_random	1916
+chrX_DS485687v1_random	1075
+chrX_DS485109v1_random	1238
+chrX_DS484569v1_random	1895
+chrX_DS484648v1_random	1741
+chrX_DS484483v1_random	2021
+chrX_DS485856v1_random	1037
+chrX_DS484633v1_random	1775
+chrX_DS484500v1_random	1993
+chrX_DS484136v1_random	2823
+chrX_DS484871v1_random	1386
+chrX_DS484360v1_random	2283
+chrX_DS485852v1_random	1038
+chrX_DS484415v1_random	2147
+chrX_DS484570v1_random	1895
+chrX_DS484783v1_random	1482
+chrX_DS484288v1_random	2425
+chrX_DS484778v1_random	1488
+chrX_DS484955v1_random	1323
+chrX_DS484252v1_random	2520
+chrX_DS484935v1_random	1336
+chrX_DS485620v1_random	1091
+chrX_DS485898v1_random	1028
+chrX_DS485782v1_random	1052
+chrX_DS484880v1_random	1380
+chrX_DS484840v1_random	1419
+chrX_DS484837v1_random	1423
+chrX_DS484698v1_random	1630
+chrX_DS484442v1_random	2096
+chrX_DS485771v1_random	1055
+chrX_DS484644v1_random	1747
+chrX_DS485084v1_random	1251
+chrX_DS484323v1_random	2363
+chrX_DS484457v1_random	2079
+chrX_DS484112v1_random	2877
+chrX_DS484741v1_random	1544
+chrX_DS484786v1_random	1476
+chrX_DS485745v1_random	1062
+chrX_DS484409v1_random	2166
+chrX_DS484590v1_random	1856
+chrX_DS484890v1_random	1376
+chrX_DS485043v1_random	1271
+chrX_DS484731v1_random	1558
+chrX_DS484768v1_random	1509
+chrX_DS484114v1_random	2871
+chrX_DS484611v1_random	1813
+chrX_DS484519v1_random	1963
+chrX_DS485599v1_random	1100
+chrX_DS485111v1_random	1238
+chrX_DS485378v1_random	1155
+chrX_DS483963v1_random	3523
+chrX_DS484605v1_random	1829
+chrX_DS485471v1_random	1131
+chrX_DS484657v1_random	1724
+chrX_DS484305v1_random	2389
+chrX_DS485635v1_random	1088
+chrX_DS485277v1_random	1184
+chrX_DS484597v1_random	1843
+chrX_DS484178v1_random	2698
+chrX_DS485262v1_random	1189
+chrX_DS485478v1_random	1129
+chrX_DS484683v1_random	1679
+chrX_DS485334v1_random	1164
+chrX_DS485112v1_random	1238
+chrX_DS484506v1_random	1980
+chrX_DS485336v1_random	1163
+chrX_DS483669v1_random	12848
+chrX_DS483655v1_random	13549
+chrX_DS485959v1_random	1013
+chrX_DS485300v1_random	1178
+chrX_DS485050v1_random	1268
+chrX_DS484260v1_random	2505
+chrX_DS484444v1_random	2094
+chrX_DS484694v1_random	1637
+chrX_DS484677v1_random	1687
+chrX_DS484777v1_random	1489
+chrX_DS485617v1_random	1093
+chrX_DS484839v1_random	1421
+chrX_DS485080v1_random	1253
+chrX_DS484560v1_random	1904
+chrX_DS484928v1_random	1340
+chrX_DS484775v1_random	1492
+chrX_DS484535v1_random	1939
+chrX_DS484725v1_random	1573
+chrX_DS484682v1_random	1680
+chrX_DS484618v1_random	1800
+chrX_DS484952v1_random	1326
+chrX_DS484599v1_random	1841
+chrX_DS484072v1_random	3002
+chrX_DS484137v1_random	2822
+chrX_DS485836v1_random	1042
+chrX_DS484419v1_random	2132
+chrX_DS484357v1_random	2287
+chrX_DS485798v1_random	1049
+chrX_DS484344v1_random	2322
+chrX_DS484623v1_random	1792
+chrX_DS485537v1_random	1115
+chrX_DS484057v1_random	3076
+chrX_DS485899v1_random	1027
+chrX_DS484832v1_random	1425
+chrX_DS485950v1_random	1015
+chrX_DS483995v1_random	3347
+chrX_DS485603v1_random	1098
+chrX_DS484733v1_random	1556
+chrX_DS484541v1_random	1933
+chrX_DS484085v1_random	2945
+chrX_DS484165v1_random	2751
+chrX_DS485271v1_random	1185
+chrX_DS485790v1_random	1051
+chrX_DS484753v1_random	1529
+chrX_DS484645v1_random	1747
+chrX_DS484669v1_random	1708
+chrX_DS484162v1_random	2765
+chrX_DS484374v1_random	2237
+chrX_DS485189v1_random	1211
+chrX_DS484603v1_random	1830
+chrX_DS485195v1_random	1209
+chrX_DS484580v1_random	1871
+chrX_DS485351v1_random	1161
+chrX_DS484433v1_random	2109
+chrX_DS485738v1_random	1063
+chrX_DS484423v1_random	2126
+chrX_DS485879v1_random	1031
+chrX_DS484702v1_random	1623
+chrX_DS484636v1_random	1769
+chrX_DS485762v1_random	1057
+chrX_DS485012v1_random	1284
+chrX_DS484474v1_random	2044
+chrX_DS485278v1_random	1184
+chrX_DS484322v1_random	2366
+chrX_DS484974v1_random	1309
+chrX_DS484135v1_random	2825
+chrX_DS484826v1_random	1432
+chrX_DS485816v1_random	1046
+chrX_DS483665v1_random	13234
+chrX_DS484067v1_random	3024
+chrX_DS485672v1_random	1078
+chrX_DS484005v1_random	3275
+chrX_DS483971v1_random	3478
+chrX_DS485303v1_random	1175
+chrX_DS484143v1_random	2814
+chrX_DS484346v1_random	2317
+chrX_DS485299v1_random	1178
+chrX_DS484384v1_random	2220
+chrX_DS484767v1_random	1510
+chrX_DS485857v1_random	1037
+chrX_DS485072v1_random	1260
+chrX_DS484319v1_random	2372
+chrX_DS485225v1_random	1200
+chrX_DS485268v1_random	1186
+chrX_DS484293v1_random	2420
+chrX_DS484715v1_random	1595
+chrX_DS485454v1_random	1135
+chrX_DS484130v1_random	2834
+chrX_DS484359v1_random	2284
+chrX_DS483784v1_random	5832
+chrX_DS485119v1_random	1235
+chrX_DS484462v1_random	2068
+chrX_DS485592v1_random	1102
+chrX_DS485647v1_random	1086
+chrX_DS484088v1_random	2937
+chrX_DS485078v1_random	1257
+chrX_DS483905v1_random	3926
+chrX_DS484963v1_random	1315
+chrX_DS483685v1_random	12187
+chrX_DS484749v1_random	1534
+chrX_DS484356v1_random	2289
+chrX_DS485418v1_random	1145
+chrX_DS484125v1_random	2844
+chrX_DS484131v1_random	2833
+chrX_DS484328v1_random	2355
+chrX_DS483843v1_random	4515
+chrX_DS484468v1_random	2060
+chrX_DS485978v1_random	1008
+chrX_DS485054v1_random	1265
+chrX_DS483955v1_random	3553
+chrX_DS483897v1_random	3984
+chrX_DS484361v1_random	2282
+chrX_DS485049v1_random	1269
+chrX_DS484978v1_random	1306
+chrX_DS484002v1_random	3290
+chrX_DS485364v1_random	1158
+chrX_DS484345v1_random	2318
+chrX_DS485310v1_random	1173
+chrX_DS485281v1_random	1184
+chrX_DS485597v1_random	1100
+chrX_DS485345v1_random	1161
+chrX_DS484417v1_random	2139
+chrX_DS483698v1_random	11522
+chrX_DS484620v1_random	1798
+chrX_DS485360v1_random	1159
+chrX_DS485562v1_random	1109
+chrX_DS485186v1_random	1212
+chrX_DS485778v1_random	1053
+chrX_DS485201v1_random	1208
+chrX_DS485384v1_random	1153
+chrX_DS485707v1_random	1071
+chrX_DS483809v1_random	5057
+chrX_DS484857v1_random	1402
+chrX_DS484268v1_random	2475
+chrX_DS484203v1_random	2635
+chrX_DS484970v1_random	1310
+chrX_DS483789v1_random	5555
+chrX_DS484719v1_random	1586
+chrX_DS484297v1_random	2413
+chrX_DS484124v1_random	2846
+chrX_DS485044v1_random	1271
+chrX_DS484990v1_random	1301
+chrX_DS484273v1_random	2463
+chrX_DS485017v1_random	1281
+chrX_DS484997v1_random	1294
+chrX_DS483888v1_random	4072
+chrX_DS485459v1_random	1134
+chrX_DS485651v1_random	1084
+chrX_DS484907v1_random	1361
+chrX_DS485549v1_random	1112
+chrX_DS484732v1_random	1556
+chrX_DS484953v1_random	1326
+chrX_DS483660v1_random	13394
+chrX_DS484615v1_random	1803
+chrX_DS484697v1_random	1636
+chrX_DS484216v1_random	2603
+chrX_DS485287v1_random	1181
+chrX_DS484382v1_random	2223
+chrX_DS484187v1_random	2671
+chrX_DS485756v1_random	1058
+chrX_DS484185v1_random	2686
+chrX_DS485550v1_random	1112
+chrX_DS483795v1_random	5387
+chrX_DS484666v1_random	1710
+chrX_DS483666v1_random	13108
+chrX_DS484371v1_random	2247
+chrX_DS483907v1_random	3921
+chrX_DS484387v1_random	2210
+chrX_DS484316v1_random	2379
+chrX_DS483803v1_random	5232
+chrX_DS483950v1_random	3582
+chrX_DS483885v1_random	4085
+chrX_DS483928v1_random	3730
+chrX_DS484326v1_random	2357
+chrX_DS483745v1_random	9368
+chrX_DS483892v1_random	4013
+chrX_DS484061v1_random	3059
+chrX_DS484330v1_random	2353
+chrX_DS484140v1_random	2819
+chrX_DS484051v1_random	3100
+chrX_DS483893v1_random	4012
+chrX_DS484075v1_random	2996
+chrX_DS483948v1_random	3602
+chrX_DS484081v1_random	2964
+chrX_DS484586v1_random	1868
+chrX_DS484278v1_random	2439
+chrX_DS484046v1_random	3123
+chrX_DS484133v1_random	2829
+chrX_DS483909v1_random	3913
+chrX_DS484488v1_random	2009
+chrX_DS483974v1_random	3473
+chrX_DS483903v1_random	3941
+chrX_DS484538v1_random	1936
+chrX_DS483946v1_random	3603
+chrX_DS484556v1_random	1916
+chrX_DS483851v1_random	4395
+chrX_DS483926v1_random	3745
+chrX_DS484563v1_random	1903
+chrX_DS483923v1_random	3775
+chrX_DS484166v1_random	2750
+chrX_DS484341v1_random	2328
+chrX_DS484099v1_random	2910
+chrX_DS484060v1_random	3065
+chrX_DS484132v1_random	2830
+chrX_DS483821v1_random	4879
+chrX_DS483818v1_random	4917
+chrX_DS484562v1_random	1903
+chrX_DS483969v1_random	3498
+chrX_DS484026v1_random	3201
+chrX_CP007104v1_random	27447
+chrX_CP007103v1_random	33320
+chrY	3667352
+chrY_DS485113v1_random	1237
+chrY_DS485267v1_random	1186
+chrY_DS484992v1_random	1297
+chrY_DS485594v1_random	1101
+chrY_DS484805v1_random	1459
+chrY_DS484021v1_random	3213
+chrY_DS484184v1_random	2688
+chrY_DS485013v1_random	1284
+chrY_DS485016v1_random	1282
+chrY_DS484142v1_random	2815
+chrY_DS484530v1_random	1947
+chrY_DS485460v1_random	1134
+chrY_DS486003v1_random	1001
+chrY_DS485375v1_random	1155
+chrY_DS484233v1_random	2565
+chrY_DS484270v1_random	2473
+chrY_DS485865v1_random	1035
+chrY_DS484643v1_random	1751
+chrY_DS484351v1_random	2303
+chrY_DS484146v1_random	2799
+chrY_DS483959v1_random	3537
+chrY_DS485795v1_random	1049
+chrY_DS484259v1_random	2508
+chrY_DS483778v1_random	5984
+chrY_DS484681v1_random	1683
+chrY_DS485927v1_random	1020
+chrY_DS484986v1_random	1303
+chrY_DS484164v1_random	2762
+chrY_DS485534v1_random	1116
+chrY_DS484250v1_random	2521
+chrY_DS485070v1_random	1260
+chrY_DS485423v1_random	1144
+chrY_DS485873v1_random	1033
+chrY_DS485736v1_random	1063
+chrY_DS485051v1_random	1268
+chrY_DS483987v1_random	3375
+chrY_DS485159v1_random	1224
+chrY_DS484266v1_random	2477
+chrY_DS485646v1_random	1086
+chrY_DS484781v1_random	1485
+chrY_DS485561v1_random	1109
+chrY_DS484056v1_random	3077
+chrY_DS485166v1_random	1222
+chrY_DS485427v1_random	1142
+chrY_DS485894v1_random	1029
+chrY_DS484631v1_random	1775
+chrY_DS485840v1_random	1041
+chrY_DS485492v1_random	1126
+chrY_DS485875v1_random	1032
+chrY_DS484492v1_random	2005
+chrY_DS485483v1_random	1129
+chrY_DS485250v1_random	1192
+chrY_DS485388v1_random	1152
+chrY_DS484818v1_random	1443
+chrY_DS485575v1_random	1106
+chrY_DS485696v1_random	1073
+chrY_DS484675v1_random	1690
+chrY_DS484665v1_random	1712
+chrY_DS483966v1_random	3502
+chrY_DS485749v1_random	1060
+chrY_DS485752v1_random	1059
+chrY_DS484197v1_random	2642
+chrY_DS485158v1_random	1224
+chrY_DS484706v1_random	1619
+chrY_DS484574v1_random	1890
+chrY_DS484637v1_random	1766
+chrY_DS485732v1_random	1064
+chrY_DS485374v1_random	1155
+chrY_DS485359v1_random	1159
+chrY_DS485523v1_random	1118
+chrY_DS485236v1_random	1195
+chrY_DS485399v1_random	1148
+chrY_DS484049v1_random	3102
+chrY_DS485767v1_random	1056
+chrY_DS484037v1_random	3173
+chrY_DS485975v1_random	1010
+chrY_DS485560v1_random	1110
+chrY_DS484249v1_random	2522
+chrY_DS485938v1_random	1019
+chrY_DS485329v1_random	1166
+chrY_DS484523v1_random	1961
+chrY_DS485042v1_random	1271
+chrY_DS485901v1_random	1027
+chrY_DS484863v1_random	1393
+chrY_DS485343v1_random	1162
+chrY_DS485772v1_random	1054
+chrY_DS484994v1_random	1297
+chrY_DS485328v1_random	1166
+chrY_DS484336v1_random	2342
+chrY_DS485178v1_random	1218
+chrY_DS485409v1_random	1147
+chrY_DS485764v1_random	1056
+chrY_DS484128v1_random	2836
+chrY_DS485739v1_random	1063
+chrY_DS485452v1_random	1136
+chrY_DS484909v1_random	1356
+chrY_DS485641v1_random	1087
+chrY_DS484956v1_random	1322
+chrY_DS485320v1_random	1169
+chrY_DS485302v1_random	1176
+chrY_DS485440v1_random	1139
+chrY_DS485685v1_random	1075
+chrY_DS483967v1_random	3499
+chrY_DS484908v1_random	1360
+chrY_DS484945v1_random	1330
+chrY_DS485718v1_random	1068
+chrY_DS485099v1_random	1241
+chrY_DS485839v1_random	1042
+chrY_DS484589v1_random	1863
+chrY_DS485048v1_random	1270
+chrY_DS485363v1_random	1158
+chrY_DS484103v1_random	2899
+chrY_DS485532v1_random	1116
+chrY_DS484942v1_random	1333
+chrY_DS484983v1_random	1304
+chrY_DS484680v1_random	1683
+chrY_DS484441v1_random	2096
+chrY_DS485604v1_random	1098
+chrY_DS485960v1_random	1012
+chrY_DS485974v1_random	1010
+chrY_DS484063v1_random	3046
+chrY_DS485972v1_random	1010
+chrY_DS484043v1_random	3154
+chrY_DS485625v1_random	1090
+chrY_DS485318v1_random	1170
+chrY_DS485963v1_random	1012
+chrY_DS485776v1_random	1053
+chrY_DS485137v1_random	1230
+chrY_DS485315v1_random	1171
+chrY_DS484696v1_random	1637
+chrY_DS483742v1_random	11763
+chrY_DS483790v1_random	5520
+chrY_DS484171v1_random	2728
+chrY_DS485097v1_random	1243
+chrY_DS484181v1_random	2694
+chrY_CP007119v1_random	11498
+chrY_DS485888v1_random	1029
+chrY_DS484531v1_random	1946
+chrY_DS485470v1_random	1132
+chrY_DS485473v1_random	1131
+chrY_DS485755v1_random	1058
+chrY_DS485892v1_random	1029
+chrY_DS485552v1_random	1111
+chrY_DS485288v1_random	1181
+chrY_DS485014v1_random	1283
+chrY_DS484757v1_random	1525
+chrY_DS484820v1_random	1440
+chrY_DS485422v1_random	1144
+chrY_DS484876v1_random	1382
+chrY_DS485858v1_random	1037
+chrY_DS485512v1_random	1122
+chrY_DS485143v1_random	1227
+chrY_DS484390v1_random	2206
+chrY_DS485416v1_random	1146
+chrY_DS484674v1_random	1690
+chrY_DS484465v1_random	2063
+chrY_DS485436v1_random	1140
+chrY_DS485450v1_random	1136
+chrY_DS484830v1_random	1429
+chrY_DS483988v1_random	3374
+chrY_DS484807v1_random	1456
+chrY_DS485956v1_random	1014
+chrY_DS485283v1_random	1182
+chrY_DS485335v1_random	1163
+chrY_DS485698v1_random	1072
+chrY_DS484641v1_random	1756
+chrY_DS485430v1_random	1141
+chrY_DS485316v1_random	1171
+chrY_DS484377v1_random	2232
+chrY_DS485786v1_random	1051
+chrY_DS484924v1_random	1341
+chrY_DS485885v1_random	1030
+chrY_DS485849v1_random	1039
+chrY_DS485219v1_random	1202
+chrY_DS484875v1_random	1383
+chrY_DS484175v1_random	2709
+chrY_DS485028v1_random	1277
+chrY_DS483725v1_random	13079
+chrY_DS483931v1_random	3713
+chrY_DS483996v1_random	3341
+chrY_DS483875v1_random	4197
+chrY_DS483889v1_random	4059
+chrY_DS484029v1_random	3195
+chrY_DS484094v1_random	2922
+chrY_DS483677v1_random	12513
+chrY_DS483788v1_random	5564
+chrY_DS483690v1_random	12001
+chrY_CP007109v1_random	66439
+chrY_CP007110v1_random	33316
+chrY_CP007111v1_random	34521
+chrY_CP007112v1_random	39041
+chrY_CP007113v1_random	34359
+chrY_CP007114v1_random	31460
+chrY_CP007115v1_random	21921
+chrY_CP007116v1_random	25805
+chrY_CP007117v1_random	24380
+chrY_CP007118v1_random	44104
+chrY_CP007107v1_random	73091
+chrY_CP007108v1_random	66731
+Genome sequence total length = 143726002
+Genome size with padding = 626786304
+Jun 26 22:33:46 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=droso.gtf, found:
+		41200 transcripts
+		195484 exons (non-collapsed)
+		60432 collapsed junctions
+Total junctions: 60432
+Jun 26 22:33:48 ..... finished GTF processing
+
+Estimated genome size with padding and SJs: total=genome+SJ=827786304 = 626786304 + 201000000
+GstrandBit=32
+Number of SA indices: 285146048
+Jun 26 22:33:52 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 1;   chunks size limit: 2281168384 bytes
+Jun 26 22:33:55 ... sorting Suffix Array chunks and saving them to disk...
+Writing 2281168384 bytes into null//SA_0 ; empty space on disk = 15365699534848 bytes ... done
+Jun 26 22:38:21 ... loading chunks from disk, packing SA...
+Jun 26 22:38:27 ... finished generating suffix array
+Jun 26 22:38:27 ... generating Suffix Array index
+Jun 26 22:38:42 ... completed Suffix Array index
+Jun 26 22:38:43   Finished preparing junctions
+Jun 26 22:38:43 ..... inserting junctions into the genome indices
+Jun 26 22:39:31   Finished SA search: number of new junctions=60432, old junctions=0
+Jun 26 22:39:37   Finished sorting SA indicesL nInd=24172800
+Genome size with junctions=638933136  626786304   12146832
+GstrandBit1=32   GstrandBit=32
+Jun 26 22:39:42   Finished inserting junction indices
+Jun 26 22:39:45   Finished SAi
+Jun 26 22:39:45 ..... finished inserting junctions into genome
+Jun 26 22:39:45 ... writing Genome to disk ...
+Writing 638933136 bytes into null//Genome ; empty space on disk = 15359703777280 bytes ... done
+SA size in bytes: 1275940251
+Jun 26 22:39:45 ... writing Suffix Array to disk ...
+Writing 1275940251 bytes into null//SA ; empty space on disk = 15196136407040 bytes ... done
+Jun 26 22:39:46 ... writing SAindex to disk
+Writing 8 bytes into null//SAindex ; empty space on disk = 14869486108672 bytes ... done
+Writing 104 bytes into null//SAindex ; empty space on disk = 14869486108672 bytes ... done
+Writing 97867091 bytes into null//SAindex ; empty space on disk = 14869486108672 bytes ... done
+Jun 26 22:39:46 ..... finished successfully
+DONE: Genome generation, EXITING

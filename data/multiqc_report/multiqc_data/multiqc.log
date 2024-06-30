@@ -1,0 +1,5 @@
+[2024-06-28 18:08:24,950] multiqc.core.file_search                           [INFO   ]  Search path: /Users/zainabusman/RNAseq/Drosophila/data/work/dd/bb13fa75ce48e309bc247a80b9376f/fastqc_report
+[2024-06-28 18:08:25,273] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 8 reports
+[2024-06-28 18:08:25,656] multiqc.core.write_results                         [INFO   ]  Data        : multiqc_data
+[2024-06-28 18:08:25,913] multiqc.core.write_results                         [INFO   ]  Report      : multiqc_report.html
+[2024-06-28 18:08:25,923] multiqc.multiqc                                    [INFO   ]  MultiQC complete

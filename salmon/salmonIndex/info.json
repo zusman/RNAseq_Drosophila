@@ -1,0 +1,22 @@
+{
+    "index_version": 4,
+    "reference_gfa": [
+        "/Users/zainabusman/RNAseq/Drosophila/salmon/salmonIndex"
+    ],
+    "sampling_type": "dense",
+    "k": 31,
+    "num_kmers": 123487038,
+    "num_contigs": 462879,
+    "seq_length": 137373408,
+    "have_ref_seq": true,
+    "have_edge_vec": false,
+    "SeqHash": "9a8dbcd975f4ce8aee4771d792bee1a17067c1d18e202e8d38a425fab81a3c2e",
+    "NameHash": "798af886f7d72defb4f46149cae8d6fad8a762b705505701ce2f37e94a174a3c",
+    "SeqHash512": "69e5244909f5282dcf8492242d6d607484b3d92cb624b108e34b9035d588549299822555abc8ddea88fc637b9969bbdc227a43d6a7dce6ffa19ec7133b668fb7",
+    "NameHash512": "17271ca6a78fbc6e5f8c28b73b2dccacb9a50b36e744121abd9b27b8989b645e6bbb4fc7dc96e185846ba0484c15f63a0df094182167df50e7355cfb408cff6f",
+    "DecoySeqHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "DecoyNameHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "num_decoys": 0,
+    "first_decoy_index": 18446744073709551615,
+    "keep_duplicates": false
+}

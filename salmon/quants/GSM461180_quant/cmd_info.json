@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.10.1",
+    "index": "/Users/zainabusman/RNAseq/Drosophila/salmon/salmonIndex",
+    "libType": "A",
+    "mates1": "/Users/zainabusman/RNAseq/Drosophila/salmon/fastq/GSM461180_1.fastq",
+    "mates2": "/Users/zainabusman/RNAseq/Drosophila/salmon/fastq/GSM461180_2.fastq",
+    "threads": "8",
+    "validateMappings": [],
+    "output": "/Users/zainabusman/RNAseq/Drosophila/salmon/quants/GSM461180_quant",
+    "auxDir": "aux_info"
+}

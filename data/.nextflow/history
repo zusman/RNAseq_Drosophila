@@ -1,0 +1,145 @@
+2024-06-26 16:12:11	2.9s	cheesy_lichterman	OK	7fed6deaca580bf3104d02e54373597a	02066091-636b-4cb7-9eee-4d47f4c05b3d	nextflow run Qualitycontrol.nf
+2024-06-26 16:36:33	56.9s	admiring_picasso	OK	176bed5c840c4e98db3b4de936afe67d	c6fa55d2-4193-4872-bb35-4e44062c7f93	nextflow run ./Qualitycontrol.nf
+2024-06-26 17:12:48	-	curious_koch	-	21621b17e7923b22d5825f9b04b4563c	7c925749-3cbe-4670-9761-27ecd8db3abc	nextflow Qualitycontrol.nf
+2024-06-26 17:14:18	-	disturbed_davinci	-	d5522c47ac0d4a3de26de07d2bf05555	29a55572-b552-4285-af68-00ea295d6d8b	nextflow Qualitycontrol.nf
+2024-06-26 17:18:43	-	modest_heyrovsky	-	ca7b615d3619642128420f75da65b178	3eaad5b4-390a-459b-afd7-a616f05ac3bd	nextflow Qualitycontrol.nf
+2024-06-26 17:55:38	-	drunk_borg	-	bf606f1119a0cf1dde5027a4afd8019a	3cdd99bc-e117-4436-b40b-f1f6380d9868	nextflow run GenomeIndex.nf
+2024-06-26 17:58:43	3.3s	shrivelled_goldwasser	ERR	c3b0fbf55c7391f1f71ea0a6fb69e56c	add69e94-2b56-4f00-9d74-aece8d892e8c	nextflow run GenomeIndex.nf
+2024-06-26 18:00:15	2m 36s	confident_volhard	ERR	7006afafc2bc7a8dbdaf7179fd8b5e1a	bc1ab1aa-a964-446d-894d-1c3cc491fb26	nextflow run GenomeIndex.nf
+2024-06-26 18:03:03	6m 19s	confident_caravaggio	OK	330ce6060d7aca6f5ca2b091d8151df3	7882c978-47b5-471a-b2e8-7ca730c00916	nextflow run GenomeIndex.nf
+2024-06-26 19:55:25	-	wise_babbage	-	469b9e4bbf481258f902c028b9efedab	1fcd5322-4109-4cdc-8457-e5fa7061e079	nextflow Mapping.nf
+2024-06-26 20:35:47	-	distraught_brattain	-	239c9d400e2e4a5a31a84b2fd2bfcdc7	040c5855-4507-4c0a-83b0-5b30029233ee	nextflow Mapping.nf
+2024-06-26 20:38:15	-	pensive_meninsky	-	5a2cd80b9d5615422fe00b9872878a6b	701a652e-2fe8-4c51-a834-75f46e18baaf	nextflow Mapping.nf
+2024-06-26 20:39:35	-	intergalactic_bartik	-	2c6fec43cfca5a52896d293b0932b0a7	fb3c727d-8f45-403c-b0d5-f52e20bdc635	nextflow Mapping.nf
+2024-06-26 21:06:48	-	prickly_minsky	-	2c6fec43cfca5a52896d293b0932b0a7	6bb0f6c4-b7e1-4fac-99ca-ca95ef45f8fc	nextflow Mapping.nf
+2024-06-26 21:10:50	-	angry_lumiere	-	426c4aad6d0921a1704684a1f941c6c0	31d9dad1-df5d-45e4-afee-1ba3da39d562	nextflow Mapping.nf
+2024-06-26 21:14:47	-	confident_majorana	-	1a1764b498b05683a0576d4e7cd45b8f	2b406910-c09c-4a84-84bc-d26fed0d372d	nextflow Mapping.nf
+2024-06-26 21:18:08	-	jolly_kilby	-	b0004119a91bbed6d7e58b4f4a2d4a08	3694ea95-502d-416e-8cf3-a35fa151b89d	nextflow Mapping.nf
+2024-06-26 21:33:38	-	happy_wescoff	-	967caa928c678ef6eede10c5ebe2f2ca	9233aa0e-0f95-4a63-a562-6fd031e7e549	nextflow Mapping.nf
+2024-06-26 21:35:06	-	cranky_ritchie	-	57d17942a4a4748abf76fa730bcecbbc	b7f2b1b0-1569-4b9e-b4b8-fa645cbd160f	nextflow Mapping.nf
+2024-06-26 21:36:37	2s	chaotic_golick	ERR	9489bb433be66c7eb921b156e3d78ec5	3a0d618b-5319-40f3-81b7-bc3a6856c09b	nextflow Mapping.nf
+2024-06-26 21:42:29	-	backstabbing_jennings	-	67b58d639cafc93c2732bcb57b840f48	aa6dfde0-ecf2-41cf-a810-a4595047269f	nextflow Mapping.nf
+2024-06-26 21:44:12	-	shrivelled_agnesi	-	081348e79496b3d1095efb6f435302ce	ecec7908-7514-4094-845d-2af638bdd349	nextflow Mapping.nf
+2024-06-26 21:50:02	-	lonely_koch	-	bcd37e9be69b6f215cbc1d55bc57bf55	87ba43ae-f6f4-43f4-a2b6-7e307c01451a	nextflow Mapping.nf
+2024-06-26 21:57:28	-	loving_rosalind	-	305ab7c45bda7f3587dbf08fcd7287af	30959493-4abd-4ecc-99cc-806aef768e96	nextflow Mapping.nf
+2024-06-26 21:59:31	2.3s	zen_wozniak	ERR	31fc540bd41fba238fa02b8fa225fe68	b2319114-f82e-4dcd-a2f5-07299d007e19	nextflow Mapping.nf
+2024-06-26 22:07:16	-	serene_escher	-	77e39e53199209057ab8674ca963266d	ee33ca76-8572-4df8-98a4-da8049a5c1e2	nextflow Mapping.nf
+2024-06-26 22:13:24	-	scruffy_meninsky	-	e7c78bd8804ca165f4e7a624e32d075a	ec4aa2af-e051-480e-960e-628e68ace5f4	nextflow Mapping.nf
+2024-06-26 22:15:58	-	loquacious_cantor	-	4ce52828797c18659a1cd47f0d55e3f9	8dc9ea48-c50a-4ef2-9ff8-44193e842a4d	nextflow Mapping.nf
+2024-06-26 22:18:05	-	reverent_carson	-	d488de25c4a41abb56a3765df37274ec	0be83fc3-d386-4495-9bc2-1048479ad697	nextflow Mapping.nf
+2024-06-26 22:18:40	-	sleepy_hilbert	-	f0ad63450b7908b73b2aac25cf13b004	b07c0ed3-9b29-4cb6-b743-d115d984cdcc	nextflow Mapping.nf
+2024-06-26 22:22:06	-	intergalactic_bhaskara	-	a39a7a75062a6a07fc6406c59dd6748a	20131d62-3749-434d-81fe-46effe40cbc7	nextflow Mapping.nf
+2024-06-26 22:25:41	-	gloomy_noyce	-	9db9c25ca485819ca65bc3c4f950478e	8de800bd-1e14-4b1b-a27e-4cc2d973c8e1	nextflow Mapping.nf
+2024-06-26 22:33:40	6m 9s	extravagant_heyrovsky	OK	cce6797753aeb9c830df241888c5259e	3ca72e12-6a40-45bc-a679-02d6843ec772	nextflow GenomeIndex.nf
+2024-06-26 22:41:09	-	sharp_brahmagupta	-	1b70d20777b6fbd8c41e489f306d39ae	dc9aa2c9-0659-445f-8f05-d044c088f0d5	nextflow Mapping.nf
+2024-06-26 23:08:07	-	insane_lamarck	-	1b70d20777b6fbd8c41e489f306d39ae	3bdbb403-e0ed-46ad-bbbf-b239edc3fed8	nextflow Mapping.nf
+2024-06-27 00:01:58	-	stupefied_rutherford	-	4158e076a2b30e7e067e5de70bac113b	f5e650cc-f5ca-45a6-b49a-735896bde485	nextflow run ./Mapping.nf
+2024-06-27 00:03:20	-	loquacious_gilbert	-	4158e076a2b30e7e067e5de70bac113b	08a621b5-5f7c-4912-8cc4-7ad013a2ce49	nextflow run ./Mapping.nf
+2024-06-27 00:04:40	-	pedantic_neumann	-	5b2627c96957216decf2cbb05b1394f5	faa33ff1-9197-4bba-a619-fa467b2ee12b	nextflow run ./Mapping.nf
+2024-06-27 00:06:09	-	kickass_leavitt	-	0e0f54d8e8c4e17ff166f73cbb3a1d8d	3862cd1d-fbfb-4322-9745-2831137d04cc	nextflow run ./Mapping.nf
+2024-06-27 00:10:24	-	spontaneous_khorana	-	b400ceabaadbd1bfe0b100164212b1e3	3537307b-c063-454b-a164-402d774a3a5d	nextflow run ./Mapping.nf
+2024-06-27 00:12:18	-	reverent_darwin	-	02aa93849140f52d3e25fabea66ae60a	ddb757ae-0e12-4db6-9395-dd56c5ac4036	nextflow run ./Mapping.nf
+2024-06-27 00:12:42	-	sad_bartik	-	02aa93849140f52d3e25fabea66ae60a	fec5c273-c998-4575-bb6a-b52a96cd5cb2	nextflow run ./Mapping.nf
+2024-06-27 00:13:13	2.8s	cranky_planck	ERR	21fef7d8f8089dabd520893ebadf2255	d60d08a7-5f2d-43d0-b849-a761f9820e8a	nextflow run ./Mapping.nf
+2024-06-27 00:14:24	3.2s	cranky_ardinghelli	ERR	6152f114278508002e51c3f932cc3f4c	08c03485-bf81-4170-8b89-cf56a3b7d9d3	nextflow run ./Mapping.nf
+2024-06-27 00:16:12	2.4s	boring_swirles	ERR	1e04af69699980d533b4d74b07350d1d	d3b42d79-8a79-4b1d-93b0-254f0720aca7	nextflow run ./Mapping.nf
+2024-06-27 00:28:58	3.1s	drunk_gauss	ERR	abfb1ef3d0393784daf7f9d98402eb49	9db46baa-83ae-4c98-99a6-e829a95dd1e6	nextflow run ./Mapping.nf
+2024-06-27 00:31:44	3.7s	tender_lamport	ERR	3c8d0245894106d4dd50dcc9d64e10c3	df509d63-0020-4489-bba3-ac24be620833	nextflow run ./Mapping.nf
+2024-06-27 01:20:56	2.7s	lonely_solvay	ERR	3c8d0245894106d4dd50dcc9d64e10c3	1fa7f130-598b-4739-bbb4-56b1a3af0aef	nextflow run ./Mapping.nf
+2024-06-27 01:29:11	2.5s	gigantic_keller	ERR	9087c497f73ee723ad13ae8d16f426f7	546ae8f2-4a21-4228-a1d3-4134e3201a77	nextflow run ./Mapping.nf
+2024-06-27 01:38:18	-	deadly_bhaskara	-	d9e375c0a37d8a2ea142005bc7996e53	502f6db6-af15-43d8-a19e-2073e18eaa77	nextflow salmon_quantify.nf
+2024-06-27 02:04:33	-	peaceful_ardinghelli	-	d8cc5b25070af9e395064f567c174575	88f4d384-8e21-46df-bf2b-94ccfa23fa6e	nextflow salmon_quantify.nf
+2024-06-28 10:27:40	-	serene_church	-	6780a0a3b88101a967be334820701f6f	2f8bed5c-5e58-4065-b880-d00c6829f060	nextflow Qualitycontrol.nf
+2024-06-28 10:30:54	-	naughty_linnaeus	-	16cda1e013f9ca1e4360e251113e646d	e3c2f49b-ca3e-4206-af7b-3e45500703b0	nextflow Qualitycontrol.nf
+2024-06-28 10:31:51	1m 56s	curious_roentgen	OK	5a697987641e6d01523adbf2ae9e6c4c	70279de5-0bac-4ae7-98a3-153707b0fb8a	nextflow Qualitycontrol.nf
+2024-06-28 10:43:42	4m 59s	infallible_roentgen	OK	5a697987641e6d01523adbf2ae9e6c4c	7b723d42-6919-4fb1-88e7-e068dc533f89	nextflow Qualitycontrol.nf
+2024-06-28 10:49:27	-	ecstatic_cajal	-	0c629caaa30441215481c8a2f422703b	8e766585-85af-4b65-95ed-0d5ef8781b1d	nextflow Multiqc.nf
+2024-06-28 10:50:51	8.1s	determined_jepsen	OK	2083f4783b42a954e0697eaa6bd16430	ec23b9b0-a90e-425c-a9b7-1c46749a31d8	nextflow Multiqc.nf
+2024-06-28 10:51:57	6.3s	sharp_varahamihira	OK	25930f69e79a6799983b4d6af145e0f7	298a643c-83f4-480b-bf71-af74de4eff84	nextflow Multiqc.nf
+2024-06-28 10:53:26	6.5s	cranky_pasteur	ERR	bb2d5f197116a5bf814eebdf73b7c162	21d5555a-be93-4033-b850-67680fb7f157	nextflow Multiqc.nf
+2024-06-28 10:56:17	6.5s	amazing_curran	ERR	df040bc815a40c4ba01da151adf12725	a9f8c20b-cda8-4a76-bd17-2adfb093b87c	nextflow Multiqc.nf
+2024-06-28 10:57:40	6.9s	small_mcclintock	ERR	3ddc61e0930a84ae7b72d54c2bcdaeef	20d94415-dee6-4333-ac90-0f7f92d0f9f3	nextflow Multiqc.nf
+2024-06-28 11:01:39	6.2s	tiny_galileo	ERR	3ddc61e0930a84ae7b72d54c2bcdaeef	ec20ba3b-ff89-4a50-b7be-73b81b638489	nextflow ./Multiqc.nf
+2024-06-28 11:06:55	1.6s	cranky_gauss	ERR	29de70717c857a0370be460d906ba972	975529b3-7339-4029-af48-694c5a90c855	nextflow ./Multiqc.nf
+2024-06-28 11:08:12	2.3s	ridiculous_shirley	ERR	7c42fac240b2a77a1c30ef226ef3552f	feec0634-2c8b-4295-a74c-4e097083b38f	nextflow ./Multiqc.nf
+2024-06-28 11:09:17	2.3s	pedantic_gautier	ERR	dc418072c712752778ef74e1f544122d	82f4a37b-b863-4f08-86d2-17aa74049614	nextflow ./Multiqc.nf
+2024-06-28 11:10:31	-	agitated_agnesi	-	7a18346e0b469db699f7a37e23c30334	eeefb97e-e089-4768-9d2e-69e9e812d101	nextflow ./Multiqc.nf
+2024-06-28 11:12:05	-	fabulous_hugle	-	840e7fdbb7c9a6f977eb6132f43e350b	8c9a60e9-2207-4f67-bcda-6524f1d879b5	nextflow ./Multiqc.nf
+2024-06-28 11:19:14	2.2s	marvelous_williams	ERR	e1ffe65c2035b815388f1ff25d35674a	8970ba21-9a23-4e62-b2f4-829d8ffd0a05	nextflow ./Multiqc.nf
+2024-06-28 11:20:28	3.5s	stupefied_dalembert	ERR	bb03cad9211ee81854d4b4c811e90dbc	e1042550-ea48-4515-9d40-743922f6874a	nextflow ./Multiqc.nf
+2024-06-28 11:27:03	4.7s	extravagant_goldstine	ERR	bb03cad9211ee81854d4b4c811e90dbc	1807b4a2-b9bb-446a-82ad-a17f03497ff0	nextflow ./Multiqc.nf
+2024-06-28 11:28:48	6.6s	voluminous_swanson	ERR	eb4bbb5c268a1414d9fa2c201d13f659	14a546aa-bbcf-437d-b357-1bff499b2f5c	nextflow ./Multiqc.nf
+2024-06-28 11:31:31	5.8s	kickass_torricelli	ERR	cf0192e29b4ebfad36c460c17c75150e	7924afd4-e0aa-4e43-a0ea-64454c0ce8a9	nextflow ./Multiqc.nf
+2024-06-28 11:38:57	-	mighty_booth	-	790f6888ac1e8683cad345153e7cdbdd	3be076ff-1714-415a-939a-b1a0c529c512	nextflow ./Multiqc.nf
+2024-06-28 11:39:38	5.4s	infallible_fermi	OK	2b88605522fed2a2c20bba789814d900	14f16ddd-1d41-4f15-a291-dc3863a67548	nextflow ./Multiqc.nf
+2024-06-28 11:43:13	5.9s	awesome_banach	OK	dfcb927960e2c94197ccb45a4feeead4	81cb59af-a5e8-46b3-921f-cf74e232d6ba	nextflow ./Multiqc.nf
+2024-06-28 11:44:20	4.5s	dreamy_neumann	OK	8160e92db49384a8e4b50c3342b388ce	1bcbd8cd-1361-4ab0-ac0b-19a43df16e49	nextflow ./Multiqc.nf
+2024-06-28 11:46:33	-	backstabbing_panini	-	fb2742ac4c4c0ba121874e3a9af84bda	7eb27cff-8fea-48a2-9815-d54ad319a730	nextflow ./Mapping.nf
+2024-06-28 11:47:01	2.2s	crazy_maxwell	ERR	000b15c5900f43a500e885aebda570c9	b2fe9576-b5bf-4900-9c91-d7606a80de42	nextflow ./Mapping.nf
+2024-06-28 11:47:44	2.6s	nasty_ptolemy	ERR	1e78703b9ad5f3a2a52b4eb831677804	712ba629-0042-476c-a640-3f5d6a9444d8	nextflow ./Mapping.nf
+2024-06-28 12:10:23	-	prickly_volhard	-	c49ee37bc4b322e7d478b03d08850b99	8ba8154e-aefe-48e3-b0c1-7fbd8eedaa4e	nextflow ./Mapping.nf
+2024-06-28 12:11:42	-	agitated_nobel	-	0b471f44942b4df8802e64c368e248f9	8b97b072-5cd1-4694-a4bc-620de2cb1670	nextflow ./Mapping.nf
+2024-06-28 12:13:22	1.8s	adoring_kay	ERR	74c761dfbcd449f9f7d5aa8fd3d349ff	7c6f92ee-4365-4124-872d-c4a53cb7ce87	nextflow ./Mapping.nf
+2024-06-28 12:34:47	2.5s	ecstatic_spence	ERR	00590965c1913aceb4a30c680867881b	c9e683b1-e6a2-44e7-88f6-fafb379aebc7	nextflow ./Mapping.nf
+2024-06-28 12:36:42	1.4s	happy_raman	ERR	91b91e4205346afb436efbcdc72cb972	024ea2a4-f551-40a2-8690-8b8975b9e2b7	nextflow ./Mapping.nf
+2024-06-28 12:42:39	2.1s	peaceful_davinci	ERR	98cf4481eea9928a2c8ad06fdc26e3d7	9a1951e1-39aa-4ede-a479-758aa373ffaf	nextflow ./Mapping.nf
+2024-06-28 12:52:21	1.7s	reverent_poincare	ERR	9ba984f1575f21fdf1656bf629ab3a86	e3dd36a8-c6b9-4f97-b895-c40e82bcac5f	nextflow ./Mapping.nf
+2024-06-28 12:57:08	2.2s	stoic_celsius	ERR	77e6760f745b76fedab47db742107f19	ffde50c9-8373-4f73-9530-685c8732f45b	nextflow ./Mapping.nf
+2024-06-28 13:08:14	-	shrivelled_allen	-	ad5d02263245175966b39f7bb8dda02e	c040e984-f318-4ac9-be38-057aad41ec22	nextflow ./Mapping.nf
+2024-06-28 13:09:47	-	friendly_ride	-	00220169d4bd13add06d767e05b087ce	5dd9c6d0-d45e-44e7-ab72-5f39368635bb	nextflow ./Mapping.nf
+2024-06-28 13:10:57	-	grave_heyrovsky	-	36ff4770c11995fd1c7f86d0e1cd48d4	d83f0b2c-50f6-4df7-aeaf-ef1b610a80c9	nextflow ./Mapping.nf
+2024-06-28 13:11:37	-	infallible_hawking	-	26a26d658f4c08187029d445823af63a	c84ee61e-b8a9-4657-b967-0897314b3a00	nextflow ./Mapping.nf
+2024-06-28 13:13:15	-	naughty_mahavira	-	752d4cbc7a083780d5f59aabc53daae9	884c3ff8-db30-4b52-8b55-a82aac4ade50	nextflow ./Mapping.nf
+2024-06-28 13:15:34	2.4s	nostalgic_shockley	ERR	de7548a503271a581a469a1f9d3f8e25	00333095-40c9-40b6-8a2d-7c1938299c30	nextflow ./Mapping.nf
+2024-06-28 13:26:32	1.6s	marvelous_curie	OK	06a049fade342c35b7015e5f45cb229f	44525a4b-a6ac-4b1f-90a6-0a630448e162	nextflow Mapping.nf
+2024-06-28 13:27:15	1.8s	dreamy_shaw	OK	06a049fade342c35b7015e5f45cb229f	4ac6438d-d591-4b7e-b8fc-54380cb98166	nextflow Mapping.nf
+2024-06-28 13:28:21	2.3s	modest_agnesi	OK	afb3747dbdb2be0d6dacdc174b5ea124	7d7f0839-16e0-4eb8-9402-5151986612b4	nextflow Mapping.nf
+2024-06-28 13:29:46	1.8s	happy_bhabha	OK	afb3747dbdb2be0d6dacdc174b5ea124	b9367be6-7a7f-4c8c-8482-c4da848be2d4	nextflow Mapping.nf
+2024-06-28 13:41:58	2.2s	curious_babbage	OK	f7124df696483ef585d178a9e4496df7	37113216-0f91-4ba9-a0b5-e177c3134663	nextflow Mapping.nf
+2024-06-28 13:45:05	-	tender_mayer	-	b8aa42370a9b33017da7e42673f78ab5	a460238b-16f3-408a-9bc7-3c04cbb1352a	nextflow Mapping.nf
+2024-06-28 13:49:28	-	astonishing_kalman	-	7e62dbf1eee6e3afdede0704aa6b9f7e	72d6ba4e-4d70-4ef9-8c86-fa3181ac681e	nextflow Mapping.nf
+2024-06-28 13:53:58	-	admiring_rosalind	-	76de28b26dec6ac0f4d0f651c0303d20	a639e010-1467-41b1-8159-069ae8725a1a	nextflow Mapping.nf
+2024-06-28 13:56:06	-	crazy_escher	-	76de28b26dec6ac0f4d0f651c0303d20	2db46dc6-ccb1-4f64-b2dd-00e0111ea017	nextflow Mapping.nf
+2024-06-28 13:56:46	-	silly_montalcini	-	a7f481ae4db23fe4f42361213fd49c6c	c8a1385f-2485-42dc-b2b5-786f6f54f371	nextflow Mapping.nf
+2024-06-28 13:57:46	-	golden_sax	-	18ca71ee6e11f196a735a044be8239a0	85264cae-3cb0-4180-b1fb-0b67839ae42c	nextflow Mapping.nf
+2024-06-28 14:03:41	-	special_banach	-	18ca71ee6e11f196a735a044be8239a0	88ddc59d-9ca9-4334-9d9b-b475327a44a8	nextflow Mapping.nf
+2024-06-28 14:07:22	-	berserk_carson	-	af3045242be4666cdf52e5025a1aa3b2	c6bb8c8e-68bf-4fd3-b337-490712aeb912	nextflow Mapping.nf
+2024-06-28 14:08:26	-	zen_fermi	-	e811d5bb7433473defa1d32851242b07	dccab150-0dbe-4414-940c-0b1450be20b6	nextflow Mapping.nf
+2024-06-28 14:10:24	-	dreamy_albattani	-	0021dc8de0d1ad6081f62eaa426da59d	21516fd2-0b89-44b8-a65d-5fd433b287cd	nextflow Mapping.nf
+2024-06-28 14:11:57	-	high_engelbart	-	66c0f57374bee44f1759fc8d2898f621	2fed45d1-fb20-43f2-ba92-e7db580506da	nextflow Mapping.nf
+2024-06-28 14:12:32	-	hopeful_roentgen	-	ef39ed8b68f233a28594c3128dccbc96	8e9b1251-78ed-4013-9494-a6f14e1b6214	nextflow Mapping.nf
+2024-06-28 14:15:45	-	elated_sanger	-	27b8c8b2f68a8fcde6dc4a7f0acfa6e6	1c2293a6-d725-40c2-b99b-bc67bfdd7a06	nextflow Mapping.nf
+2024-06-28 14:24:31	-	small_hawking	-	bb5eb2e4260170edbcc85fa560c4f5d0	adfc7c4f-7c79-4efc-9df2-efba410bfeb0	nextflow Mapping.nf
+2024-06-28 14:26:11	-	confident_sammet	-	3e09b6fda717dd5fd987edbb6e4e9ba1	e52e0d0c-9fd4-44fe-9b70-e987c77b6174	nextflow Mapping.nf
+2024-06-28 14:29:28	-	extravagant_kimura	-	0924566542bff107a197bc5487bbc117	222d9e56-19a6-422b-84aa-ebea55bc8b0a	nextflow Mapping.nf
+2024-06-28 14:32:18	-	berserk_franklin	-	3e09b6fda717dd5fd987edbb6e4e9ba1	3306c4e4-bf0a-450e-a926-a49006afe6e0	nextflow Mapping.nf
+2024-06-28 14:43:24	2.1s	zen_becquerel	ERR	c61fb7cc35649ef74462142b610589d5	f66176d0-9cb5-4215-b2a3-4f18ce0fc95b	nextflow Mapping.nf
+2024-06-28 14:44:07	2.2s	sleepy_khorana	OK	ed0e12f63645663cdbb5c3eb86f6c7e2	f7a34ed7-39cf-41b1-b629-708c7b5982cb	nextflow Mapping.nf
+2024-06-28 15:20:09	2.5s	distracted_shaw	ERR	fa1dea48301610ea8c0d2d979365d8c7	6cb2ec37-0131-4d1f-8b19-e38d8eafe623	nextflow Mapping.nf
+2024-06-28 15:32:53	-	goofy_albattani	-	65911520e29bad9446a6c4396d87b955	1c62c054-69a8-4829-b378-9358252d7d70	nextflow Mapping.nf
+2024-06-28 15:38:23	-	nauseous_cuvier	-	80a164047f1ee607db24e90448a63bab	747a719c-6888-4c44-a401-9b7129bf78cc	nextflow Mapping.nf
+2024-06-28 15:38:51	2.2s	jovial_allen	ERR	992a33c82b62cc6367f94cf05a50519d	359fac51-3c4e-464f-952a-88f981369ab3	nextflow Mapping.nf
+2024-06-28 15:41:13	2.2s	lethal_heyrovsky	ERR	799ff0e7a6ac27df9f9dd003b9d69718	06fcd704-3174-47bc-82ed-cb3529573a65	nextflow Mapping.nf
+2024-06-28 15:44:29	2.4s	adoring_fermat	ERR	5ceec134fdafdf3299793466e2e6ef82	03054dad-4d91-4056-a406-3940f54e6cea	nextflow Mapping.nf
+2024-06-28 16:04:31	-	sleepy_joliot	-	e7d4033ba17c6adfa456eea4361a585a	6ef3585e-aa8a-45b9-b136-60bf34d86f9e	nextflow Map_Star.nf
+2024-06-28 16:06:05	-	hungry_nobel	-	c80c3ddd0331ec7255fe59da684eba92	c0cf5ec3-ead0-4125-970a-1a18ff7eccd7	nextflow Map_Star.nf
+2024-06-28 16:07:28	-	loving_bardeen	-	33d17318c92141bd9c12e34b6c640cbd	611569e0-a98b-47bb-a5c9-65b50e2803b2	nextflow Map_Star.nf
+2024-06-28 16:08:39	-	loquacious_lavoisier	-	8cb07bc0f88a001606835220e4420d06	486be104-68fb-4f94-8545-6576e776f28b	nextflow Map_Star.nf
+2024-06-28 16:09:14	-	lethal_boltzmann	-	e4895935e12d9160b962d47ecc8bc569	0635d322-74b4-465d-a558-fc99774d40b7	nextflow Map_Star.nf
+2024-06-28 16:10:20	-	ridiculous_poitras	-	73e2878608397e310e0c3bd9cc42937a	c191d526-2b9e-4eba-8b6a-69b0dcdc9fbe	nextflow Map_Star.nf
+2024-06-28 16:14:18	-	drunk_allen	-	8209635212eb813062a5a7bc3c611649	0fead4fe-fe97-4e97-bb84-e5ef9dfd9e92	nextflow Map_Star.nf
+2024-06-28 16:14:33	-	elegant_easley	-	8209635212eb813062a5a7bc3c611649	8cf2eb52-c729-4517-a5eb-7d9cf177346d	nextflow Map_Star.nf
+2024-06-28 16:19:42	-	mad_pesquet	-	7f07397f844e2aa2e6264245b5d011df	cb2d8de5-2d36-47fe-9501-2286187d6ed9	nextflow Map_Star.nf
+2024-06-28 16:27:51	-	gigantic_northcutt	-	1f30d8d93b981defd44bf1c090b5697e	92fb3fba-1b43-4002-9c9d-b7874f750398	nextflow Map_Star.nf
+2024-06-28 16:28:55	-	distracted_lalande	-	6a216f32c08cc8d20ed2dee3d0ebd8b4	8ec100b0-983d-4a82-b336-0271e84552bd	nextflow Map_Star.nf
+2024-06-28 16:29:46	2.1s	spontaneous_visvesvaraya	ERR	4cdac359a2a128d831f28ebec455ce1e	718351da-c812-4a23-b5f2-a7efb5daded0	nextflow Map_Star.nf
+2024-06-28 16:31:27	1.6s	infallible_volhard	ERR	69919c2e69204a326a82a2d212b12753	dd486c03-fc62-457c-a9df-b97375b632c6	nextflow Map_Star.nf
+2024-06-28 16:38:33	2.6s	romantic_nightingale	ERR	4b485d2a597dac790f874c33d3b75483	6cd51abc-7a05-4440-b695-9de0d82d5500	nextflow Map_Star.nf
+2024-06-28 16:42:20	15m 39s	hopeful_mayer	ERR	80e23b6088a882b55bcb0e786ea30939	56ce6a4a-62ac-4548-81a7-1608cf4c67aa	nextflow Map_Star.nf
+2024-06-28 17:32:58	15m 14s	desperate_engelbart	ERR	80e23b6088a882b55bcb0e786ea30939	10227511-9589-4e2e-81f8-db8314be4524	nextflow Map_Star.nf
+2024-06-28 17:42:14	-	suspicious_bose	-	d8cc5b25070af9e395064f567c174575	de481c8d-d4e4-45d6-a7a6-cdcfadf7f079	nextflow salmon_quantify.nf
+2024-06-28 17:43:25	-	distraught_descartes	-	d8cc5b25070af9e395064f567c174575	6e386bb0-1f3b-458d-b21a-df603fe4854f	nextflow salmon_quantify.nf
+2024-06-28 17:44:44	-	nostalgic_galileo	-	d8cc5b25070af9e395064f567c174575	0a632080-0f10-4ba5-b288-1d641db4d27f	nextflow salmon_quantify.nf
+2024-06-28 18:05:54	1m 57s	awesome_sax	OK	5a697987641e6d01523adbf2ae9e6c4c	e0d7243d-ae36-48fc-b21f-9e544c7af6bc	nextflow Qualitycontrol.nf
+2024-06-28 18:08:18	8.5s	magical_jepsen	OK	8160e92db49384a8e4b50c3342b388ce	09ff2acd-1847-459c-851e-d0540824271b	nextflow Multiqc.nf
+2024-06-28 18:08:53	26m 2s	scruffy_shirley	ERR	80e23b6088a882b55bcb0e786ea30939	604a6826-c731-4904-a705-46f31ad05d36	nextflow Map_Star.nf

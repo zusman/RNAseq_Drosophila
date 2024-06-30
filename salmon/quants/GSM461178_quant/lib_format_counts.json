@@ -1,0 +1,22 @@
+{
+    "read_files": "[ /Users/zainabusman/RNAseq/Drosophila/salmon/fastq/GSM461178_1.fastq, /Users/zainabusman/RNAseq/Drosophila/salmon/fastq/GSM461178_2.fastq]",
+    "expected_format": "IU",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 10188756,
+    "num_assigned_fragments": 10188756,
+    "num_frags_with_concordant_consistent_mappings": 5383870,
+    "num_frags_with_inconsistent_or_orphan_mappings": 5618584,
+    "strand_mapping_bias": 0.497051377540691,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 2676060,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 2707810,
+    "SF": 2783122,
+    "SR": 2835462,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

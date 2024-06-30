@@ -1,0 +1,9 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	GSM461177_2	/Users/zainabusman/RNAseq/Drosophila/data/work/dd/bb13fa75ce48e309bc247a80b9376f/fastqc_report/GSM461177_2.fastqsanger_fastqc.zip
+FastQC	all_sections	GSM461177_1	/Users/zainabusman/RNAseq/Drosophila/data/work/dd/bb13fa75ce48e309bc247a80b9376f/fastqc_report/GSM461177_1.fastqsanger_fastqc.zip
+FastQC	all_sections	GSM461178_1	/Users/zainabusman/RNAseq/Drosophila/data/work/dd/bb13fa75ce48e309bc247a80b9376f/fastqc_report/GSM461178_1.fastqsanger_fastqc.zip
+FastQC	all_sections	GSM461180_2	/Users/zainabusman/RNAseq/Drosophila/data/work/dd/bb13fa75ce48e309bc247a80b9376f/fastqc_report/GSM461180_2.fastqsanger_fastqc.zip
+FastQC	all_sections	GSM461180_1	/Users/zainabusman/RNAseq/Drosophila/data/work/dd/bb13fa75ce48e309bc247a80b9376f/fastqc_report/GSM461180_1.fastqsanger_fastqc.zip
+FastQC	all_sections	GSM461178_2	/Users/zainabusman/RNAseq/Drosophila/data/work/dd/bb13fa75ce48e309bc247a80b9376f/fastqc_report/GSM461178_2.fastqsanger_fastqc.zip
+FastQC	all_sections	GSM461181_1	/Users/zainabusman/RNAseq/Drosophila/data/work/dd/bb13fa75ce48e309bc247a80b9376f/fastqc_report/GSM461181_1.fastqsanger_fastqc.zip
+FastQC	all_sections	GSM461181_2	/Users/zainabusman/RNAseq/Drosophila/data/work/dd/bb13fa75ce48e309bc247a80b9376f/fastqc_report/GSM461181_2.fastqsanger_fastqc.zip
