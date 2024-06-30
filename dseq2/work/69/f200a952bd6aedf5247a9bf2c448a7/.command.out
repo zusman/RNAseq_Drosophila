@@ -1,0 +1,127 @@
+[1] "GSM461176_untreated_single" "GSM461177_untreated_paired"
+[3] "GSM461178_untreated_paired" "GSM461179_treated_single"  
+[5] "GSM461180_treated_paired"   "GSM461181_treated_paired"  
+[7] "GSM461182_untreated_single"
+            GSM461176_untreated_single GSM461177_untreated_paired
+FBgn0085804                          0                          0
+FBgn0267431                          3                          0
+FBgn0039987                          0                          0
+FBgn0058182                          0                          0
+FBgn0267430                          0                          0
+FBgn0266747                          0                          0
+            GSM461178_untreated_paired GSM461179_treated_single
+FBgn0085804                          0                        0
+FBgn0267431                          0                       11
+FBgn0039987                          0                        0
+FBgn0058182                          0                        0
+FBgn0267430                          0                        2
+FBgn0266747                          0                        0
+            GSM461180_treated_paired GSM461181_treated_paired
+FBgn0085804                        0                        0
+FBgn0267431                        2                        0
+FBgn0039987                        0                        0
+FBgn0058182                        0                        0
+FBgn0267430                        1                        0
+FBgn0266747                        0                        0
+            GSM461182_untreated_single
+FBgn0085804                          0
+FBgn0267431                          0
+FBgn0039987                          0
+FBgn0058182                          0
+FBgn0267430                          0
+FBgn0266747                          0
+[1] "Treatment"  "Sequencing"
+                           Treatment Sequencing
+GSM461176_untreated_single untreated         SE
+GSM461177_untreated_paired untreated         PE
+GSM461178_untreated_paired untreated         PE
+GSM461179_treated_single     treated         SE
+GSM461180_treated_paired     treated         PE
+GSM461181_treated_paired     treated         PE
+log2 fold change (MLE): Treatment treated vs untreated 
+Wald test p-value: Treatment treated vs untreated 
+DataFrame with 8674 rows and 6 columns
+             baseMean log2FoldChange     lfcSE      stat    pvalue      padj
+            <numeric>      <numeric> <numeric> <numeric> <numeric> <numeric>
+FBgn0010247  540.0964       0.252976  0.194921  1.297838 0.1943430  0.493373
+FBgn0086378  679.2272       0.161331  0.198647  0.812146 0.4167078  0.710885
+FBgn0263977 1194.5862       0.225999  0.135845  1.663657 0.0961810  0.323201
+FBgn0069923   20.4814       0.842409  0.491679  1.713333 0.0866513  0.302138
+FBgn0039955  743.5808      -0.149273  0.147678 -1.010800 0.3121122  0.620753
+...               ...            ...       ...       ...       ...       ...
+FBgn0250819   52.1297     -0.6465206  0.345863 -1.869295 0.0615818  0.241636
+FBgn0039924  551.9556      0.0420902  0.144024  0.292245 0.7700992  0.913930
+FBgn0263112  839.7885     -0.1026379  0.137171 -0.748247 0.4543109  0.737920
+FBgn0027101  802.5315     -0.0654118  0.142020 -0.460582 0.6450987  0.853797
+FBgn0053653  104.8524      0.1324720  0.236164  0.560933 0.5748430  0.815602
+[1] "data.frame"
+              baseMean log2FoldChange     lfcSE       stat       pvalue
+FBgn0010247  540.09643      0.2529763 0.1949213  1.2978381 1.943430e-01
+FBgn0086378  679.22725      0.1613306 0.1986472  0.8121461 4.167078e-01
+FBgn0263977 1194.58623      0.2259988 0.1358446  1.6636570 9.618098e-02
+FBgn0069923   20.48137      0.8424092 0.4916785  1.7133332 8.665125e-02
+FBgn0039955  743.58075     -0.1492729 0.1476780 -1.0107998 3.121122e-01
+FBgn0259821  257.13184      1.0887071 0.1612142  6.7531711 1.446482e-11
+                    padj
+FBgn0010247 4.933731e-01
+FBgn0086378 7.108846e-01
+FBgn0263977 3.232007e-01
+FBgn0069923 3.021378e-01
+FBgn0039955 6.207533e-01
+FBgn0259821 6.970705e-10
+             baseMean log2FoldChange      lfcSE      stat        pvalue
+FBgn0039155  1087.088      -4.599523 0.15245724 -30.16927 5.994854e-200
+FBgn0003360  6410.646      -3.164152 0.10938392 -28.92703 5.459700e-184
+FBgn0026562 65125.951      -2.465742 0.08754260 -28.16619 1.518038e-174
+FBgn0025111  2194.660       2.831895 0.10143424  27.91853 1.589601e-171
+FBgn0029167  5432.388      -2.190908 0.09756613 -22.45562 1.127744e-111
+FBgn0035085   928.391      -2.584359 0.12147633 -21.27459 1.952309e-100
+                     padj
+FBgn0039155 4.997910e-196
+FBgn0003360 2.275876e-180
+FBgn0026562 4.218629e-171
+FBgn0025111 3.313126e-168
+FBgn0029167 1.880401e-108
+FBgn0035085  2.712733e-97
+            baseMean log2FoldChange     lfcSE      stat      pvalue
+FBgn0003360 6410.646      -3.164152 0.1093839 -28.92703 5.4597e-184
+                     padj
+FBgn0003360 2.275876e-180
+            baseMean log2FoldChange     lfcSE      stat       pvalue
+FBgn0261552 8915.949      -1.780947 0.1510969 -11.78679 4.566332e-32
+                    padj
+FBgn0261552 1.312742e-29
+[1] 8674    6
+[1] 234   6
+            GSM461176_untreated_single GSM461177_untreated_paired
+FBgn0010247                  508.18787                 400.861508
+FBgn0086378                  524.41447                 493.188211
+FBgn0263977                 1400.65132                 904.567951
+FBgn0069923                   20.65205                   5.843462
+FBgn0039955                  901.31433                 666.154692
+FBgn0259821                  191.03143                 176.472559
+            GSM461178_untreated_paired GSM461179_treated_single
+FBgn0010247                  324.13248                994.23589
+FBgn0086378                  590.26230               1075.84641
+FBgn0263977                  956.47513               1922.55559
+FBgn0069923                   12.51038                 42.37469
+FBgn0039955                  547.04464               1081.33943
+FBgn0259821                  142.16337                438.65656
+            GSM461180_treated_paired GSM461181_treated_paired
+FBgn0010247                 439.0813                291.88658
+FBgn0086378                 585.8151                453.84245
+FBgn0263977                1064.1001                823.50445
+FBgn0069923                  20.1619                 13.72507
+FBgn0039955                 518.6088                426.39231
+FBgn0259821                 348.3528                302.86664
+            GSM461182_untreated_single
+FBgn0010247                  822.28940
+FBgn0086378                 1031.22178
+FBgn0263977                 1290.24905
+FBgn0069923                   28.10202
+FBgn0039955                 1064.21110
+FBgn0259821                  200.37959
+[1] "GSM461176_untreated_single" "GSM461177_untreated_paired"
+[3] "GSM461178_untreated_paired" "GSM461179_treated_single"  
+[5] "GSM461180_treated_paired"   "GSM461181_treated_paired"  
+[7] "GSM461182_untreated_single"

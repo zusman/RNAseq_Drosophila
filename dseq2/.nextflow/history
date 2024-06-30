@@ -1,0 +1,5 @@
+2024-06-30 11:06:04	-	agitated_spence	-	e76fd69c9d87382853533b52748f9a8e	379ea7b3-cfc6-4008-b1b1-a10597ae8bbf	nextflow dseq2.nf
+2024-06-30 11:08:20	1.8s	sleepy_engelbart	OK	f8d089eb2fad90f213dd6b6cfbcfefe9	f73d1b06-46ea-4df7-999a-5b538266397b	nextflow dseq2.nf
+2024-06-30 11:10:20	2.8s	infallible_wescoff	ERR	e2b6d953b93aaf20c1928e7d0cde80a8	af070331-0cc4-4bbf-8106-11f9e15b96fb	nextflow dseq2.nf
+2024-06-30 11:11:42	1.6s	peaceful_stone	ERR	aac11ea7221423939cc3e1f84b22cdde	01377557-a710-46ee-9ca0-ec2445652906	nextflow dseq2.nf
+2024-06-30 11:12:34	18s	jovial_carson	ERR	91fc40aed1dc35aeb50c0dc7aba980e4	57d5b000-4198-4a8a-bc37-708e1a2013c7	nextflow dseq2.nf
