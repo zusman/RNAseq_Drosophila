@@ -4,16 +4,14 @@
 This pipeline was created as part of an assessment exercise. 
 
 **Obejective:**
-To analyze the Human samples for RNA Seq analysis with steps categorizing the base RNA Seql pipeline. The human samples and genomes indexing was not possible to run on the personal computers. Although I tried but failed at HDD space, after running for over 60 hours on the personal computer. See details in the Task.ppt file. 
+RNA seq analysis of Drosophila samples
 
 **Sample set:**
-In oder to retain the essence of the assessment exercise, similar steps were carried out but on a smaller sample. The sample set comprises of 7 samples of drosophila. 
-
+The sample set comprises of 7 samples of drosophila. 
 Available here: 
 https://zenodo.org/records/6457007
 
 **Note that once downloaded, these samples can be placed in the folder data-> fastq and salmon->fastq to run the pipeline. **
-
 
 **Methods:**
 Following steps were conducted as part of the pipeline:
