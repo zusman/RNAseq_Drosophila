@@ -3,7 +3,7 @@
 
 This pipeline was created as part of an assessment exercise. 
 
-**Obejective:**
+**Objective:**
 RNA seq analysis of Drosophila samples
 
 **Sample set:**
